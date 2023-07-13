@@ -1,0 +1,8 @@
+framework module MoonpaySDK {
+    umbrella header "MoonpaySDK.h"
+
+    export *
+    module * { export * }
+
+    use Foundation
+}
