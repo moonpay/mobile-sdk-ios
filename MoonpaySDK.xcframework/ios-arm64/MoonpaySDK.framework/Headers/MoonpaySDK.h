@@ -309,7 +309,7 @@ __attribute__((swift_name("MoonpaySDK")))
 @interface MSDKMoonpaySDK : MSDKBase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)doInitApiKey:(NSString *)apiKey debugLevel:(MSDKMoonpayDebug *)debugLevel flow:(MSDKMoonpayFlow *)flow environment:(MSDKMoonpayEnvironment *)environment properties:(NSDictionary<MSDKMoonpayOptions *, id> * _Nullable)properties rendering:(MSDKMoonpayRenderingiOS *)rendering delegate:(id<MSDKMoonpayCallbackInterface> _Nullable)delegate __attribute__((swift_name("doInit(apiKey:debugLevel:flow:environment:properties:rendering:delegate:)")));
+- (void)initializeApiKey:(NSString *)apiKey debugLevel:(MSDKMoonpayDebug *)debugLevel flow:(MSDKMoonpayFlow *)flow environment:(MSDKMoonpayEnvironment *)environment properties:(NSDictionary<MSDKMoonpayOptions *, id> * _Nullable)properties rendering:(MSDKMoonpayRenderingiOS *)rendering delegate:(id<MSDKMoonpayCallbackInterface> _Nullable)delegate __attribute__((swift_name("initialize(apiKey:debugLevel:flow:environment:properties:rendering:delegate:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
