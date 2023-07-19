@@ -3,6 +3,4 @@ framework module MoonpaySDK {
 
     export *
     module * { export * }
-
-    use Foundation
 }
