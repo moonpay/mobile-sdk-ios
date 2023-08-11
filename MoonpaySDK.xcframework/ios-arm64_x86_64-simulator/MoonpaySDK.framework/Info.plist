@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleExecutable</key>
-	<string>MoonpaySDK</string>
+	<string>MoonPaySdk</string>
 	<key>CFBundleIdentifier</key>
-	<string>MoonpaySDK</string>
+	<string>MoonPaySdk</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>MoonpaySDK</string>
+	<string>MoonPaySdk</string>
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>

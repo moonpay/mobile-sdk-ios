@@ -1,5 +1,5 @@
-framework module MoonpaySDK {
-    umbrella header "MoonpaySDK.h"
+framework module MoonPaySdk {
+    umbrella header "MoonPaySdk.h"
 
     export *
     module * { export * }

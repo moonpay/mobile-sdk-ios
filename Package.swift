@@ -2,20 +2,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "MoonpaySDK",
+    name: "MoonPaySdk",
     platforms: [
         .iOS(.v14)
     ],
     products: [
         .library(
-            name: "MoonpaySDK",
-            targets: ["MoonpaySDK"]
+            name: "MoonPaySdk",
+            targets: ["MoonPaySdk"]
         ),
     ],
     targets: [
         .binaryTarget(
-            name: "MoonpaySDK",
-            path: "./MoonpaySDK.xcframework"
+            name: "MoonPaySdk",
+            path: "./MoonPaySdk.xcframework"
         ),
     ]
 )
