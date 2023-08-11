@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class MSDKAppProtocol, MSDKAppProtocolProps, MSDKWidgetFlowCompanion, MSDKWidgetFlow, MSDKBuyFlowCompanion, MSDKCryptoCurrencyCompanion, MSDKCryptoCurrency, MSDKKotlinThrowable, MSDKFiatCurrencyCompanion, MSDKFiatCurrency, MSDKLegacyFlowCompanion, MSDKLegacyWidgetQueryParamsCompanion, MSDKKotlinArray<T>, MSDKLogger, MSDKKotlinException, MSDKMessagingErrorCode, MSDKKotlinEnumCompanion, MSDKKotlinEnum<E>, MSDKMoonPayCoreSdkConfig, MSDKMoonPayConfigWithOptions<T>, MSDKMoonPayEnvironmentWithOptions<T>, MSDKMoonPayCoreSdkConfigCompanion, MSDKWidgetEnvironment, MSDKBuyFlow, MSDKOnrampWidgetQueryParams, MSDKRampsHandlers, MSDKMoonPayCoreSdkBuyConfigCompanion, MSDKMoonPayCoreSdkBuyConfig, MSDKMoonPaySdkPlatform, MSDKMoonPayCoreSdkEnvironmentCompanion, MSDKMoonPayCoreSdkEnvironment, MSDKLegacyFlow, MSDKLegacyWidgetQueryParams, MSDKMoonPayCoreSdkLegacyConfigCompanion, MSDKMoonPayCoreSdkLegacyConfig, MSDKSellFlow, MSDKOfframpWidgetQueryParams, MSDKMoonPayCoreSdkSellConfigCompanion, MSDKMoonPayCoreSdkSellConfig, MSDKSwapFlow, MSDKSwapWidgetQueryParams, MSDKMoonPayCoreSdkSwapConfigCompanion, MSDKMoonPayCoreSdkSwapConfig, MSDKMoonpayResolvePayload, MSDKMoonPayRenderingOption, MSDKMoonPayRenderingOptionAndroid, MSDKMoonPayRenderingOptionAndroidChromeCustomTabs, MSDKMoonPayRenderingOptionAndroidFullBrowser, MSDKMoonPayRenderingOptionAndroidTrustedActivity, MSDKMoonPayRenderingOptionAndroidWebViewBottomSheet, MSDKMoonPayRenderingOptionAndroidWebViewDrawer, MSDKMoonPayRenderingOptionAndroidWebViewOverlay, MSDKMoonPayRenderingOptioniOS, MSDKMoonPayRenderingOptioniOSFullBrowser, MSDKMoonPayRenderingOptioniOSSafariOverlay, MSDKMoonPayRenderingOptioniOSWebViewBottomSheet, MSDKMoonPayRenderingOptioniOSWebViewOverlay, MSDKMoonPaySdkPlatformCompanion, MSDKMoonPayCoreSdk, MSDKMoonpayMessageCompanion, MSDKMoonpayMessageType, MSDKMoonpayMessage, MSDKMoonpayRequestMessageType, MSDKMoonpayHandshakeRequestPayload, MSDKMoonpayHandshakeRequestMessage, MSDKMoonpayPayload, MSDKMoonpayRequestPayloadType, MSDKMoonpayResponseMessage, MSDKMoonpayResolveMessageType, MSDKMoonpayHandshakeResolvePayload, MSDKMoonpayHandshakeResolveMessage, MSDKMoonpayResolvePayloadType, MSDKMoonpayRejectMessageType, MSDKMoonpayRejectPayload, MSDKMoonpayRejectMessage, MSDKMoonpayRejectPayloadType, MSDKMoonpayRequestPayload, MSDKMoonpayRequestMessage, MSDKMoonpayResolveMessage, MSDKOfframpWidgetQueryParamsCompanion, MSDKOnAuthTokenPropsCompanion, MSDKOnAuthTokenProps, MSDKOnInitiateDepositPropsCompanion, MSDKOnInitiateDepositProps, MSDKOnInitiateDepositReplyPropsCompanion, MSDKOnInitiateDepositReplyProps, MSDKOnLoginPropsCompanion, MSDKOnLoginProps, MSDKOnrampWidgetQueryParamsCompanion, MSDKPostMessengerMode, MSDKMoonPayHandler, NSObject, MSDKSendMessageParams, MSDKRampsSwapHandlersCompanion, MSDKRampsSwapHandlers, MSDKRampsHandlersCompanion, MSDKSellFlowCompanion, MSDKSwapFlowCompanion, MSDKSwapWidgetQueryParamsCompanion, MSDKWalletAddress, MSDKWidgetEnvironmentCompanion, MSDKWidgetUrlCompanion, MSDKKotlinCancellationException, MSDKKotlinRuntimeException, MSDKKotlinIllegalStateException, MSDKKotlinx_serialization_coreSerializersModule, MSDKKotlinx_serialization_coreSerialKind, MSDKKotlinNothing, MSDKKotlinUnit;
+@class MPSAppProtocol, MPSAppProtocolProps, MPSWidgetFlow, MPSCorrelationIdCompanion, MPSCorrelationId, MPSCryptoCurrencyCompanion, MPSCryptoCurrency, MPSKotlinThrowable, MPSFiatCurrencyCompanion, MPSFiatCurrency, MPSKotlinArray<T>, MPSLogger, MPSKotlinException, MPSMessagingErrorCode, MPSKotlinEnumCompanion, MPSKotlinEnum<E>, MPSMoonPayBuyQueryParamsCompanion, MPSMoonPayBuyQueryParams, MPSMoonPaySdkConfig, MPSMoonPayConfigWithOptions<T>, MPSMoonPayEnvironmentWithOptions<T>, MPSMoonPaySdkEnvironment, MPSOnAuthTokenRequestPayload, MPSMoonPayHandlerTypeOnAuthToken, MPSMoonPayHandlerTypeOnSwapsCustomerSetupComplete, MPSMoonPaySwapsCustomerSetupHandlers, MPSOnLoginRequestPayload, MPSOnInitiateDepositResponsePayload, MPSOnInitiateDepositRequestPayload, MPSMoonPayHandlerTypeOnInitiateDeposit, MPSMoonPayHandlerTypeOnKmsWalletCreated, MPSMoonPayHandlerTypeOnLogin, MPSMoonPayHandlerTypeOnUnsupportedRegion, MPSMoonPayMessageCompanion, MPSMoonPayMessageType, MPSMoonPayMessage, MPSMoonPayRequestMessageTypeCompanion, MPSMoonPayRequestMessageType, MPSMoonPayHandshakeRequestPayload, MPSMoonPayHandshakeRequestMessageCompanion, MPSMoonPayHandshakeRequestMessage, MPSMoonPayPayloadCompanion, MPSMoonPayPayload, MPSMoonPayRequestPayloadCompanion, MPSMoonPayRequestPayload, MPSMoonPayHandshakeRequestPayloadCompanion, MPSMoonPayResponseMessageCompanion, MPSMoonPayResponseMessage, MPSMoonPayResolveMessageTypeCompanion, MPSMoonPayResolveMessageType, MPSMoonPayHandshakeResolvePayload, MPSMoonPayHandshakeResolveMessageCompanion, MPSMoonPayHandshakeResolveMessage, MPSMoonPayResolvePayloadCompanion, MPSMoonPayResolvePayload, MPSMoonPayHandshakeResolvePayloadCompanion, MPSMoonPayLegacyQueryParamsCompanion, MPSMoonPayLegacyQueryParams, MPSMoonPayMessageTypeCompanion, MPSMoonPayOnAuthResolveMessageCompanion, MPSMoonPayOnAuthResolveMessage, MPSMoonPayOnAuthTokenRequestMessageCompanion, MPSMoonPayOnAuthTokenRequestMessage, MPSMoonPayOnInitiateDepositRequestMessageCompanion, MPSMoonPayOnInitiateDepositRequestMessage, MPSMoonPayOnInitiateDepositResolveMessageCompanion, MPSMoonPayOnInitiateDepositResolveMessage, MPSMoonPayOnKmsWalletCreatedRequestMessageCompanion, MPSMoonPayOnKmsWalletCreatedRequestMessage, MPSMoonPayOnKmsWalletCreatedResolveMessageCompanion, MPSMoonPayOnKmsWalletCreatedResolveMessage, MPSMoonPayOnLoginRequestMessageCompanion, MPSMoonPayOnLoginRequestMessage, MPSMoonPayOnLoginResolveMessageCompanion, MPSMoonPayOnLoginResolveMessage, MPSMoonPayOnSwapsCustomerSetupCompleteRequestMessageCompanion, MPSMoonPayOnSwapsCustomerSetupCompleteRequestMessage, MPSMoonPayOnSwapsCustomerSetupCompleteResolveMessageCompanion, MPSMoonPayOnSwapsCustomerSetupCompleteResolveMessage, MPSMoonPayOnUnsupportedRegionRequestMessageCompanion, MPSMoonPayOnUnsupportedRegionRequestMessage, MPSMoonPayOnUnsupportedRegionResolveMessageCompanion, MPSMoonPayOnUnsupportedRegionResolveMessage, MPSMoonPayRejectMessageTypeCompanion, MPSMoonPayRejectMessageType, MPSMoonPayRejectPayload, MPSMoonPayRejectMessageCompanion, MPSMoonPayRejectMessage, MPSMoonPayRejectPayloadCompanion, MPSMoonPayRenderingOption, MPSMoonPayRenderingOptionAndroid, MPSMoonPayRenderingOptionAndroidChromeCustomTabs, MPSMoonPayRenderingOptionAndroidFullBrowser, MPSMoonPayRenderingOptionAndroidTrustedActivity, MPSMoonPayRenderingOptionAndroidWebViewBottomSheet, MPSMoonPayRenderingOptionAndroidWebViewDrawer, MPSMoonPayRenderingOptionAndroidWebViewOverlay, MPSMoonPayRenderingOptioniOS, MPSMoonPayRenderingOptioniOSInAppBrowser, MPSMoonPayRenderingOptioniOSWebViewOverlay, MPSMoonPayResolveMessageCompanion, MPSMoonPayResolveMessage, MPSMoonPayWidgetEnvironment, MPSMoonPayHandlers, MPSMoonPaySdkBuyConfig, MPSMoonPaySdkPlatform, MPSMoonPaySdkLegacyConfig, MPSMoonPaySellQueryParams, MPSMoonPaySdkSellConfig, MPSMoonPaySwapsCustomerSetupQueryParams, MPSMoonPaySdkSwapsCustomerSetupConfig, MPSMoonPaySellQueryParamsCompanion, MPSMoonPaySwapsCustomerSetupQueryParamsCompanion, MPSMoonPayCoreSdk, MPSOnAuthTokenRequestPayloadCompanion, MPSOnInitiateDepositRequestPayloadCompanion, MPSOnInitiateDepositResponsePayloadCompanion, MPSOnLoginRequestPayloadCompanion, MPSPostMessengerMode, NSObject, MPSKotlinx_serialization_jsonJson, MPSSendMessageParams, MPSWidgetUrlCompanion, MPSMoonPayHandlerType, MPSMoonPayHandlerTypeNoHandler, MPSKotlinCancellationException, MPSKotlinx_serialization_coreSerializersModule, MPSKotlinx_serialization_jsonJsonDefault, MPSKotlinx_serialization_jsonJsonElement, MPSKotlinx_serialization_jsonJsonConfiguration, MPSKotlinx_serialization_coreSerialKind, MPSKotlinNothing, MPSKotlinRuntimeException, MPSKotlinIllegalStateException, MPSKotlinUnit, MPSKotlinx_serialization_jsonJsonElementCompanion;
 
-@protocol MSDKWidgetQueryParams, MSDKKotlinx_serialization_coreKSerializer, MSDKKotlinCoroutineContext, MSDKKotlinx_coroutines_coreCoroutineScope, MSDKKotlinx_coroutines_coreCompletableDeferred, MSDKLoggerLikeInstance, MSDKKotlinComparable, MSDKAdvancedWidgetQueryParams, MSDKKotlinx_serialization_coreEncoder, MSDKKotlinx_serialization_coreSerialDescriptor, MSDKKotlinx_serialization_coreSerializationStrategy, MSDKKotlinx_serialization_coreDecoder, MSDKKotlinx_serialization_coreDeserializationStrategy, MSDKKotlinCoroutineContextElement, MSDKKotlinCoroutineContextKey, MSDKKotlinx_coroutines_coreSelectClause1, MSDKKotlinx_coroutines_coreChildHandle, MSDKKotlinx_coroutines_coreChildJob, MSDKKotlinx_coroutines_coreDisposableHandle, MSDKKotlinx_coroutines_coreJob, MSDKKotlinSequence, MSDKKotlinx_coroutines_coreSelectClause0, MSDKKotlinx_coroutines_coreDeferred, MSDKKotlinIterator, MSDKKotlinx_serialization_coreCompositeEncoder, MSDKKotlinAnnotation, MSDKKotlinx_serialization_coreCompositeDecoder, MSDKKotlinx_coroutines_coreSelectInstance, MSDKKotlinx_coroutines_coreSelectClause, MSDKKotlinx_coroutines_coreParentJob, MSDKKotlinx_serialization_coreSerializersModuleCollector, MSDKKotlinKClass, MSDKKotlinKDeclarationContainer, MSDKKotlinKAnnotatedElement, MSDKKotlinKClassifier;
+@protocol MPSKotlinx_serialization_coreKSerializer, MPSKotlinCoroutineContext, MPSKotlinx_coroutines_coreCoroutineScope, MPSKotlinx_coroutines_coreCompletableDeferred, MPSLoggerLikeInstance, MPSKotlinComparable, MPSMoonPayQueryParams, MPSMoonPayAdvancedQueryParams, MPSKotlinx_serialization_coreEncoder, MPSKotlinx_serialization_coreSerialDescriptor, MPSKotlinx_serialization_coreSerializationStrategy, MPSKotlinx_serialization_coreDecoder, MPSKotlinx_serialization_coreDeserializationStrategy, MPSKotlinCoroutineContextElement, MPSKotlinCoroutineContextKey, MPSKotlinx_coroutines_coreSelectClause1, MPSKotlinx_coroutines_coreChildHandle, MPSKotlinx_coroutines_coreChildJob, MPSKotlinx_coroutines_coreDisposableHandle, MPSKotlinx_coroutines_coreJob, MPSKotlinSequence, MPSKotlinx_coroutines_coreSelectClause0, MPSKotlinx_coroutines_coreDeferred, MPSKotlinIterator, MPSKotlinx_serialization_coreSerialFormat, MPSKotlinx_serialization_coreStringFormat, MPSKotlinx_serialization_coreCompositeEncoder, MPSKotlinAnnotation, MPSKotlinx_serialization_coreCompositeDecoder, MPSKotlinx_coroutines_coreSelectInstance, MPSKotlinx_coroutines_coreSelectClause, MPSKotlinx_coroutines_coreParentJob, MPSKotlinx_serialization_coreSerializersModuleCollector, MPSKotlinKClass, MPSKotlinx_serialization_jsonJsonNamingStrategy, MPSKotlinKDeclarationContainer, MPSKotlinKAnnotatedElement, MPSKotlinKClassifier;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -23,29 +23,29 @@ NS_ASSUME_NONNULL_BEGIN
 #endif
 
 __attribute__((swift_name("KotlinBase")))
-@interface MSDKBase : NSObject
+@interface MPSBase : NSObject
 - (instancetype)init __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
 + (void)initialize __attribute__((objc_requires_super));
 @end
 
-@interface MSDKBase (MSDKBaseCopying) <NSCopying>
+@interface MPSBase (MPSBaseCopying) <NSCopying>
 @end
 
 __attribute__((swift_name("KotlinMutableSet")))
-@interface MSDKMutableSet<ObjectType> : NSMutableSet<ObjectType>
+@interface MPSMutableSet<ObjectType> : NSMutableSet<ObjectType>
 @end
 
 __attribute__((swift_name("KotlinMutableDictionary")))
-@interface MSDKMutableDictionary<KeyType, ObjectType> : NSMutableDictionary<KeyType, ObjectType>
+@interface MPSMutableDictionary<KeyType, ObjectType> : NSMutableDictionary<KeyType, ObjectType>
 @end
 
-@interface NSError (NSErrorMSDKKotlinException)
+@interface NSError (NSErrorMPSKotlinException)
 @property (readonly) id _Nullable kotlinException;
 @end
 
 __attribute__((swift_name("KotlinNumber")))
-@interface MSDKNumber : NSNumber
+@interface MPSNumber : NSNumber
 - (instancetype)initWithChar:(char)value __attribute__((unavailable));
 - (instancetype)initWithUnsignedChar:(unsigned char)value __attribute__((unavailable));
 - (instancetype)initWithShort:(short)value __attribute__((unavailable));
@@ -79,167 +79,134 @@ __attribute__((swift_name("KotlinNumber")))
 @end
 
 __attribute__((swift_name("KotlinByte")))
-@interface MSDKByte : MSDKNumber
+@interface MPSByte : MPSNumber
 - (instancetype)initWithChar:(char)value;
 + (instancetype)numberWithChar:(char)value;
 @end
 
 __attribute__((swift_name("KotlinUByte")))
-@interface MSDKUByte : MSDKNumber
+@interface MPSUByte : MPSNumber
 - (instancetype)initWithUnsignedChar:(unsigned char)value;
 + (instancetype)numberWithUnsignedChar:(unsigned char)value;
 @end
 
 __attribute__((swift_name("KotlinShort")))
-@interface MSDKShort : MSDKNumber
+@interface MPSShort : MPSNumber
 - (instancetype)initWithShort:(short)value;
 + (instancetype)numberWithShort:(short)value;
 @end
 
 __attribute__((swift_name("KotlinUShort")))
-@interface MSDKUShort : MSDKNumber
+@interface MPSUShort : MPSNumber
 - (instancetype)initWithUnsignedShort:(unsigned short)value;
 + (instancetype)numberWithUnsignedShort:(unsigned short)value;
 @end
 
 __attribute__((swift_name("KotlinInt")))
-@interface MSDKInt : MSDKNumber
+@interface MPSInt : MPSNumber
 - (instancetype)initWithInt:(int)value;
 + (instancetype)numberWithInt:(int)value;
 @end
 
 __attribute__((swift_name("KotlinUInt")))
-@interface MSDKUInt : MSDKNumber
+@interface MPSUInt : MPSNumber
 - (instancetype)initWithUnsignedInt:(unsigned int)value;
 + (instancetype)numberWithUnsignedInt:(unsigned int)value;
 @end
 
 __attribute__((swift_name("KotlinLong")))
-@interface MSDKLong : MSDKNumber
+@interface MPSLong : MPSNumber
 - (instancetype)initWithLongLong:(long long)value;
 + (instancetype)numberWithLongLong:(long long)value;
 @end
 
 __attribute__((swift_name("KotlinULong")))
-@interface MSDKULong : MSDKNumber
+@interface MPSULong : MPSNumber
 - (instancetype)initWithUnsignedLongLong:(unsigned long long)value;
 + (instancetype)numberWithUnsignedLongLong:(unsigned long long)value;
 @end
 
 __attribute__((swift_name("KotlinFloat")))
-@interface MSDKFloat : MSDKNumber
+@interface MPSFloat : MPSNumber
 - (instancetype)initWithFloat:(float)value;
 + (instancetype)numberWithFloat:(float)value;
 @end
 
 __attribute__((swift_name("KotlinDouble")))
-@interface MSDKDouble : MSDKNumber
+@interface MPSDouble : MPSNumber
 - (instancetype)initWithDouble:(double)value;
 + (instancetype)numberWithDouble:(double)value;
 @end
 
 __attribute__((swift_name("KotlinBoolean")))
-@interface MSDKBoolean : MSDKNumber
+@interface MPSBoolean : MPSNumber
 - (instancetype)initWithBool:(BOOL)value;
 + (instancetype)numberWithBool:(BOOL)value;
 @end
 
 __attribute__((unavailable("Kotlin subclass of Objective-C class can't be imported")))
 __attribute__((swift_name("PostMessageClient")))
-@interface MSDKPostMessageClient : NSObject
-@end
-
-__attribute__((swift_name("WidgetQueryParams")))
-@protocol MSDKWidgetQueryParams
-@required
-- (NSDictionary<NSString *, NSString *> *)toMap __attribute__((swift_name("toMap()")));
-@end
-
-__attribute__((swift_name("AdvancedWidgetQueryParams")))
-@protocol MSDKAdvancedWidgetQueryParams <MSDKWidgetQueryParams>
-@required
-@property NSString *apiKey __attribute__((swift_name("apiKey")));
-@property NSString * _Nullable baseCurrencyAmount __attribute__((swift_name("baseCurrencyAmount")));
-@property NSString * _Nullable baseCurrencyCode __attribute__((swift_name("baseCurrencyCode")));
-@property NSString * _Nullable colorCode __attribute__((swift_name("colorCode")));
-@property NSString * _Nullable currencyCode __attribute__((swift_name("currencyCode")));
-@property NSString * _Nullable defaultCurrencyCode __attribute__((swift_name("defaultCurrencyCode")));
-@property NSString * _Nullable email __attribute__((swift_name("email")));
-@property NSString * _Nullable externalCustomerId __attribute__((swift_name("externalCustomerId")));
-@property NSString * _Nullable externalTransactionId __attribute__((swift_name("externalTransactionId")));
-@property NSString * _Nullable language __attribute__((swift_name("language")));
-@property NSString * _Nullable lockAmount __attribute__((swift_name("lockAmount")));
-@property NSString * _Nullable paymentMethod __attribute__((swift_name("paymentMethod")));
-@property NSString * _Nullable quoteCurrencyAmount __attribute__((swift_name("quoteCurrencyAmount")));
-@property NSString * _Nullable redirectURL __attribute__((swift_name("redirectURL")));
-@property NSString * _Nullable showAllCurrencies __attribute__((swift_name("showAllCurrencies")));
-@property NSString * _Nullable showOnlyCurrencies __attribute__((swift_name("showOnlyCurrencies")));
-@property NSString * _Nullable showWalletAddressForm __attribute__((swift_name("showWalletAddressForm")));
-@property NSString * _Nullable signature __attribute__((swift_name("signature")));
-@property NSString * _Nullable skipUnsupportedRegionScreen __attribute__((swift_name("skipUnsupportedRegionScreen")));
-@property NSString * _Nullable theme __attribute__((swift_name("theme")));
-@property NSString * _Nullable themeId __attribute__((swift_name("themeId")));
-@property NSString * _Nullable unsupportedRegionRedirectUrl __attribute__((swift_name("unsupportedRegionRedirectUrl")));
-@property NSString * _Nullable walletAddress __attribute__((swift_name("walletAddress")));
-@property NSString * _Nullable walletAddressTag __attribute__((swift_name("walletAddressTag")));
-@property NSString * _Nullable walletAddressTags __attribute__((swift_name("walletAddressTags")));
-@property NSString * _Nullable walletAddresses __attribute__((swift_name("walletAddresses")));
+@interface MPSPostMessageClient : NSObject
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AppProtocol")))
-@interface MSDKAppProtocol : MSDKBase
-- (instancetype)initWithVersions:(NSArray<MSDKFloat *> *)versions name:(NSString *)name __attribute__((swift_name("init(versions:name:)"))) __attribute__((objc_designated_initializer));
-- (MSDKAppProtocol *)doCopyVersions:(NSArray<MSDKFloat *> *)versions name:(NSString *)name __attribute__((swift_name("doCopy(versions:name:)")));
+@interface MPSAppProtocol : MPSBase
+- (instancetype)initWithVersions:(NSArray<MPSFloat *> *)versions name:(NSString *)name __attribute__((swift_name("init(versions:name:)"))) __attribute__((objc_designated_initializer));
+- (MPSAppProtocol *)doCopyVersions:(NSArray<MPSFloat *> *)versions name:(NSString *)name __attribute__((swift_name("doCopy(versions:name:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString *name __attribute__((swift_name("name")));
-@property (readonly) NSArray<MSDKFloat *> *versions __attribute__((swift_name("versions")));
+@property (readonly) NSArray<MPSFloat *> *versions __attribute__((swift_name("versions")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AppProtocolProps")))
-@interface MSDKAppProtocolProps : MSDKBase
+@interface MPSAppProtocolProps : MPSBase
 - (instancetype)initWithAppProtocolVersion:(float)appProtocolVersion __attribute__((swift_name("init(appProtocolVersion:)"))) __attribute__((objc_designated_initializer));
-- (MSDKAppProtocolProps *)doCopyAppProtocolVersion:(float)appProtocolVersion __attribute__((swift_name("doCopy(appProtocolVersion:)")));
+- (MPSAppProtocolProps *)doCopyAppProtocolVersion:(float)appProtocolVersion __attribute__((swift_name("doCopy(appProtocolVersion:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) float appProtocolVersion __attribute__((swift_name("appProtocolVersion")));
 @end
 
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
 __attribute__((swift_name("WidgetFlow")))
-@interface MSDKWidgetFlow : MSDKBase
-@property (class, readonly, getter=companion) MSDKWidgetFlowCompanion *companion __attribute__((swift_name("companion")));
+@interface MPSWidgetFlow : MPSBase
 @end
 
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("BuyFlow")))
-@interface MSDKBuyFlow : MSDKWidgetFlow
+@interface MPSBuyFlow : MPSWidgetFlow
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@property (class, readonly, getter=companion) MSDKBuyFlowCompanion *companion __attribute__((swift_name("companion")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CorrelationId")))
+@interface MPSCorrelationId : MPSBase
+- (instancetype)initWithCorrelationId:(NSString *)correlationId __attribute__((swift_name("init(correlationId:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) MPSCorrelationIdCompanion *companion __attribute__((swift_name("companion")));
+- (MPSCorrelationId *)doCopyCorrelationId:(NSString *)correlationId __attribute__((swift_name("doCopy(correlationId:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *correlationId __attribute__((swift_name("correlationId")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("BuyFlow.Companion")))
-@interface MSDKBuyFlowCompanion : MSDKBase
+__attribute__((swift_name("CorrelationId.Companion")))
+@interface MPSCorrelationIdCompanion : MPSBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKBuyFlowCompanion *shared __attribute__((swift_name("shared")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@property (class, readonly, getter=shared) MPSCorrelationIdCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 
@@ -249,10 +216,10 @@ __attribute__((swift_name("BuyFlow.Companion")))
 */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("CryptoCurrency")))
-@interface MSDKCryptoCurrency : MSDKBase
+@interface MPSCryptoCurrency : MPSBase
 - (instancetype)initWithId:(NSString *)id name:(NSString *)name code:(NSString *)code contractAddress:(NSString * _Nullable)contractAddress chainId:(NSString * _Nullable)chainId coinType:(NSString * _Nullable)coinType networkCode:(NSString * _Nullable)networkCode __attribute__((swift_name("init(id:name:code:contractAddress:chainId:coinType:networkCode:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) MSDKCryptoCurrencyCompanion *companion __attribute__((swift_name("companion")));
-- (MSDKCryptoCurrency *)doCopyId:(NSString *)id name:(NSString *)name code:(NSString *)code contractAddress:(NSString * _Nullable)contractAddress chainId:(NSString * _Nullable)chainId coinType:(NSString * _Nullable)coinType networkCode:(NSString * _Nullable)networkCode __attribute__((swift_name("doCopy(id:name:code:contractAddress:chainId:coinType:networkCode:)")));
+@property (class, readonly, getter=companion) MPSCryptoCurrencyCompanion *companion __attribute__((swift_name("companion")));
+- (MPSCryptoCurrency *)doCopyId:(NSString *)id name:(NSString *)name code:(NSString *)code contractAddress:(NSString * _Nullable)contractAddress chainId:(NSString * _Nullable)chainId coinType:(NSString * _Nullable)coinType networkCode:(NSString * _Nullable)networkCode __attribute__((swift_name("doCopy(id:name:code:contractAddress:chainId:coinType:networkCode:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -267,34 +234,34 @@ __attribute__((swift_name("CryptoCurrency")))
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("CryptoCurrency.Companion")))
-@interface MSDKCryptoCurrencyCompanion : MSDKBase
+@interface MPSCryptoCurrencyCompanion : MPSBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKCryptoCurrencyCompanion *shared __attribute__((swift_name("shared")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@property (class, readonly, getter=shared) MPSCryptoCurrencyCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 __attribute__((swift_name("Kotlinx_coroutines_coreCoroutineScope")))
-@protocol MSDKKotlinx_coroutines_coreCoroutineScope
+@protocol MPSKotlinx_coroutines_coreCoroutineScope
 @required
-@property (readonly) id<MSDKKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
+@property (readonly) id<MPSKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("DeferredMap")))
-@interface MSDKDeferredMap : MSDKBase <MSDKKotlinx_coroutines_coreCoroutineScope>
+@interface MPSDeferredMap : MPSBase <MPSKotlinx_coroutines_coreCoroutineScope>
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (id<MSDKKotlinx_coroutines_coreCompletableDeferred>)addCorrelationId:(NSString *)correlationId timeout:(MSDKLong * _Nullable)timeout __attribute__((swift_name("add(correlationId:timeout:)")));
-- (id<MSDKKotlinx_coroutines_coreCompletableDeferred>)addCorrelationId:(NSString *)correlationId timeout:(MSDKLong * _Nullable)timeout __attribute__((swift_name("add(correlationId:timeout:)")));
+- (id<MPSKotlinx_coroutines_coreCompletableDeferred>)addCorrelationId:(NSString *)correlationId timeout:(MPSLong * _Nullable)timeout __attribute__((swift_name("add(correlationId:timeout:)")));
+- (id<MPSKotlinx_coroutines_coreCompletableDeferred>)addCorrelationId:(NSString *)correlationId timeout:(MPSLong * _Nullable)timeout __attribute__((swift_name("add(correlationId:timeout:)")));
 - (void)cancelAll __attribute__((swift_name("cancelAll()")));
-- (id<MSDKKotlinx_coroutines_coreCompletableDeferred> _Nullable)getCorrelationId:(NSString *)correlationId __attribute__((swift_name("get(correlationId:)")));
-- (id<MSDKKotlinx_coroutines_coreCompletableDeferred> _Nullable)getCorrelationId:(NSString *)correlationId __attribute__((swift_name("get(correlationId:)")));
+- (id<MPSKotlinx_coroutines_coreCompletableDeferred> _Nullable)getCorrelationId:(NSString *)correlationId __attribute__((swift_name("get(correlationId:)")));
+- (id<MPSKotlinx_coroutines_coreCompletableDeferred> _Nullable)getCorrelationId:(NSString *)correlationId __attribute__((swift_name("get(correlationId:)")));
 - (BOOL)hasCorrelationId:(NSString *)correlationId __attribute__((swift_name("has(correlationId:)")));
-- (void)rejectCorrelationId:(NSString *)correlationId exception:(MSDKKotlinThrowable *)exception __attribute__((swift_name("reject(correlationId:exception:)")));
+- (void)rejectCorrelationId:(NSString *)correlationId exception:(MPSKotlinThrowable *)exception __attribute__((swift_name("reject(correlationId:exception:)")));
 - (void)resolveCorrelationId:(NSString *)correlationId value:(id _Nullable)value __attribute__((swift_name("resolve(correlationId:value:)")));
-@property (readonly) id<MSDKKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
+@property (readonly) id<MPSKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
 @end
 
 
@@ -304,10 +271,10 @@ __attribute__((swift_name("DeferredMap")))
 */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("FiatCurrency")))
-@interface MSDKFiatCurrency : MSDKBase
+@interface MPSFiatCurrency : MPSBase
 - (instancetype)initWithId:(NSString *)id name:(NSString *)name code:(NSString *)code __attribute__((swift_name("init(id:name:code:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) MSDKFiatCurrencyCompanion *companion __attribute__((swift_name("companion")));
-- (MSDKFiatCurrency *)doCopyId:(NSString *)id name:(NSString *)name code:(NSString *)code __attribute__((swift_name("doCopy(id:name:code:)")));
+@property (class, readonly, getter=companion) MPSFiatCurrencyCompanion *companion __attribute__((swift_name("companion")));
+- (MPSFiatCurrency *)doCopyId:(NSString *)id name:(NSString *)name code:(NSString *)code __attribute__((swift_name("doCopy(id:name:code:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -318,125 +285,84 @@ __attribute__((swift_name("FiatCurrency")))
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("FiatCurrency.Companion")))
-@interface MSDKFiatCurrencyCompanion : MSDKBase
+@interface MPSFiatCurrencyCompanion : MPSBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKFiatCurrencyCompanion *shared __attribute__((swift_name("shared")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@property (class, readonly, getter=shared) MPSFiatCurrencyCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("LegacyFlow")))
-@interface MSDKLegacyFlow : MSDKWidgetFlow
+@interface MPSLegacyFlow : MPSWidgetFlow
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@property (class, readonly, getter=companion) MSDKLegacyFlowCompanion *companion __attribute__((swift_name("companion")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LegacyFlow.Companion")))
-@interface MSDKLegacyFlowCompanion : MSDKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKLegacyFlowCompanion *shared __attribute__((swift_name("shared")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LegacyWidgetQueryParams")))
-@interface MSDKLegacyWidgetQueryParams : MSDKBase <MSDKWidgetQueryParams>
-- (instancetype)initWithUrl:(NSString *)url __attribute__((swift_name("init(url:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) MSDKLegacyWidgetQueryParamsCompanion *companion __attribute__((swift_name("companion")));
-- (NSDictionary<NSString *, NSString *> *)toMap __attribute__((swift_name("toMap()")));
-@property NSString *url __attribute__((swift_name("url")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LegacyWidgetQueryParams.Companion")))
-@interface MSDKLegacyWidgetQueryParamsCompanion : MSDKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKLegacyWidgetQueryParamsCompanion *shared __attribute__((swift_name("shared")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Logger")))
-@interface MSDKLogger : MSDKBase
-- (instancetype)initWithLogger:(id<MSDKLoggerLikeInstance>)logger prefix:(MSDKKotlinArray<NSString *> *)prefix __attribute__((swift_name("init(logger:prefix:)"))) __attribute__((objc_designated_initializer));
-- (void)errorData:(MSDKKotlinArray<id> *)data __attribute__((swift_name("error(data:)")));
-- (void)infoData:(MSDKKotlinArray<id> *)data __attribute__((swift_name("info(data:)")));
-- (MSDKLogger *)logIfCondition:(BOOL)condition __attribute__((swift_name("logIf(condition:)")));
-- (void)warnData:(MSDKKotlinArray<id> *)data __attribute__((swift_name("warn(data:)")));
+@interface MPSLogger : MPSBase
+- (instancetype)initWithLogger:(id<MPSLoggerLikeInstance>)logger __attribute__((swift_name("init(logger:)"))) __attribute__((objc_designated_initializer));
+- (void)errorData:(MPSKotlinArray<id> *)data __attribute__((swift_name("error(data:)")));
+- (void)infoData:(MPSKotlinArray<id> *)data __attribute__((swift_name("info(data:)")));
+- (MPSLogger *)logIfCondition:(BOOL)condition __attribute__((swift_name("logIf(condition:)")));
+- (void)warnData:(MPSKotlinArray<id> *)data __attribute__((swift_name("warn(data:)")));
 @end
 
 __attribute__((swift_name("LoggerLikeInstance")))
-@protocol MSDKLoggerLikeInstance
+@protocol MPSLoggerLikeInstance
 @required
-- (void)errorData:(MSDKKotlinArray<id> *)data __attribute__((swift_name("error(data:)")));
-- (void)infoData:(MSDKKotlinArray<id> *)data __attribute__((swift_name("info(data:)")));
-- (void)warnData:(MSDKKotlinArray<id> *)data __attribute__((swift_name("warn(data:)")));
+- (void)errorPrefix:(NSString *)prefix data:(MPSKotlinArray<id> *)data __attribute__((swift_name("error(prefix:data:)")));
+- (void)infoPrefix:(NSString *)prefix data:(MPSKotlinArray<id> *)data __attribute__((swift_name("info(prefix:data:)")));
+- (void)warnPrefix:(NSString *)prefix data:(MPSKotlinArray<id> *)data __attribute__((swift_name("warn(prefix:data:)")));
 @end
 
 __attribute__((swift_name("KotlinThrowable")))
-@interface MSDKKotlinThrowable : MSDKBase
+@interface MPSKotlinThrowable : MPSBase
 - (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(MSDKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(MPSKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(MSDKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (MSDKKotlinArray<NSString *> *)getStackTrace __attribute__((swift_name("getStackTrace()")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(MPSKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+- (MPSKotlinArray<NSString *> *)getStackTrace __attribute__((swift_name("getStackTrace()")));
 - (void)printStackTrace __attribute__((swift_name("printStackTrace()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) MSDKKotlinThrowable * _Nullable cause __attribute__((swift_name("cause")));
+@property (readonly) MPSKotlinThrowable * _Nullable cause __attribute__((swift_name("cause")));
 @property (readonly) NSString * _Nullable message __attribute__((swift_name("message")));
 - (NSError *)asError __attribute__((swift_name("asError()")));
 @end
 
 __attribute__((swift_name("KotlinException")))
-@interface MSDKKotlinException : MSDKKotlinThrowable
+@interface MPSKotlinException : MPSKotlinThrowable
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(MSDKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(MSDKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(MPSKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(MPSKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MessagingError")))
-@interface MSDKMessagingError : MSDKKotlinException
-- (instancetype)initWithMessage:(NSString * _Nullable)message code:(MSDKMessagingErrorCode *)code __attribute__((swift_name("init(message:code:)"))) __attribute__((objc_designated_initializer));
+@interface MPSMessagingError : MPSKotlinException
+- (instancetype)initWithMessage:(NSString * _Nullable)message code:(MPSMessagingErrorCode *)code __attribute__((swift_name("init(message:code:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
 - (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(MSDKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (instancetype)initWithCause:(MSDKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (readonly) MSDKMessagingErrorCode *code __attribute__((swift_name("code")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(MPSKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithCause:(MPSKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (readonly) MPSMessagingErrorCode *code __attribute__((swift_name("code")));
 @end
 
 __attribute__((swift_name("KotlinComparable")))
-@protocol MSDKKotlinComparable
+@protocol MPSKotlinComparable
 @required
 - (int32_t)compareToOther:(id _Nullable)other __attribute__((swift_name("compareTo(other:)")));
 @end
 
 __attribute__((swift_name("KotlinEnum")))
-@interface MSDKKotlinEnum<E> : MSDKBase <MSDKKotlinComparable>
+@interface MPSKotlinEnum<E> : MPSBase <MPSKotlinComparable>
 - (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) MSDKKotlinEnumCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly, getter=companion) MPSKotlinEnumCompanion *companion __attribute__((swift_name("companion")));
 - (int32_t)compareToOther:(E)other __attribute__((swift_name("compareTo(other:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -447,377 +373,233 @@ __attribute__((swift_name("KotlinEnum")))
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MessagingErrorCode")))
-@interface MSDKMessagingErrorCode : MSDKKotlinEnum<MSDKMessagingErrorCode *>
+@interface MPSMessagingErrorCode : MPSKotlinEnum<MPSMessagingErrorCode *>
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 - (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) MSDKMessagingErrorCode *noownwindow __attribute__((swift_name("noownwindow")));
-@property (class, readonly) MSDKMessagingErrorCode *notargetwindow __attribute__((swift_name("notargetwindow")));
-@property (class, readonly) MSDKMessagingErrorCode *notiniframe __attribute__((swift_name("notiniframe")));
-@property (class, readonly) MSDKMessagingErrorCode *nopostmessageinterface __attribute__((swift_name("nopostmessageinterface")));
-@property (class, readonly) MSDKMessagingErrorCode *nomessagingenvironment __attribute__((swift_name("nomessagingenvironment")));
-@property (class, readonly) MSDKMessagingErrorCode *protocolversionnotsupported __attribute__((swift_name("protocolversionnotsupported")));
-@property (class, readonly) MSDKMessagingErrorCode *notimplemented __attribute__((swift_name("notimplemented")));
-@property (class, readonly) MSDKMessagingErrorCode *dontinitialiseparent __attribute__((swift_name("dontinitialiseparent")));
-@property (class, readonly) MSDKMessagingErrorCode *unsupportedprotocolversion __attribute__((swift_name("unsupportedprotocolversion")));
-@property (class, readonly) MSDKMessagingErrorCode *unsupportedappprotocolversion __attribute__((swift_name("unsupportedappprotocolversion")));
-@property (class, readonly) MSDKMessagingErrorCode *novalidtargetorigin __attribute__((swift_name("novalidtargetorigin")));
-@property (class, readonly) MSDKMessagingErrorCode *defaultcode __attribute__((swift_name("defaultcode")));
-@property (class, readonly) MSDKMessagingErrorCode *deferredvaluetimedout __attribute__((swift_name("deferredvaluetimedout")));
-@property (class, readonly) MSDKMessagingErrorCode *deferredvaluewrongtype __attribute__((swift_name("deferredvaluewrongtype")));
-@property (class, readonly) MSDKMessagingErrorCode *nohandlerforaction __attribute__((swift_name("nohandlerforaction")));
-@property (class, readonly) MSDKMessagingErrorCode *errorhandlingaction __attribute__((swift_name("errorhandlingaction")));
-@property (class, readonly) MSDKMessagingErrorCode *unknownmessagetype __attribute__((swift_name("unknownmessagetype")));
-@property (class, readonly) MSDKMessagingErrorCode *unknownerror __attribute__((swift_name("unknownerror")));
-+ (MSDKKotlinArray<MSDKMessagingErrorCode *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) MPSMessagingErrorCode *nomessagingenvironment __attribute__((swift_name("nomessagingenvironment")));
+@property (class, readonly) MPSMessagingErrorCode *nodepositidreturnedfromoninitiatedeposithandler __attribute__((swift_name("nodepositidreturnedfromoninitiatedeposithandler")));
+@property (class, readonly) MPSMessagingErrorCode *protocolversionnotsupported __attribute__((swift_name("protocolversionnotsupported")));
+@property (class, readonly) MPSMessagingErrorCode *dontinitialiseparent __attribute__((swift_name("dontinitialiseparent")));
+@property (class, readonly) MPSMessagingErrorCode *unsupportedprotocolversion __attribute__((swift_name("unsupportedprotocolversion")));
+@property (class, readonly) MPSMessagingErrorCode *unsupportedappprotocolversion __attribute__((swift_name("unsupportedappprotocolversion")));
+@property (class, readonly) MPSMessagingErrorCode *deferredvaluetimedout __attribute__((swift_name("deferredvaluetimedout")));
+@property (class, readonly) MPSMessagingErrorCode *nohandlerforaction __attribute__((swift_name("nohandlerforaction")));
+@property (class, readonly) MPSMessagingErrorCode *errorhandlingaction __attribute__((swift_name("errorhandlingaction")));
+@property (class, readonly) MPSMessagingErrorCode *unknownerror __attribute__((swift_name("unknownerror")));
++ (MPSKotlinArray<MPSMessagingErrorCode *> *)values __attribute__((swift_name("values()")));
 @property (readonly) NSString *value __attribute__((swift_name("value")));
+@end
+
+__attribute__((swift_name("MoonPayQueryParams")))
+@protocol MPSMoonPayQueryParams
+@required
+- (NSDictionary<NSString *, NSString *> *)toMap __attribute__((swift_name("toMap()")));
+@end
+
+__attribute__((swift_name("MoonPayAdvancedQueryParams")))
+@protocol MPSMoonPayAdvancedQueryParams <MPSMoonPayQueryParams>
+@required
+@property NSString *apiKey __attribute__((swift_name("apiKey")));
+@property MPSDouble * _Nullable baseCurrencyAmount __attribute__((swift_name("baseCurrencyAmount")));
+@property NSString * _Nullable baseCurrencyCode __attribute__((swift_name("baseCurrencyCode")));
+@property NSString * _Nullable colorCode __attribute__((swift_name("colorCode")));
+@property NSString * _Nullable currencyCode __attribute__((swift_name("currencyCode")));
+@property NSString * _Nullable defaultCurrencyCode __attribute__((swift_name("defaultCurrencyCode")));
+@property NSString * _Nullable email __attribute__((swift_name("email")));
+@property NSString * _Nullable externalCustomerId __attribute__((swift_name("externalCustomerId")));
+@property NSString * _Nullable externalTransactionId __attribute__((swift_name("externalTransactionId")));
+@property NSString * _Nullable language __attribute__((swift_name("language")));
+@property NSString * _Nullable lockAmount __attribute__((swift_name("lockAmount")));
+@property NSString * _Nullable paymentMethod __attribute__((swift_name("paymentMethod")));
+@property MPSDouble * _Nullable quoteCurrencyAmount __attribute__((swift_name("quoteCurrencyAmount")));
+@property NSString * _Nullable redirectURL __attribute__((swift_name("redirectURL")));
+@property NSString * _Nullable showAllCurrencies __attribute__((swift_name("showAllCurrencies")));
+@property NSString * _Nullable showOnlyCurrencies __attribute__((swift_name("showOnlyCurrencies")));
+@property NSString * _Nullable showWalletAddressForm __attribute__((swift_name("showWalletAddressForm")));
+@property NSString * _Nullable signature __attribute__((swift_name("signature")));
+@property NSString * _Nullable skipUnsupportedRegionScreen __attribute__((swift_name("skipUnsupportedRegionScreen")));
+@property NSString * _Nullable theme __attribute__((swift_name("theme")));
+@property NSString * _Nullable themeId __attribute__((swift_name("themeId")));
+@property NSString * _Nullable unsupportedRegionRedirectUrl __attribute__((swift_name("unsupportedRegionRedirectUrl")));
+@property NSString * _Nullable walletAddress __attribute__((swift_name("walletAddress")));
+@property NSString * _Nullable walletAddressTag __attribute__((swift_name("walletAddressTag")));
+@property NSString * _Nullable walletAddressTags __attribute__((swift_name("walletAddressTags")));
+@property NSDictionary<NSString *, NSString *> * _Nullable walletAddresses __attribute__((swift_name("walletAddresses")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayBuyQueryParams")))
+@interface MPSMoonPayBuyQueryParams : MPSBase <MPSMoonPayAdvancedQueryParams>
+- (instancetype)initWithApiKey:(NSString *)apiKey __attribute__((swift_name("init(apiKey:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) MPSMoonPayBuyQueryParamsCompanion *companion __attribute__((swift_name("companion")));
+- (MPSMoonPayBuyQueryParams *)doCopyApiKey:(NSString *)apiKey __attribute__((swift_name("doCopy(apiKey:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (void)setApiKeyValue:(NSString *)value __attribute__((swift_name("setApiKey(value:)")));
+- (void)setBaseCurrencyAmountValue:(MPSDouble * _Nullable)value __attribute__((swift_name("setBaseCurrencyAmount(value:)")));
+- (void)setBaseCurrencyCodeValue:(NSString * _Nullable)value __attribute__((swift_name("setBaseCurrencyCode(value:)")));
+- (void)setColorCodeValue:(NSString * _Nullable)value __attribute__((swift_name("setColorCode(value:)")));
+- (void)setCurrencyCodeValue:(NSString * _Nullable)value __attribute__((swift_name("setCurrencyCode(value:)")));
+- (void)setDefaultCurrencyCodeValue:(NSString * _Nullable)value __attribute__((swift_name("setDefaultCurrencyCode(value:)")));
+- (void)setEmailValue:(NSString * _Nullable)value __attribute__((swift_name("setEmail(value:)")));
+- (void)setExternalCustomerIdValue:(NSString * _Nullable)value __attribute__((swift_name("setExternalCustomerId(value:)")));
+- (void)setExternalTransactionIdValue:(NSString * _Nullable)value __attribute__((swift_name("setExternalTransactionId(value:)")));
+- (void)setLanguageValue:(NSString * _Nullable)value __attribute__((swift_name("setLanguage(value:)")));
+- (void)setLockAmountValue:(NSString * _Nullable)value __attribute__((swift_name("setLockAmount(value:)")));
+- (void)setPaymentMethodValue:(NSString * _Nullable)value __attribute__((swift_name("setPaymentMethod(value:)")));
+- (void)setQuoteCurrencyAmountValue:(MPSDouble * _Nullable)value __attribute__((swift_name("setQuoteCurrencyAmount(value:)")));
+- (void)setRedirectURLValue:(NSString * _Nullable)value __attribute__((swift_name("setRedirectURL(value:)")));
+- (void)setShowAllCurrenciesValue:(NSString * _Nullable)value __attribute__((swift_name("setShowAllCurrencies(value:)")));
+- (void)setShowOnlyCurrenciesValue:(NSString * _Nullable)value __attribute__((swift_name("setShowOnlyCurrencies(value:)")));
+- (void)setShowWalletAddressFormValue:(NSString * _Nullable)value __attribute__((swift_name("setShowWalletAddressForm(value:)")));
+- (void)setSignatureValue:(NSString * _Nullable)value __attribute__((swift_name("setSignature(value:)")));
+- (void)setSkipUnsupportedRegionScreenValue:(NSString * _Nullable)value __attribute__((swift_name("setSkipUnsupportedRegionScreen(value:)")));
+- (void)setThemeValue:(NSString * _Nullable)value __attribute__((swift_name("setTheme(value:)")));
+- (void)setThemeIdValue:(NSString * _Nullable)value __attribute__((swift_name("setThemeId(value:)")));
+- (void)setUnsupportedRegionRedirectUrlValue:(NSString * _Nullable)value __attribute__((swift_name("setUnsupportedRegionRedirectUrl(value:)")));
+- (void)setWalletAddressValue:(NSString * _Nullable)value __attribute__((swift_name("setWalletAddress(value:)")));
+- (void)setWalletAddressTagValue:(NSString * _Nullable)value __attribute__((swift_name("setWalletAddressTag(value:)")));
+- (void)setWalletAddressTagsValue:(NSString * _Nullable)value __attribute__((swift_name("setWalletAddressTags(value:)")));
+- (void)setWalletAddressesValue:(NSDictionary<NSString *, NSString *> * _Nullable)value __attribute__((swift_name("setWalletAddresses(value:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property NSString *apiKey __attribute__((swift_name("apiKey")));
+@property MPSDouble * _Nullable baseCurrencyAmount __attribute__((swift_name("baseCurrencyAmount")));
+@property NSString * _Nullable baseCurrencyCode __attribute__((swift_name("baseCurrencyCode")));
+@property NSString * _Nullable colorCode __attribute__((swift_name("colorCode")));
+@property NSString * _Nullable currencyCode __attribute__((swift_name("currencyCode")));
+@property NSString * _Nullable defaultCurrencyCode __attribute__((swift_name("defaultCurrencyCode")));
+@property NSString * _Nullable email __attribute__((swift_name("email")));
+@property NSString * _Nullable externalCustomerId __attribute__((swift_name("externalCustomerId")));
+@property NSString * _Nullable externalTransactionId __attribute__((swift_name("externalTransactionId")));
+@property NSString * _Nullable language __attribute__((swift_name("language")));
+@property NSString * _Nullable lockAmount __attribute__((swift_name("lockAmount")));
+@property NSString * _Nullable paymentMethod __attribute__((swift_name("paymentMethod")));
+@property MPSDouble * _Nullable quoteCurrencyAmount __attribute__((swift_name("quoteCurrencyAmount")));
+@property NSString * _Nullable redirectURL __attribute__((swift_name("redirectURL")));
+@property NSString * _Nullable showAllCurrencies __attribute__((swift_name("showAllCurrencies")));
+@property NSString * _Nullable showOnlyCurrencies __attribute__((swift_name("showOnlyCurrencies")));
+@property NSString * _Nullable showWalletAddressForm __attribute__((swift_name("showWalletAddressForm")));
+@property NSString * _Nullable signature __attribute__((swift_name("signature")));
+@property NSString * _Nullable skipUnsupportedRegionScreen __attribute__((swift_name("skipUnsupportedRegionScreen")));
+@property NSString * _Nullable theme __attribute__((swift_name("theme")));
+@property NSString * _Nullable themeId __attribute__((swift_name("themeId")));
+@property NSString * _Nullable unsupportedRegionRedirectUrl __attribute__((swift_name("unsupportedRegionRedirectUrl")));
+@property NSString * _Nullable walletAddress __attribute__((swift_name("walletAddress")));
+@property NSString * _Nullable walletAddressTag __attribute__((swift_name("walletAddressTag")));
+@property NSString * _Nullable walletAddressTags __attribute__((swift_name("walletAddressTags")));
+@property NSDictionary<NSString *, NSString *> * _Nullable walletAddresses __attribute__((swift_name("walletAddresses")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayBuyQueryParams.Companion")))
+@interface MPSMoonPayBuyQueryParamsCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayBuyQueryParamsCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MoonPayConfigWithOptions")))
-@interface MSDKMoonPayConfigWithOptions<T> : MSDKBase
-- (instancetype)initWithConfig:(MSDKMoonPayCoreSdkConfig *)config options:(T _Nullable)options __attribute__((swift_name("init(config:options:)"))) __attribute__((objc_designated_initializer));
-- (MSDKMoonPayConfigWithOptions<T> *)doCopyConfig:(MSDKMoonPayCoreSdkConfig *)config options:(T _Nullable)options __attribute__((swift_name("doCopy(config:options:)")));
+@interface MPSMoonPayConfigWithOptions<T> : MPSBase
+- (instancetype)initWithConfig:(MPSMoonPaySdkConfig *)config options:(T _Nullable)options __attribute__((swift_name("init(config:options:)"))) __attribute__((objc_designated_initializer));
+- (MPSMoonPayConfigWithOptions<T> *)doCopyConfig:(MPSMoonPaySdkConfig *)config options:(T _Nullable)options __attribute__((swift_name("doCopy(config:options:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) MSDKMoonPayCoreSdkConfig *config __attribute__((swift_name("config")));
+@property (readonly) MPSMoonPaySdkConfig *config __attribute__((swift_name("config")));
 @property (readonly) T _Nullable options __attribute__((swift_name("options")));
 @end
 
 __attribute__((swift_name("MoonPayCoreSdk")))
-@interface MSDKMoonPayCoreSdk : MSDKBase
+@interface MPSMoonPayCoreSdk : MPSBase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (void)close __attribute__((swift_name("close()")));
-- (NSString *)generateUrlForSigningConfig:(MSDKMoonPayCoreSdkConfig *)config props:(id _Nullable)props __attribute__((swift_name("generateUrlForSigning(config:props:)")));
+- (NSString *)generateUrlForSigning __attribute__((swift_name("generateUrlForSigning()")));
 
 /**
  * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
 */
-- (MSDKMoonPayConfigWithOptions<id> *)getConfigOptions:(id _Nullable)options __attribute__((swift_name("getConfig(options:)")));
+- (MPSMoonPayConfigWithOptions<id> *)getConfigOptions:(id _Nullable)options __attribute__((swift_name("getConfig(options:)")));
 
 /**
  * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
 */
-- (MSDKMoonPayEnvironmentWithOptions<id> *)getSdkEnvironmentConfig:(MSDKMoonPayCoreSdkConfig *)config options:(id _Nullable)options __attribute__((swift_name("getSdkEnvironment(config:options:)")));
+- (MPSMoonPayEnvironmentWithOptions<id> *)getSdkEnvironmentConfig:(MPSMoonPaySdkConfig *)config options:(id _Nullable)options __attribute__((swift_name("getSdkEnvironment(config:options:)")));
 
 /**
  * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
 */
-- (void)doInitConfigConfig:(MSDKMoonPayCoreSdkConfig *)config __attribute__((swift_name("doInitConfig(config:)")));
+- (void)doInitConfigConfig:(MPSMoonPaySdkConfig *)config __attribute__((swift_name("doInitConfig(config:)")));
 
 /**
  * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
 */
-- (void)registerPostMessageHandlers __attribute__((swift_name("registerPostMessageHandlers()")));
+- (void)registerPostMessageHandlersConfig:(MPSMoonPaySdkConfig *)config __attribute__((swift_name("registerPostMessageHandlers(config:)")));
 - (void)updateSignatureSignature:(NSString *)signature __attribute__((swift_name("updateSignature(signature:)")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((swift_name("MoonPayCoreSdkConfig")))
-@interface MSDKMoonPayCoreSdkConfig : MSDKBase
-@property (class, readonly, getter=companion) MSDKMoonPayCoreSdkConfigCompanion *companion __attribute__((swift_name("companion")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonPayCoreSdkBuyConfig")))
-@interface MSDKMoonPayCoreSdkBuyConfig : MSDKMoonPayCoreSdkConfig
-- (instancetype)initWithDebug:(MSDKBoolean * _Nullable)debug environment:(MSDKWidgetEnvironment *)environment flow:(MSDKBuyFlow *)flow params:(MSDKOnrampWidgetQueryParams *)params handlers:(MSDKRampsHandlers * _Nullable)handlers __attribute__((swift_name("init(debug:environment:flow:params:handlers:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) MSDKMoonPayCoreSdkBuyConfigCompanion *companion __attribute__((swift_name("companion")));
-- (MSDKMoonPayCoreSdkBuyConfig *)doCopyDebug:(MSDKBoolean * _Nullable)debug environment:(MSDKWidgetEnvironment *)environment flow:(MSDKBuyFlow *)flow params:(MSDKOnrampWidgetQueryParams *)params handlers:(MSDKRampsHandlers * _Nullable)handlers __attribute__((swift_name("doCopy(debug:environment:flow:params:handlers:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property MSDKBoolean * _Nullable debug __attribute__((swift_name("debug")));
-@property MSDKWidgetEnvironment *environment __attribute__((swift_name("environment")));
-@property MSDKBuyFlow *flow __attribute__((swift_name("flow")));
-@property MSDKRampsHandlers * _Nullable handlers __attribute__((swift_name("handlers")));
-@property MSDKOnrampWidgetQueryParams *params __attribute__((swift_name("params")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonPayCoreSdkBuyConfig.Companion")))
-@interface MSDKMoonPayCoreSdkBuyConfigCompanion : MSDKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKMoonPayCoreSdkBuyConfigCompanion *shared __attribute__((swift_name("shared")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonPayCoreSdkConfig.Companion")))
-@interface MSDKMoonPayCoreSdkConfigCompanion : MSDKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKMoonPayCoreSdkConfigCompanion *shared __attribute__((swift_name("shared")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializerTypeParamsSerializers:(MSDKKotlinArray<id<MSDKKotlinx_serialization_coreKSerializer>> *)typeParamsSerializers __attribute__((swift_name("serializer(typeParamsSerializers:)")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonPayCoreSdkEnvironment")))
-@interface MSDKMoonPayCoreSdkEnvironment : MSDKBase
-- (instancetype)initWithVersion:(float)version flow:(MSDKWidgetFlow *)flow environment:(MSDKWidgetEnvironment *)environment platform:(MSDKMoonPaySdkPlatform *)platform __attribute__((swift_name("init(version:flow:environment:platform:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) MSDKMoonPayCoreSdkEnvironmentCompanion *companion __attribute__((swift_name("companion")));
-- (MSDKMoonPayCoreSdkEnvironment *)doCopyVersion:(float)version flow:(MSDKWidgetFlow *)flow environment:(MSDKWidgetEnvironment *)environment platform:(MSDKMoonPaySdkPlatform *)platform __attribute__((swift_name("doCopy(version:flow:environment:platform:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) MSDKWidgetEnvironment *environment __attribute__((swift_name("environment")));
-@property (readonly) MSDKWidgetFlow *flow __attribute__((swift_name("flow")));
-@property (readonly) MSDKMoonPaySdkPlatform *platform __attribute__((swift_name("platform")));
-@property (readonly) float version __attribute__((swift_name("version")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonPayCoreSdkEnvironment.Companion")))
-@interface MSDKMoonPayCoreSdkEnvironmentCompanion : MSDKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKMoonPayCoreSdkEnvironmentCompanion *shared __attribute__((swift_name("shared")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonPayCoreSdkLegacyConfig")))
-@interface MSDKMoonPayCoreSdkLegacyConfig : MSDKMoonPayCoreSdkConfig
-- (instancetype)initWithDebug:(MSDKBoolean * _Nullable)debug environment:(MSDKWidgetEnvironment *)environment flow:(MSDKLegacyFlow *)flow params:(MSDKLegacyWidgetQueryParams *)params handlers:(MSDKRampsHandlers * _Nullable)handlers __attribute__((swift_name("init(debug:environment:flow:params:handlers:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) MSDKMoonPayCoreSdkLegacyConfigCompanion *companion __attribute__((swift_name("companion")));
-- (MSDKMoonPayCoreSdkLegacyConfig *)doCopyDebug:(MSDKBoolean * _Nullable)debug environment:(MSDKWidgetEnvironment *)environment flow:(MSDKLegacyFlow *)flow params:(MSDKLegacyWidgetQueryParams *)params handlers:(MSDKRampsHandlers * _Nullable)handlers __attribute__((swift_name("doCopy(debug:environment:flow:params:handlers:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property MSDKBoolean * _Nullable debug __attribute__((swift_name("debug")));
-@property MSDKWidgetEnvironment *environment __attribute__((swift_name("environment")));
-@property MSDKLegacyFlow *flow __attribute__((swift_name("flow")));
-@property MSDKRampsHandlers * _Nullable handlers __attribute__((swift_name("handlers")));
-@property MSDKLegacyWidgetQueryParams *params __attribute__((swift_name("params")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonPayCoreSdkLegacyConfig.Companion")))
-@interface MSDKMoonPayCoreSdkLegacyConfigCompanion : MSDKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKMoonPayCoreSdkLegacyConfigCompanion *shared __attribute__((swift_name("shared")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonPayCoreSdkSellConfig")))
-@interface MSDKMoonPayCoreSdkSellConfig : MSDKMoonPayCoreSdkConfig
-- (instancetype)initWithDebug:(MSDKBoolean * _Nullable)debug environment:(MSDKWidgetEnvironment *)environment flow:(MSDKSellFlow *)flow params:(MSDKOfframpWidgetQueryParams *)params handlers:(MSDKRampsHandlers * _Nullable)handlers __attribute__((swift_name("init(debug:environment:flow:params:handlers:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) MSDKMoonPayCoreSdkSellConfigCompanion *companion __attribute__((swift_name("companion")));
-- (MSDKMoonPayCoreSdkSellConfig *)doCopyDebug:(MSDKBoolean * _Nullable)debug environment:(MSDKWidgetEnvironment *)environment flow:(MSDKSellFlow *)flow params:(MSDKOfframpWidgetQueryParams *)params handlers:(MSDKRampsHandlers * _Nullable)handlers __attribute__((swift_name("doCopy(debug:environment:flow:params:handlers:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property MSDKBoolean * _Nullable debug __attribute__((swift_name("debug")));
-@property MSDKWidgetEnvironment *environment __attribute__((swift_name("environment")));
-@property MSDKSellFlow *flow __attribute__((swift_name("flow")));
-@property MSDKRampsHandlers * _Nullable handlers __attribute__((swift_name("handlers")));
-@property MSDKOfframpWidgetQueryParams *params __attribute__((swift_name("params")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonPayCoreSdkSellConfig.Companion")))
-@interface MSDKMoonPayCoreSdkSellConfigCompanion : MSDKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKMoonPayCoreSdkSellConfigCompanion *shared __attribute__((swift_name("shared")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonPayCoreSdkSwapConfig")))
-@interface MSDKMoonPayCoreSdkSwapConfig : MSDKMoonPayCoreSdkConfig
-- (instancetype)initWithDebug:(MSDKBoolean * _Nullable)debug environment:(MSDKWidgetEnvironment *)environment flow:(MSDKSwapFlow *)flow params:(MSDKSwapWidgetQueryParams *)params handlers:(MSDKRampsHandlers * _Nullable)handlers __attribute__((swift_name("init(debug:environment:flow:params:handlers:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) MSDKMoonPayCoreSdkSwapConfigCompanion *companion __attribute__((swift_name("companion")));
-- (MSDKMoonPayCoreSdkSwapConfig *)doCopyDebug:(MSDKBoolean * _Nullable)debug environment:(MSDKWidgetEnvironment *)environment flow:(MSDKSwapFlow *)flow params:(MSDKSwapWidgetQueryParams *)params handlers:(MSDKRampsHandlers * _Nullable)handlers __attribute__((swift_name("doCopy(debug:environment:flow:params:handlers:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property MSDKBoolean * _Nullable debug __attribute__((swift_name("debug")));
-@property MSDKWidgetEnvironment *environment __attribute__((swift_name("environment")));
-@property MSDKSwapFlow *flow __attribute__((swift_name("flow")));
-@property MSDKRampsHandlers * _Nullable handlers __attribute__((swift_name("handlers")));
-@property MSDKSwapWidgetQueryParams *params __attribute__((swift_name("params")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonPayCoreSdkSwapConfig.Companion")))
-@interface MSDKMoonPayCoreSdkSwapConfigCompanion : MSDKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKMoonPayCoreSdkSwapConfigCompanion *shared __attribute__((swift_name("shared")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MoonPayEnvironmentWithOptions")))
-@interface MSDKMoonPayEnvironmentWithOptions<T> : MSDKBase
-- (instancetype)initWithEnvironment:(MSDKMoonPayCoreSdkEnvironment *)environment options:(T _Nullable)options __attribute__((swift_name("init(environment:options:)"))) __attribute__((objc_designated_initializer));
-- (MSDKMoonPayEnvironmentWithOptions<T> *)doCopyEnvironment:(MSDKMoonPayCoreSdkEnvironment *)environment options:(T _Nullable)options __attribute__((swift_name("doCopy(environment:options:)")));
+@interface MPSMoonPayEnvironmentWithOptions<T> : MPSBase
+- (instancetype)initWithEnvironment:(MPSMoonPaySdkEnvironment *)environment options:(T _Nullable)options __attribute__((swift_name("init(environment:options:)"))) __attribute__((objc_designated_initializer));
+- (MPSMoonPayEnvironmentWithOptions<T> *)doCopyEnvironment:(MPSMoonPaySdkEnvironment *)environment options:(T _Nullable)options __attribute__((swift_name("doCopy(environment:options:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) MSDKMoonPayCoreSdkEnvironment *environment __attribute__((swift_name("environment")));
+@property (readonly) MPSMoonPaySdkEnvironment *environment __attribute__((swift_name("environment")));
 @property (readonly) T _Nullable options __attribute__((swift_name("options")));
 @end
 
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonPayHandler")))
-@interface MSDKMoonPayHandler : MSDKBase
-- (instancetype)initWithActionHandler:(MSDKMoonpayResolvePayload *(^)(NSDictionary<NSString *, id> *))actionHandler __attribute__((swift_name("init(actionHandler:)"))) __attribute__((objc_designated_initializer));
-@property (readonly) MSDKMoonpayResolvePayload *(^handle)(NSDictionary<NSString *, id> *) __attribute__((swift_name("handle")));
+__attribute__((swift_name("MoonPaySwapsCustomerSetupHandlers")))
+@interface MPSMoonPaySwapsCustomerSetupHandlers : MPSBase
+- (instancetype)initWithOnAuthToken:(void (^ _Nullable)(MPSOnAuthTokenRequestPayload *))onAuthToken onSwapsCustomerSetupComplete:(void (^ _Nullable)(void))onSwapsCustomerSetupComplete __attribute__((swift_name("init(onAuthToken:onSwapsCustomerSetupComplete:)"))) __attribute__((objc_designated_initializer));
+@property MPSMoonPayHandlerTypeOnAuthToken *onAuthToken __attribute__((swift_name("onAuthToken")));
+@property MPSMoonPayHandlerTypeOnSwapsCustomerSetupComplete *onSwapsCustomerSetupComplete __attribute__((swift_name("onSwapsCustomerSetupComplete")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonPayLogger")))
-@interface MSDKMoonPayLogger : MSDKBase <MSDKLoggerLikeInstance>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)errorData:(MSDKKotlinArray<id> *)data __attribute__((swift_name("error(data:)")));
-- (void)infoData:(MSDKKotlinArray<id> *)data __attribute__((swift_name("info(data:)")));
-- (void)warnData:(MSDKKotlinArray<id> *)data __attribute__((swift_name("warn(data:)")));
+__attribute__((swift_name("MoonPayHandlers")))
+@interface MPSMoonPayHandlers : MPSMoonPaySwapsCustomerSetupHandlers
+- (instancetype)initWithOnAuthToken:(void (^ _Nullable)(MPSOnAuthTokenRequestPayload *))onAuthToken onSwapsCustomerSetupComplete:(void (^ _Nullable)(void))onSwapsCustomerSetupComplete onUnsupportedRegion:(void (^ _Nullable)(void))onUnsupportedRegion onKmsWalletCreated:(void (^ _Nullable)(void))onKmsWalletCreated onLogin:(void (^ _Nullable)(MPSOnLoginRequestPayload *))onLogin onInitiateDeposit:(MPSOnInitiateDepositResponsePayload *(^ _Nullable)(MPSOnInitiateDepositRequestPayload *))onInitiateDeposit __attribute__((swift_name("init(onAuthToken:onSwapsCustomerSetupComplete:onUnsupportedRegion:onKmsWalletCreated:onLogin:onInitiateDeposit:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithOnAuthToken:(void (^ _Nullable)(MPSOnAuthTokenRequestPayload *))onAuthToken onSwapsCustomerSetupComplete:(void (^ _Nullable)(void))onSwapsCustomerSetupComplete __attribute__((swift_name("init(onAuthToken:onSwapsCustomerSetupComplete:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (readonly) MPSMoonPayHandlerTypeOnInitiateDeposit *onInitiateDeposit __attribute__((swift_name("onInitiateDeposit")));
+@property (readonly) MPSMoonPayHandlerTypeOnKmsWalletCreated *onKmsWalletCreated __attribute__((swift_name("onKmsWalletCreated")));
+@property (readonly) MPSMoonPayHandlerTypeOnLogin *onLogin __attribute__((swift_name("onLogin")));
+@property (readonly) MPSMoonPayHandlerTypeOnUnsupportedRegion *onUnsupportedRegion __attribute__((swift_name("onUnsupportedRegion")));
 @end
 
-__attribute__((swift_name("MoonPayRenderingOption")))
-@interface MSDKMoonPayRenderingOption : MSDKBase
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((swift_name("MoonPayMessage")))
+@interface MPSMoonPayMessage : MPSBase
+@property (class, readonly, getter=companion) MPSMoonPayMessageCompanion *companion __attribute__((swift_name("companion")));
+@property (readonly) NSString *appName __attribute__((swift_name("appName")));
+@property (readonly) NSString *correlationId __attribute__((swift_name("correlationId")));
+@property (readonly) BOOL moonpaySdk __attribute__((swift_name("moonpaySdk")));
+@property (readonly) MPSMoonPayMessageType * _Nullable type __attribute__((swift_name("type")));
+@property (readonly) float version __attribute__((swift_name("version")));
 @end
 
-__attribute__((swift_name("MoonPayRenderingOptionAndroid")))
-@interface MSDKMoonPayRenderingOptionAndroid : MSDKMoonPayRenderingOption
-@end
 
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonPayRenderingOptionAndroid.ChromeCustomTabs")))
-@interface MSDKMoonPayRenderingOptionAndroidChromeCustomTabs : MSDKMoonPayRenderingOptionAndroid
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)chromeCustomTabs __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKMoonPayRenderingOptionAndroidChromeCustomTabs *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonPayRenderingOptionAndroid.FullBrowser")))
-@interface MSDKMoonPayRenderingOptionAndroidFullBrowser : MSDKMoonPayRenderingOptionAndroid
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)fullBrowser __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKMoonPayRenderingOptionAndroidFullBrowser *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonPayRenderingOptionAndroid.TrustedActivity")))
-@interface MSDKMoonPayRenderingOptionAndroidTrustedActivity : MSDKMoonPayRenderingOptionAndroid
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)trustedActivity __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKMoonPayRenderingOptionAndroidTrustedActivity *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonPayRenderingOptionAndroid.WebViewBottomSheet")))
-@interface MSDKMoonPayRenderingOptionAndroidWebViewBottomSheet : MSDKMoonPayRenderingOptionAndroid
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)webViewBottomSheet __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKMoonPayRenderingOptionAndroidWebViewBottomSheet *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonPayRenderingOptionAndroid.WebViewDrawer")))
-@interface MSDKMoonPayRenderingOptionAndroidWebViewDrawer : MSDKMoonPayRenderingOptionAndroid
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)webViewDrawer __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKMoonPayRenderingOptionAndroidWebViewDrawer *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonPayRenderingOptionAndroid.WebViewOverlay")))
-@interface MSDKMoonPayRenderingOptionAndroidWebViewOverlay : MSDKMoonPayRenderingOptionAndroid
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)webViewOverlay __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKMoonPayRenderingOptionAndroidWebViewOverlay *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((swift_name("MoonPayRenderingOptioniOS")))
-@interface MSDKMoonPayRenderingOptioniOS : MSDKMoonPayRenderingOption
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonPayRenderingOptioniOS.FullBrowser")))
-@interface MSDKMoonPayRenderingOptioniOSFullBrowser : MSDKMoonPayRenderingOptioniOS
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)fullBrowser __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKMoonPayRenderingOptioniOSFullBrowser *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonPayRenderingOptioniOS.SafariOverlay")))
-@interface MSDKMoonPayRenderingOptioniOSSafariOverlay : MSDKMoonPayRenderingOptioniOS
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)safariOverlay __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKMoonPayRenderingOptioniOSSafariOverlay *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonPayRenderingOptioniOS.WebViewBottomSheet")))
-@interface MSDKMoonPayRenderingOptioniOSWebViewBottomSheet : MSDKMoonPayRenderingOptioniOS
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)webViewBottomSheet __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKMoonPayRenderingOptioniOSWebViewBottomSheet *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonPayRenderingOptioniOS.WebViewOverlay")))
-@interface MSDKMoonPayRenderingOptioniOSWebViewOverlay : MSDKMoonPayRenderingOptioniOS
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)webViewOverlay __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKMoonPayRenderingOptioniOSWebViewOverlay *shared __attribute__((swift_name("shared")));
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((swift_name("MoonPayRequestMessageType")))
+@interface MPSMoonPayRequestMessageType : MPSMoonPayMessage
+@property (class, readonly, getter=companion) MPSMoonPayRequestMessageTypeCompanion *companion __attribute__((swift_name("companion")));
 @end
 
 
@@ -826,58 +608,30 @@ __attribute__((swift_name("MoonPayRenderingOptioniOS.WebViewOverlay")))
  *   kotlinx.serialization.Serializable
 */
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonPaySdkPlatform")))
-@interface MSDKMoonPaySdkPlatform : MSDKKotlinEnum<MSDKMoonPaySdkPlatform *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly, getter=companion) MSDKMoonPaySdkPlatformCompanion *companion __attribute__((swift_name("companion")));
-@property (class, readonly) MSDKMoonPaySdkPlatform *android __attribute__((swift_name("android")));
-@property (class, readonly) MSDKMoonPaySdkPlatform *ios __attribute__((swift_name("ios")));
-+ (MSDKKotlinArray<MSDKMoonPaySdkPlatform *> *)values __attribute__((swift_name("values()")));
+__attribute__((swift_name("MoonPayHandshakeRequestMessage")))
+@interface MPSMoonPayHandshakeRequestMessage : MPSMoonPayRequestMessageType
+- (instancetype)initWithType:(MPSMoonPayMessageType * _Nullable)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version payload:(MPSMoonPayHandshakeRequestPayload *)payload __attribute__((swift_name("init(type:appName:correlationId:moonpaySdk:version:payload:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) MPSMoonPayHandshakeRequestMessageCompanion *companion __attribute__((swift_name("companion")));
+- (MPSMoonPayHandshakeRequestMessage *)doCopyType:(MPSMoonPayMessageType * _Nullable)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version payload:(MPSMoonPayHandshakeRequestPayload *)payload __attribute__((swift_name("doCopy(type:appName:correlationId:moonpaySdk:version:payload:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *appName __attribute__((swift_name("appName")));
+@property (readonly) NSString *correlationId __attribute__((swift_name("correlationId")));
+@property (readonly) BOOL moonpaySdk __attribute__((swift_name("moonpaySdk")));
+@property (readonly) MPSMoonPayHandshakeRequestPayload *payload __attribute__((swift_name("payload")));
+@property (readonly) MPSMoonPayMessageType * _Nullable type __attribute__((swift_name("type")));
+@property (readonly) float version __attribute__((swift_name("version")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonPaySdkPlatform.Companion")))
-@interface MSDKMoonPaySdkPlatformCompanion : MSDKBase
+__attribute__((swift_name("MoonPayHandshakeRequestMessage.Companion")))
+@interface MPSMoonPayHandshakeRequestMessageCompanion : MPSBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKMoonPaySdkPlatformCompanion *shared __attribute__((swift_name("shared")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializerTypeParamsSerializers:(MSDKKotlinArray<id<MSDKKotlinx_serialization_coreKSerializer>> *)typeParamsSerializers __attribute__((swift_name("serializer(typeParamsSerializers:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonPayiOSSdk")))
-@interface MSDKMoonPayiOSSdk : MSDKMoonPayCoreSdk
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)close __attribute__((swift_name("close()")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (MSDKMoonPayConfigWithOptions<id> *)getConfigOptions:(id _Nullable)options __attribute__((swift_name("getConfig(options:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (MSDKMoonPayEnvironmentWithOptions<id> *)getSdkEnvironmentConfig:(MSDKMoonPayCoreSdkConfig *)config options:(id _Nullable)options __attribute__((swift_name("getSdkEnvironment(config:options:)")));
-- (void)doInitConfig:(MSDKMoonPayCoreSdkConfig *)config __attribute__((swift_name("doInit(config:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)registerPostMessageHandlers __attribute__((swift_name("registerPostMessageHandlers()")));
-- (void)showMode:(MSDKMoonPayRenderingOptioniOS *)mode __attribute__((swift_name("show(mode:)")));
-@end
-
-__attribute__((swift_name("MoonpayCallbackInterface")))
-@protocol MSDKMoonpayCallbackInterface
-@required
-- (void)hasLoadedWeb __attribute__((swift_name("hasLoadedWeb()")));
-- (void)receivedMessageMessage:(id)message __attribute__((swift_name("receivedMessage(message:)")));
+@property (class, readonly, getter=shared) MPSMoonPayHandshakeRequestMessageCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 
@@ -885,91 +639,122 @@ __attribute__((swift_name("MoonpayCallbackInterface")))
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
-__attribute__((swift_name("MoonpayMessage")))
-@interface MSDKMoonpayMessage : MSDKBase
-@property (class, readonly, getter=companion) MSDKMoonpayMessageCompanion *companion __attribute__((swift_name("companion")));
-@property (readonly) NSString *appName __attribute__((swift_name("appName")));
-@property (readonly) NSString *correlationId __attribute__((swift_name("correlationId")));
-@property (readonly) BOOL moonpaySdk __attribute__((swift_name("moonpaySdk")));
-@property (readonly) MSDKMoonpayMessageType *type __attribute__((swift_name("type")));
-@property (readonly) float version __attribute__((swift_name("version")));
+__attribute__((swift_name("MoonPayPayload")))
+@interface MPSMoonPayPayload : MPSBase
+@property (class, readonly, getter=companion) MPSMoonPayPayloadCompanion *companion __attribute__((swift_name("companion")));
 @end
 
-__attribute__((swift_name("MoonpayRequestMessageType")))
-@interface MSDKMoonpayRequestMessageType : MSDKMoonpayMessage
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((swift_name("MoonPayRequestPayload")))
+@interface MPSMoonPayRequestPayload : MPSMoonPayPayload
+@property (class, readonly, getter=companion) MPSMoonPayRequestPayloadCompanion *companion __attribute__((swift_name("companion")));
 @end
 
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonpayHandshakeRequestMessage")))
-@interface MSDKMoonpayHandshakeRequestMessage : MSDKMoonpayRequestMessageType
-- (instancetype)initWithAppName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version payload:(MSDKMoonpayHandshakeRequestPayload *)payload __attribute__((swift_name("init(appName:correlationId:moonpaySdk:version:payload:)"))) __attribute__((objc_designated_initializer));
-- (MSDKMoonpayHandshakeRequestMessage *)doCopyAppName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version payload:(MSDKMoonpayHandshakeRequestPayload *)payload __attribute__((swift_name("doCopy(appName:correlationId:moonpaySdk:version:payload:)")));
+__attribute__((swift_name("MoonPayHandshakeRequestPayload")))
+@interface MPSMoonPayHandshakeRequestPayload : MPSMoonPayRequestPayload
+- (instancetype)initWithSupportedVersions:(NSArray<MPSFloat *> *)supportedVersions supportedAppVersions:(NSArray<MPSFloat *> *)supportedAppVersions __attribute__((swift_name("init(supportedVersions:supportedAppVersions:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) MPSMoonPayHandshakeRequestPayloadCompanion *companion __attribute__((swift_name("companion")));
+- (MPSMoonPayHandshakeRequestPayload *)doCopySupportedVersions:(NSArray<MPSFloat *> *)supportedVersions supportedAppVersions:(NSArray<MPSFloat *> *)supportedAppVersions __attribute__((swift_name("doCopy(supportedVersions:supportedAppVersions:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *action __attribute__((swift_name("action")));
-@property (readonly) NSString *appName __attribute__((swift_name("appName")));
-@property (readonly) NSString *correlationId __attribute__((swift_name("correlationId")));
-@property (readonly) BOOL moonpaySdk __attribute__((swift_name("moonpaySdk")));
-@property (readonly) MSDKMoonpayHandshakeRequestPayload *payload __attribute__((swift_name("payload")));
-@property (readonly) MSDKMoonpayMessageType *type __attribute__((swift_name("type")));
-@property (readonly) float version __attribute__((swift_name("version")));
-@end
-
-__attribute__((swift_name("MoonpayPayload")))
-@interface MSDKMoonpayPayload : MSDKBase
-- (NSDictionary<NSString *, id> *)toMap __attribute__((swift_name("toMap()")));
-@end
-
-__attribute__((swift_name("MoonpayRequestPayloadType")))
-@interface MSDKMoonpayRequestPayloadType : MSDKMoonpayPayload
+@property (readonly) NSArray<MPSFloat *> *supportedAppVersions __attribute__((swift_name("supportedAppVersions")));
+@property (readonly) NSArray<MPSFloat *> *supportedVersions __attribute__((swift_name("supportedVersions")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonpayHandshakeRequestPayload")))
-@interface MSDKMoonpayHandshakeRequestPayload : MSDKMoonpayRequestPayloadType
-- (instancetype)initWithSupportedVersions:(NSArray<MSDKFloat *> *)supportedVersions supportedAppVersions:(NSArray<MSDKFloat *> *)supportedAppVersions __attribute__((swift_name("init(supportedVersions:supportedAppVersions:)"))) __attribute__((objc_designated_initializer));
-- (MSDKMoonpayHandshakeRequestPayload *)doCopySupportedVersions:(NSArray<MSDKFloat *> *)supportedVersions supportedAppVersions:(NSArray<MSDKFloat *> *)supportedAppVersions __attribute__((swift_name("doCopy(supportedVersions:supportedAppVersions:)")));
+__attribute__((swift_name("MoonPayHandshakeRequestPayload.Companion")))
+@interface MPSMoonPayHandshakeRequestPayloadCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayHandshakeRequestPayloadCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((swift_name("MoonPayResponseMessage")))
+@interface MPSMoonPayResponseMessage : MPSMoonPayMessage
+@property (class, readonly, getter=companion) MPSMoonPayResponseMessageCompanion *companion __attribute__((swift_name("companion")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((swift_name("MoonPayResolveMessageType")))
+@interface MPSMoonPayResolveMessageType : MPSMoonPayResponseMessage
+@property (class, readonly, getter=companion) MPSMoonPayResolveMessageTypeCompanion *companion __attribute__((swift_name("companion")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayHandshakeResolveMessage")))
+@interface MPSMoonPayHandshakeResolveMessage : MPSMoonPayResolveMessageType
+- (instancetype)initWithType:(MPSMoonPayMessageType * _Nullable)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version payload:(MPSMoonPayHandshakeResolvePayload *)payload __attribute__((swift_name("init(type:appName:correlationId:moonpaySdk:version:payload:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) MPSMoonPayHandshakeResolveMessageCompanion *companion __attribute__((swift_name("companion")));
+- (MPSMoonPayHandshakeResolveMessage *)doCopyType:(MPSMoonPayMessageType * _Nullable)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version payload:(MPSMoonPayHandshakeResolvePayload *)payload __attribute__((swift_name("doCopy(type:appName:correlationId:moonpaySdk:version:payload:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSArray<MSDKFloat *> *supportedAppVersions __attribute__((swift_name("supportedAppVersions")));
-@property (readonly) NSArray<MSDKFloat *> *supportedVersions __attribute__((swift_name("supportedVersions")));
-@end
-
-__attribute__((swift_name("MoonpayResponseMessage")))
-@interface MSDKMoonpayResponseMessage : MSDKMoonpayMessage
-@end
-
-__attribute__((swift_name("MoonpayResolveMessageType")))
-@interface MSDKMoonpayResolveMessageType : MSDKMoonpayResponseMessage
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonpayHandshakeResolveMessage")))
-@interface MSDKMoonpayHandshakeResolveMessage : MSDKMoonpayResolveMessageType
-- (instancetype)initWithAppName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version payload:(MSDKMoonpayHandshakeResolvePayload *)payload __attribute__((swift_name("init(appName:correlationId:moonpaySdk:version:payload:)"))) __attribute__((objc_designated_initializer));
-- (MSDKMoonpayHandshakeResolveMessage *)doCopyAppName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version payload:(MSDKMoonpayHandshakeResolvePayload *)payload __attribute__((swift_name("doCopy(appName:correlationId:moonpaySdk:version:payload:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString *appName __attribute__((swift_name("appName")));
 @property (readonly) NSString *correlationId __attribute__((swift_name("correlationId")));
 @property (readonly) BOOL moonpaySdk __attribute__((swift_name("moonpaySdk")));
-@property (readonly) MSDKMoonpayHandshakeResolvePayload *payload __attribute__((swift_name("payload")));
-@property (readonly) MSDKMoonpayMessageType *type __attribute__((swift_name("type")));
+@property (readonly) MPSMoonPayHandshakeResolvePayload *payload __attribute__((swift_name("payload")));
+@property (readonly) MPSMoonPayMessageType * _Nullable type __attribute__((swift_name("type")));
 @property (readonly) float version __attribute__((swift_name("version")));
 @end
 
-__attribute__((swift_name("MoonpayResolvePayloadType")))
-@interface MSDKMoonpayResolvePayloadType : MSDKMoonpayPayload
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayHandshakeResolveMessage.Companion")))
+@interface MPSMoonPayHandshakeResolveMessageCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayHandshakeResolveMessageCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((swift_name("MoonPayResolvePayload")))
+@interface MPSMoonPayResolvePayload : MPSMoonPayPayload
+@property (class, readonly, getter=companion) MPSMoonPayResolvePayloadCompanion *companion __attribute__((swift_name("companion")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonpayHandshakeResolvePayload")))
-@interface MSDKMoonpayHandshakeResolvePayload : MSDKMoonpayResolvePayloadType
+__attribute__((swift_name("MoonPayHandshakeResolvePayload")))
+@interface MPSMoonPayHandshakeResolvePayload : MPSMoonPayResolvePayload
 - (instancetype)initWithVersion:(float)version appVersion:(float)appVersion __attribute__((swift_name("init(version:appVersion:)"))) __attribute__((objc_designated_initializer));
-- (MSDKMoonpayHandshakeResolvePayload *)doCopyVersion:(float)version appVersion:(float)appVersion __attribute__((swift_name("doCopy(version:appVersion:)")));
+@property (class, readonly, getter=companion) MPSMoonPayHandshakeResolvePayloadCompanion *companion __attribute__((swift_name("companion")));
+- (MPSMoonPayHandshakeResolvePayload *)doCopyVersion:(float)version appVersion:(float)appVersion __attribute__((swift_name("doCopy(version:appVersion:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -978,478 +763,816 @@ __attribute__((swift_name("MoonpayHandshakeResolvePayload")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonpayMessage.Companion")))
-@interface MSDKMoonpayMessageCompanion : MSDKBase
+__attribute__((swift_name("MoonPayHandshakeResolvePayload.Companion")))
+@interface MPSMoonPayHandshakeResolvePayloadCompanion : MPSBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKMoonpayMessageCompanion *shared __attribute__((swift_name("shared")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializerTypeParamsSerializers:(MSDKKotlinArray<id<MSDKKotlinx_serialization_coreKSerializer>> *)typeParamsSerializers __attribute__((swift_name("serializer(typeParamsSerializers:)")));
+@property (class, readonly, getter=shared) MPSMoonPayHandshakeResolvePayloadCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
-__attribute__((swift_name("MoonpayMessageCallback")))
-@protocol MSDKMoonpayMessageCallback
-@required
-- (void)receivedMessageMessage_:(NSString *)message __attribute__((swift_name("receivedMessage(message_:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayLegacyQueryParams")))
+@interface MPSMoonPayLegacyQueryParams : MPSBase <MPSMoonPayQueryParams>
+- (instancetype)initWithUrl:(NSString *)url __attribute__((swift_name("init(url:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) MPSMoonPayLegacyQueryParamsCompanion *companion __attribute__((swift_name("companion")));
+- (MPSMoonPayLegacyQueryParams *)doCopyUrl:(NSString *)url __attribute__((swift_name("doCopy(url:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSDictionary<NSString *, NSString *> *)toMap __attribute__((swift_name("toMap()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *url __attribute__((swift_name("url")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonpayMessageType")))
-@interface MSDKMoonpayMessageType : MSDKKotlinEnum<MSDKMoonpayMessageType *>
+__attribute__((swift_name("MoonPayLegacyQueryParams.Companion")))
+@interface MPSMoonPayLegacyQueryParamsCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayLegacyQueryParamsCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayLogger")))
+@interface MPSMoonPayLogger : MPSBase <MPSLoggerLikeInstance>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)errorPrefix:(NSString *)prefix data:(MPSKotlinArray<id> *)data __attribute__((swift_name("error(prefix:data:)")));
+- (void)infoPrefix:(NSString *)prefix data:(MPSKotlinArray<id> *)data __attribute__((swift_name("info(prefix:data:)")));
+- (void)warnPrefix:(NSString *)prefix data:(MPSKotlinArray<id> *)data __attribute__((swift_name("warn(prefix:data:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayMessage.Companion")))
+@interface MPSMoonPayMessageCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayMessageCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializerTypeParamsSerializers:(MPSKotlinArray<id<MPSKotlinx_serialization_coreKSerializer>> *)typeParamsSerializers __attribute__((swift_name("serializer(typeParamsSerializers:)")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayMessageType")))
+@interface MPSMoonPayMessageType : MPSKotlinEnum<MPSMoonPayMessageType *>
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 - (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) MSDKMoonpayMessageType *request __attribute__((swift_name("request")));
-@property (class, readonly) MSDKMoonpayMessageType *resolve __attribute__((swift_name("resolve")));
-@property (class, readonly) MSDKMoonpayMessageType *reject __attribute__((swift_name("reject")));
-+ (MSDKKotlinArray<MSDKMoonpayMessageType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly, getter=companion) MPSMoonPayMessageTypeCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly) MPSMoonPayMessageType *request __attribute__((swift_name("request")));
+@property (class, readonly) MPSMoonPayMessageType *resolve __attribute__((swift_name("resolve")));
+@property (class, readonly) MPSMoonPayMessageType *reject __attribute__((swift_name("reject")));
++ (MPSKotlinArray<MPSMoonPayMessageType *> *)values __attribute__((swift_name("values()")));
 @property (readonly) NSString *value __attribute__((swift_name("value")));
 @end
 
-__attribute__((swift_name("MoonpayRejectMessageType")))
-@interface MSDKMoonpayRejectMessageType : MSDKMoonpayResponseMessage
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayMessageType.Companion")))
+@interface MPSMoonPayMessageTypeCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayMessageTypeCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializerTypeParamsSerializers:(MPSKotlinArray<id<MPSKotlinx_serialization_coreKSerializer>> *)typeParamsSerializers __attribute__((swift_name("serializer(typeParamsSerializers:)")));
 @end
 
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonpayRejectMessage")))
-@interface MSDKMoonpayRejectMessage : MSDKMoonpayRejectMessageType
-- (instancetype)initWithAppName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version payload:(MSDKMoonpayRejectPayload *)payload __attribute__((swift_name("init(appName:correlationId:moonpaySdk:version:payload:)"))) __attribute__((objc_designated_initializer));
-- (MSDKMoonpayRejectMessage *)doCopyAppName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version payload:(MSDKMoonpayRejectPayload *)payload __attribute__((swift_name("doCopy(appName:correlationId:moonpaySdk:version:payload:)")));
+__attribute__((swift_name("MoonPayOnAuthResolveMessage")))
+@interface MPSMoonPayOnAuthResolveMessage : MPSMoonPayResolveMessageType
+- (instancetype)initWithType:(MPSMoonPayMessageType *)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version __attribute__((swift_name("init(type:appName:correlationId:moonpaySdk:version:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) MPSMoonPayOnAuthResolveMessageCompanion *companion __attribute__((swift_name("companion")));
+- (MPSMoonPayOnAuthResolveMessage *)doCopyType:(MPSMoonPayMessageType *)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version __attribute__((swift_name("doCopy(type:appName:correlationId:moonpaySdk:version:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString *appName __attribute__((swift_name("appName")));
 @property (readonly) NSString *correlationId __attribute__((swift_name("correlationId")));
 @property (readonly) BOOL moonpaySdk __attribute__((swift_name("moonpaySdk")));
-@property (readonly) MSDKMoonpayRejectPayload *payload __attribute__((swift_name("payload")));
-@property (readonly) MSDKMoonpayMessageType *type __attribute__((swift_name("type")));
+@property (readonly) MPSMoonPayMessageType *type __attribute__((swift_name("type")));
 @property (readonly) float version __attribute__((swift_name("version")));
 @end
 
-__attribute__((swift_name("MoonpayRejectPayloadType")))
-@interface MSDKMoonpayRejectPayloadType : MSDKMoonpayPayload
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayOnAuthResolveMessage.Companion")))
+@interface MPSMoonPayOnAuthResolveMessageCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayOnAuthResolveMessageCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonpayRejectPayload")))
-@interface MSDKMoonpayRejectPayload : MSDKMoonpayRejectPayloadType
-- (instancetype)initWithMessage:(NSString *)message code:(MSDKMessagingErrorCode * _Nullable)code __attribute__((swift_name("init(message:code:)"))) __attribute__((objc_designated_initializer));
-- (MSDKMoonpayRejectPayload *)doCopyMessage:(NSString *)message code:(MSDKMessagingErrorCode * _Nullable)code __attribute__((swift_name("doCopy(message:code:)")));
+__attribute__((swift_name("MoonPayOnAuthTokenRequestMessage")))
+@interface MPSMoonPayOnAuthTokenRequestMessage : MPSMoonPayRequestMessageType
+- (instancetype)initWithType:(MPSMoonPayMessageType *)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version payload:(MPSOnAuthTokenRequestPayload *)payload __attribute__((swift_name("init(type:appName:correlationId:moonpaySdk:version:payload:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) MPSMoonPayOnAuthTokenRequestMessageCompanion *companion __attribute__((swift_name("companion")));
+- (MPSMoonPayOnAuthTokenRequestMessage *)doCopyType:(MPSMoonPayMessageType *)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version payload:(MPSOnAuthTokenRequestPayload *)payload __attribute__((swift_name("doCopy(type:appName:correlationId:moonpaySdk:version:payload:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) MSDKMessagingErrorCode * _Nullable code __attribute__((swift_name("code")));
+@property (readonly) NSString *appName __attribute__((swift_name("appName")));
+@property (readonly) NSString *correlationId __attribute__((swift_name("correlationId")));
+@property (readonly) BOOL moonpaySdk __attribute__((swift_name("moonpaySdk")));
+@property (readonly) MPSOnAuthTokenRequestPayload *payload __attribute__((swift_name("payload")));
+@property (readonly) MPSMoonPayMessageType *type __attribute__((swift_name("type")));
+@property (readonly) float version __attribute__((swift_name("version")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayOnAuthTokenRequestMessage.Companion")))
+@interface MPSMoonPayOnAuthTokenRequestMessageCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayOnAuthTokenRequestMessageCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayOnInitiateDepositRequestMessage")))
+@interface MPSMoonPayOnInitiateDepositRequestMessage : MPSMoonPayRequestMessageType
+- (instancetype)initWithType:(MPSMoonPayMessageType *)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version payload:(MPSOnInitiateDepositRequestPayload *)payload __attribute__((swift_name("init(type:appName:correlationId:moonpaySdk:version:payload:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) MPSMoonPayOnInitiateDepositRequestMessageCompanion *companion __attribute__((swift_name("companion")));
+- (MPSMoonPayOnInitiateDepositRequestMessage *)doCopyType:(MPSMoonPayMessageType *)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version payload:(MPSOnInitiateDepositRequestPayload *)payload __attribute__((swift_name("doCopy(type:appName:correlationId:moonpaySdk:version:payload:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *appName __attribute__((swift_name("appName")));
+@property (readonly) NSString *correlationId __attribute__((swift_name("correlationId")));
+@property (readonly) BOOL moonpaySdk __attribute__((swift_name("moonpaySdk")));
+@property (readonly) MPSOnInitiateDepositRequestPayload *payload __attribute__((swift_name("payload")));
+@property (readonly) MPSMoonPayMessageType *type __attribute__((swift_name("type")));
+@property (readonly) float version __attribute__((swift_name("version")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayOnInitiateDepositRequestMessage.Companion")))
+@interface MPSMoonPayOnInitiateDepositRequestMessageCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayOnInitiateDepositRequestMessageCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayOnInitiateDepositResolveMessage")))
+@interface MPSMoonPayOnInitiateDepositResolveMessage : MPSMoonPayResolveMessageType
+- (instancetype)initWithType:(MPSMoonPayMessageType *)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version payload:(MPSOnInitiateDepositResponsePayload *)payload __attribute__((swift_name("init(type:appName:correlationId:moonpaySdk:version:payload:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) MPSMoonPayOnInitiateDepositResolveMessageCompanion *companion __attribute__((swift_name("companion")));
+- (MPSMoonPayOnInitiateDepositResolveMessage *)doCopyType:(MPSMoonPayMessageType *)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version payload:(MPSOnInitiateDepositResponsePayload *)payload __attribute__((swift_name("doCopy(type:appName:correlationId:moonpaySdk:version:payload:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *appName __attribute__((swift_name("appName")));
+@property (readonly) NSString *correlationId __attribute__((swift_name("correlationId")));
+@property (readonly) BOOL moonpaySdk __attribute__((swift_name("moonpaySdk")));
+@property (readonly) MPSOnInitiateDepositResponsePayload *payload __attribute__((swift_name("payload")));
+@property (readonly) MPSMoonPayMessageType *type __attribute__((swift_name("type")));
+@property (readonly) float version __attribute__((swift_name("version")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayOnInitiateDepositResolveMessage.Companion")))
+@interface MPSMoonPayOnInitiateDepositResolveMessageCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayOnInitiateDepositResolveMessageCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayOnKmsWalletCreatedRequestMessage")))
+@interface MPSMoonPayOnKmsWalletCreatedRequestMessage : MPSMoonPayRequestMessageType
+- (instancetype)initWithType:(MPSMoonPayMessageType *)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version __attribute__((swift_name("init(type:appName:correlationId:moonpaySdk:version:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) MPSMoonPayOnKmsWalletCreatedRequestMessageCompanion *companion __attribute__((swift_name("companion")));
+- (MPSMoonPayOnKmsWalletCreatedRequestMessage *)doCopyType:(MPSMoonPayMessageType *)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version __attribute__((swift_name("doCopy(type:appName:correlationId:moonpaySdk:version:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *appName __attribute__((swift_name("appName")));
+@property (readonly) NSString *correlationId __attribute__((swift_name("correlationId")));
+@property (readonly) BOOL moonpaySdk __attribute__((swift_name("moonpaySdk")));
+@property (readonly) MPSMoonPayMessageType *type __attribute__((swift_name("type")));
+@property (readonly) float version __attribute__((swift_name("version")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayOnKmsWalletCreatedRequestMessage.Companion")))
+@interface MPSMoonPayOnKmsWalletCreatedRequestMessageCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayOnKmsWalletCreatedRequestMessageCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayOnKmsWalletCreatedResolveMessage")))
+@interface MPSMoonPayOnKmsWalletCreatedResolveMessage : MPSMoonPayResolveMessageType
+- (instancetype)initWithType:(MPSMoonPayMessageType *)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version __attribute__((swift_name("init(type:appName:correlationId:moonpaySdk:version:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) MPSMoonPayOnKmsWalletCreatedResolveMessageCompanion *companion __attribute__((swift_name("companion")));
+- (MPSMoonPayOnKmsWalletCreatedResolveMessage *)doCopyType:(MPSMoonPayMessageType *)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version __attribute__((swift_name("doCopy(type:appName:correlationId:moonpaySdk:version:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *appName __attribute__((swift_name("appName")));
+@property (readonly) NSString *correlationId __attribute__((swift_name("correlationId")));
+@property (readonly) BOOL moonpaySdk __attribute__((swift_name("moonpaySdk")));
+@property (readonly) MPSMoonPayMessageType *type __attribute__((swift_name("type")));
+@property (readonly) float version __attribute__((swift_name("version")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayOnKmsWalletCreatedResolveMessage.Companion")))
+@interface MPSMoonPayOnKmsWalletCreatedResolveMessageCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayOnKmsWalletCreatedResolveMessageCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayOnLoginRequestMessage")))
+@interface MPSMoonPayOnLoginRequestMessage : MPSMoonPayRequestMessageType
+- (instancetype)initWithType:(MPSMoonPayMessageType *)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version payload:(MPSOnLoginRequestPayload *)payload __attribute__((swift_name("init(type:appName:correlationId:moonpaySdk:version:payload:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) MPSMoonPayOnLoginRequestMessageCompanion *companion __attribute__((swift_name("companion")));
+- (MPSMoonPayOnLoginRequestMessage *)doCopyType:(MPSMoonPayMessageType *)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version payload:(MPSOnLoginRequestPayload *)payload __attribute__((swift_name("doCopy(type:appName:correlationId:moonpaySdk:version:payload:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *appName __attribute__((swift_name("appName")));
+@property (readonly) NSString *correlationId __attribute__((swift_name("correlationId")));
+@property (readonly) BOOL moonpaySdk __attribute__((swift_name("moonpaySdk")));
+@property (readonly) MPSOnLoginRequestPayload *payload __attribute__((swift_name("payload")));
+@property (readonly) MPSMoonPayMessageType *type __attribute__((swift_name("type")));
+@property (readonly) float version __attribute__((swift_name("version")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayOnLoginRequestMessage.Companion")))
+@interface MPSMoonPayOnLoginRequestMessageCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayOnLoginRequestMessageCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayOnLoginResolveMessage")))
+@interface MPSMoonPayOnLoginResolveMessage : MPSMoonPayResolveMessageType
+- (instancetype)initWithType:(MPSMoonPayMessageType *)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version __attribute__((swift_name("init(type:appName:correlationId:moonpaySdk:version:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) MPSMoonPayOnLoginResolveMessageCompanion *companion __attribute__((swift_name("companion")));
+- (MPSMoonPayOnLoginResolveMessage *)doCopyType:(MPSMoonPayMessageType *)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version __attribute__((swift_name("doCopy(type:appName:correlationId:moonpaySdk:version:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *appName __attribute__((swift_name("appName")));
+@property (readonly) NSString *correlationId __attribute__((swift_name("correlationId")));
+@property (readonly) BOOL moonpaySdk __attribute__((swift_name("moonpaySdk")));
+@property (readonly) MPSMoonPayMessageType *type __attribute__((swift_name("type")));
+@property (readonly) float version __attribute__((swift_name("version")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayOnLoginResolveMessage.Companion")))
+@interface MPSMoonPayOnLoginResolveMessageCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayOnLoginResolveMessageCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayOnSwapsCustomerSetupCompleteRequestMessage")))
+@interface MPSMoonPayOnSwapsCustomerSetupCompleteRequestMessage : MPSMoonPayRequestMessageType
+- (instancetype)initWithType:(MPSMoonPayMessageType *)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version __attribute__((swift_name("init(type:appName:correlationId:moonpaySdk:version:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) MPSMoonPayOnSwapsCustomerSetupCompleteRequestMessageCompanion *companion __attribute__((swift_name("companion")));
+- (MPSMoonPayOnSwapsCustomerSetupCompleteRequestMessage *)doCopyType:(MPSMoonPayMessageType *)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version __attribute__((swift_name("doCopy(type:appName:correlationId:moonpaySdk:version:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *appName __attribute__((swift_name("appName")));
+@property (readonly) NSString *correlationId __attribute__((swift_name("correlationId")));
+@property (readonly) BOOL moonpaySdk __attribute__((swift_name("moonpaySdk")));
+@property (readonly) MPSMoonPayMessageType *type __attribute__((swift_name("type")));
+@property (readonly) float version __attribute__((swift_name("version")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayOnSwapsCustomerSetupCompleteRequestMessage.Companion")))
+@interface MPSMoonPayOnSwapsCustomerSetupCompleteRequestMessageCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayOnSwapsCustomerSetupCompleteRequestMessageCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayOnSwapsCustomerSetupCompleteResolveMessage")))
+@interface MPSMoonPayOnSwapsCustomerSetupCompleteResolveMessage : MPSMoonPayResolveMessageType
+- (instancetype)initWithType:(MPSMoonPayMessageType *)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version __attribute__((swift_name("init(type:appName:correlationId:moonpaySdk:version:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) MPSMoonPayOnSwapsCustomerSetupCompleteResolveMessageCompanion *companion __attribute__((swift_name("companion")));
+- (MPSMoonPayOnSwapsCustomerSetupCompleteResolveMessage *)doCopyType:(MPSMoonPayMessageType *)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version __attribute__((swift_name("doCopy(type:appName:correlationId:moonpaySdk:version:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *appName __attribute__((swift_name("appName")));
+@property (readonly) NSString *correlationId __attribute__((swift_name("correlationId")));
+@property (readonly) BOOL moonpaySdk __attribute__((swift_name("moonpaySdk")));
+@property (readonly) MPSMoonPayMessageType *type __attribute__((swift_name("type")));
+@property (readonly) float version __attribute__((swift_name("version")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayOnSwapsCustomerSetupCompleteResolveMessage.Companion")))
+@interface MPSMoonPayOnSwapsCustomerSetupCompleteResolveMessageCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayOnSwapsCustomerSetupCompleteResolveMessageCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayOnUnsupportedRegionRequestMessage")))
+@interface MPSMoonPayOnUnsupportedRegionRequestMessage : MPSMoonPayRequestMessageType
+- (instancetype)initWithType:(MPSMoonPayMessageType *)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version __attribute__((swift_name("init(type:appName:correlationId:moonpaySdk:version:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) MPSMoonPayOnUnsupportedRegionRequestMessageCompanion *companion __attribute__((swift_name("companion")));
+- (MPSMoonPayOnUnsupportedRegionRequestMessage *)doCopyType:(MPSMoonPayMessageType *)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version __attribute__((swift_name("doCopy(type:appName:correlationId:moonpaySdk:version:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *appName __attribute__((swift_name("appName")));
+@property (readonly) NSString *correlationId __attribute__((swift_name("correlationId")));
+@property (readonly) BOOL moonpaySdk __attribute__((swift_name("moonpaySdk")));
+@property (readonly) MPSMoonPayMessageType *type __attribute__((swift_name("type")));
+@property (readonly) float version __attribute__((swift_name("version")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayOnUnsupportedRegionRequestMessage.Companion")))
+@interface MPSMoonPayOnUnsupportedRegionRequestMessageCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayOnUnsupportedRegionRequestMessageCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayOnUnsupportedRegionResolveMessage")))
+@interface MPSMoonPayOnUnsupportedRegionResolveMessage : MPSMoonPayResolveMessageType
+- (instancetype)initWithType:(MPSMoonPayMessageType *)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version __attribute__((swift_name("init(type:appName:correlationId:moonpaySdk:version:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) MPSMoonPayOnUnsupportedRegionResolveMessageCompanion *companion __attribute__((swift_name("companion")));
+- (MPSMoonPayOnUnsupportedRegionResolveMessage *)doCopyType:(MPSMoonPayMessageType *)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version __attribute__((swift_name("doCopy(type:appName:correlationId:moonpaySdk:version:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *appName __attribute__((swift_name("appName")));
+@property (readonly) NSString *correlationId __attribute__((swift_name("correlationId")));
+@property (readonly) BOOL moonpaySdk __attribute__((swift_name("moonpaySdk")));
+@property (readonly) MPSMoonPayMessageType *type __attribute__((swift_name("type")));
+@property (readonly) float version __attribute__((swift_name("version")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayOnUnsupportedRegionResolveMessage.Companion")))
+@interface MPSMoonPayOnUnsupportedRegionResolveMessageCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayOnUnsupportedRegionResolveMessageCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayPayload.Companion")))
+@interface MPSMoonPayPayloadCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayPayloadCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializerTypeParamsSerializers:(MPSKotlinArray<id<MPSKotlinx_serialization_coreKSerializer>> *)typeParamsSerializers __attribute__((swift_name("serializer(typeParamsSerializers:)")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((swift_name("MoonPayRejectMessageType")))
+@interface MPSMoonPayRejectMessageType : MPSMoonPayResponseMessage
+@property (class, readonly, getter=companion) MPSMoonPayRejectMessageTypeCompanion *companion __attribute__((swift_name("companion")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayRejectMessage")))
+@interface MPSMoonPayRejectMessage : MPSMoonPayRejectMessageType
+- (instancetype)initWithType:(MPSMoonPayMessageType *)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version payload:(MPSMoonPayRejectPayload *)payload __attribute__((swift_name("init(type:appName:correlationId:moonpaySdk:version:payload:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) MPSMoonPayRejectMessageCompanion *companion __attribute__((swift_name("companion")));
+- (MPSMoonPayRejectMessage *)doCopyType:(MPSMoonPayMessageType *)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version payload:(MPSMoonPayRejectPayload *)payload __attribute__((swift_name("doCopy(type:appName:correlationId:moonpaySdk:version:payload:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *appName __attribute__((swift_name("appName")));
+@property (readonly) NSString *correlationId __attribute__((swift_name("correlationId")));
+@property (readonly) BOOL moonpaySdk __attribute__((swift_name("moonpaySdk")));
+@property (readonly) MPSMoonPayRejectPayload *payload __attribute__((swift_name("payload")));
+@property (readonly) MPSMoonPayMessageType *type __attribute__((swift_name("type")));
+@property (readonly) float version __attribute__((swift_name("version")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayRejectMessage.Companion")))
+@interface MPSMoonPayRejectMessageCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayRejectMessageCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayRejectMessageType.Companion")))
+@interface MPSMoonPayRejectMessageTypeCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayRejectMessageTypeCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializerTypeParamsSerializers:(MPSKotlinArray<id<MPSKotlinx_serialization_coreKSerializer>> *)typeParamsSerializers __attribute__((swift_name("serializer(typeParamsSerializers:)")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayRejectPayload")))
+@interface MPSMoonPayRejectPayload : MPSMoonPayPayload
+- (instancetype)initWithMessage:(NSString *)message code:(MPSMessagingErrorCode * _Nullable)code __attribute__((swift_name("init(message:code:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) MPSMoonPayRejectPayloadCompanion *companion __attribute__((swift_name("companion")));
+- (MPSMoonPayRejectPayload *)doCopyMessage:(NSString *)message code:(MPSMessagingErrorCode * _Nullable)code __attribute__((swift_name("doCopy(message:code:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) MPSMessagingErrorCode * _Nullable code __attribute__((swift_name("code")));
 @property (readonly) NSString *message __attribute__((swift_name("message")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonpayRequestMessage")))
-@interface MSDKMoonpayRequestMessage : MSDKMoonpayRequestMessageType
-- (instancetype)initWithAppName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version action:(NSString *)action payload:(MSDKMoonpayRequestPayload *)payload __attribute__((swift_name("init(appName:correlationId:moonpaySdk:version:action:payload:)"))) __attribute__((objc_designated_initializer));
-- (MSDKMoonpayRequestMessage *)doCopyAppName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version action:(NSString *)action payload:(MSDKMoonpayRequestPayload *)payload __attribute__((swift_name("doCopy(appName:correlationId:moonpaySdk:version:action:payload:)")));
+__attribute__((swift_name("MoonPayRejectPayload.Companion")))
+@interface MPSMoonPayRejectPayloadCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayRejectPayloadCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+__attribute__((swift_name("MoonPayRenderingOption")))
+@interface MPSMoonPayRenderingOption : MPSBase
+@end
+
+__attribute__((swift_name("MoonPayRenderingOptionAndroid")))
+@interface MPSMoonPayRenderingOptionAndroid : MPSMoonPayRenderingOption
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayRenderingOptionAndroid.ChromeCustomTabs")))
+@interface MPSMoonPayRenderingOptionAndroidChromeCustomTabs : MPSMoonPayRenderingOptionAndroid
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)chromeCustomTabs __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayRenderingOptionAndroidChromeCustomTabs *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayRenderingOptionAndroid.FullBrowser")))
+@interface MPSMoonPayRenderingOptionAndroidFullBrowser : MPSMoonPayRenderingOptionAndroid
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)fullBrowser __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayRenderingOptionAndroidFullBrowser *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayRenderingOptionAndroid.TrustedActivity")))
+@interface MPSMoonPayRenderingOptionAndroidTrustedActivity : MPSMoonPayRenderingOptionAndroid
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)trustedActivity __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayRenderingOptionAndroidTrustedActivity *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayRenderingOptionAndroid.WebViewBottomSheet")))
+@interface MPSMoonPayRenderingOptionAndroidWebViewBottomSheet : MPSMoonPayRenderingOptionAndroid
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)webViewBottomSheet __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayRenderingOptionAndroidWebViewBottomSheet *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayRenderingOptionAndroid.WebViewDrawer")))
+@interface MPSMoonPayRenderingOptionAndroidWebViewDrawer : MPSMoonPayRenderingOptionAndroid
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)webViewDrawer __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayRenderingOptionAndroidWebViewDrawer *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayRenderingOptionAndroid.WebViewOverlay")))
+@interface MPSMoonPayRenderingOptionAndroidWebViewOverlay : MPSMoonPayRenderingOptionAndroid
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)webViewOverlay __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayRenderingOptionAndroidWebViewOverlay *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((swift_name("MoonPayRenderingOptioniOS")))
+@interface MPSMoonPayRenderingOptioniOS : MPSMoonPayRenderingOption
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayRenderingOptioniOS.InAppBrowser")))
+@interface MPSMoonPayRenderingOptioniOSInAppBrowser : MPSMoonPayRenderingOptioniOS
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)inAppBrowser __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayRenderingOptioniOSInAppBrowser *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayRenderingOptioniOS.WebViewOverlay")))
+@interface MPSMoonPayRenderingOptioniOSWebViewOverlay : MPSMoonPayRenderingOptioniOS
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)webViewOverlay __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayRenderingOptioniOSWebViewOverlay *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayRequestMessageType.Companion")))
+@interface MPSMoonPayRequestMessageTypeCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayRequestMessageTypeCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializerTypeParamsSerializers:(MPSKotlinArray<id<MPSKotlinx_serialization_coreKSerializer>> *)typeParamsSerializers __attribute__((swift_name("serializer(typeParamsSerializers:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayRequestPayload.Companion")))
+@interface MPSMoonPayRequestPayloadCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayRequestPayloadCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializerTypeParamsSerializers:(MPSKotlinArray<id<MPSKotlinx_serialization_coreKSerializer>> *)typeParamsSerializers __attribute__((swift_name("serializer(typeParamsSerializers:)")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayResolveMessage")))
+@interface MPSMoonPayResolveMessage : MPSMoonPayResolveMessageType
+- (instancetype)initWithType:(MPSMoonPayMessageType *)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version payload:(MPSMoonPayResolvePayload * _Nullable)payload __attribute__((swift_name("init(type:appName:correlationId:moonpaySdk:version:payload:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) MPSMoonPayResolveMessageCompanion *companion __attribute__((swift_name("companion")));
+- (MPSMoonPayResolveMessage *)doCopyType:(MPSMoonPayMessageType *)type appName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version payload:(MPSMoonPayResolvePayload * _Nullable)payload __attribute__((swift_name("doCopy(type:appName:correlationId:moonpaySdk:version:payload:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *action __attribute__((swift_name("action")));
 @property (readonly) NSString *appName __attribute__((swift_name("appName")));
 @property (readonly) NSString *correlationId __attribute__((swift_name("correlationId")));
 @property (readonly) BOOL moonpaySdk __attribute__((swift_name("moonpaySdk")));
-@property (readonly) MSDKMoonpayRequestPayload *payload __attribute__((swift_name("payload")));
-@property (readonly) MSDKMoonpayMessageType *type __attribute__((swift_name("type")));
+@property (readonly) MPSMoonPayResolvePayload * _Nullable payload __attribute__((swift_name("payload")));
+@property (readonly) MPSMoonPayMessageType *type __attribute__((swift_name("type")));
 @property (readonly) float version __attribute__((swift_name("version")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonpayRequestPayload")))
-@interface MSDKMoonpayRequestPayload : MSDKMoonpayRequestPayloadType
-- (instancetype)initWithData:(NSDictionary<NSString *, id> *)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
-- (MSDKMoonpayRequestPayload *)doCopyData:(NSDictionary<NSString *, id> *)data __attribute__((swift_name("doCopy(data:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (void)doInitData:(NSDictionary<NSString *, id> *)data __attribute__((swift_name("doInit(data:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property NSDictionary<NSString *, id> *data __attribute__((swift_name("data")));
+__attribute__((swift_name("MoonPayResolveMessage.Companion")))
+@interface MPSMoonPayResolveMessageCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayResolveMessageCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonpayResolveMessage")))
-@interface MSDKMoonpayResolveMessage : MSDKMoonpayResolveMessageType
-- (instancetype)initWithAppName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version payload:(MSDKMoonpayResolvePayload *)payload __attribute__((swift_name("init(appName:correlationId:moonpaySdk:version:payload:)"))) __attribute__((objc_designated_initializer));
-- (MSDKMoonpayResolveMessage *)doCopyAppName:(NSString *)appName correlationId:(NSString *)correlationId moonpaySdk:(BOOL)moonpaySdk version:(float)version payload:(MSDKMoonpayResolvePayload *)payload __attribute__((swift_name("doCopy(appName:correlationId:moonpaySdk:version:payload:)")));
+__attribute__((swift_name("MoonPayResolveMessageType.Companion")))
+@interface MPSMoonPayResolveMessageTypeCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayResolveMessageTypeCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializerTypeParamsSerializers:(MPSKotlinArray<id<MPSKotlinx_serialization_coreKSerializer>> *)typeParamsSerializers __attribute__((swift_name("serializer(typeParamsSerializers:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayResolvePayload.Companion")))
+@interface MPSMoonPayResolvePayloadCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayResolvePayloadCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializerTypeParamsSerializers:(MPSKotlinArray<id<MPSKotlinx_serialization_coreKSerializer>> *)typeParamsSerializers __attribute__((swift_name("serializer(typeParamsSerializers:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayResponseMessage.Companion")))
+@interface MPSMoonPayResponseMessageCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayResponseMessageCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializerTypeParamsSerializers:(MPSKotlinArray<id<MPSKotlinx_serialization_coreKSerializer>> *)typeParamsSerializers __attribute__((swift_name("serializer(typeParamsSerializers:)")));
+@end
+
+__attribute__((swift_name("MoonPaySdkConfig")))
+@interface MPSMoonPaySdkConfig : MPSBase
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPaySdkBuyConfig")))
+@interface MPSMoonPaySdkBuyConfig : MPSMoonPaySdkConfig
+- (instancetype)initWithDebug:(MPSBoolean * _Nullable)debug environment:(MPSMoonPayWidgetEnvironment *)environment params:(MPSMoonPayBuyQueryParams *)params handlers:(MPSMoonPayHandlers * _Nullable)handlers __attribute__((swift_name("init(debug:environment:params:handlers:)"))) __attribute__((objc_designated_initializer));
+- (MPSMoonPaySdkBuyConfig *)doCopyDebug:(MPSBoolean * _Nullable)debug environment:(MPSMoonPayWidgetEnvironment *)environment params:(MPSMoonPayBuyQueryParams *)params handlers:(MPSMoonPayHandlers * _Nullable)handlers __attribute__((swift_name("doCopy(debug:environment:params:handlers:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *appName __attribute__((swift_name("appName")));
-@property (readonly) NSString *correlationId __attribute__((swift_name("correlationId")));
-@property (readonly) BOOL moonpaySdk __attribute__((swift_name("moonpaySdk")));
-@property (readonly) MSDKMoonpayResolvePayload *payload __attribute__((swift_name("payload")));
-@property (readonly) MSDKMoonpayMessageType *type __attribute__((swift_name("type")));
+@property MPSBoolean * _Nullable debug __attribute__((swift_name("debug")));
+@property MPSMoonPayWidgetEnvironment *environment __attribute__((swift_name("environment")));
+@property MPSMoonPayHandlers * _Nullable handlers __attribute__((swift_name("handlers")));
+@property MPSMoonPayBuyQueryParams *params __attribute__((swift_name("params")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPaySdkEnvironment")))
+@interface MPSMoonPaySdkEnvironment : MPSBase
+- (instancetype)initWithVersion:(float)version flow:(MPSWidgetFlow *)flow environment:(MPSMoonPayWidgetEnvironment *)environment platform:(MPSMoonPaySdkPlatform *)platform __attribute__((swift_name("init(version:flow:environment:platform:)"))) __attribute__((objc_designated_initializer));
+- (MPSMoonPaySdkEnvironment *)doCopyVersion:(float)version flow:(MPSWidgetFlow *)flow environment:(MPSMoonPayWidgetEnvironment *)environment platform:(MPSMoonPaySdkPlatform *)platform __attribute__((swift_name("doCopy(version:flow:environment:platform:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) MPSMoonPayWidgetEnvironment *environment __attribute__((swift_name("environment")));
+@property (readonly) MPSWidgetFlow *flow __attribute__((swift_name("flow")));
+@property (readonly) MPSMoonPaySdkPlatform *platform __attribute__((swift_name("platform")));
 @property (readonly) float version __attribute__((swift_name("version")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonpayResolvePayload")))
-@interface MSDKMoonpayResolvePayload : MSDKMoonpayResolvePayloadType
-- (instancetype)initWithData:(NSDictionary<NSString *, id> *)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
-- (MSDKMoonpayResolvePayload *)doCopyData:(NSDictionary<NSString *, id> *)data __attribute__((swift_name("doCopy(data:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (void)doInitData:(NSDictionary<NSString *, id> *)data __attribute__((swift_name("doInit(data:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property NSDictionary<NSString *, id> *data __attribute__((swift_name("data")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("OfframpWidgetQueryParams")))
-@interface MSDKOfframpWidgetQueryParams : MSDKBase <MSDKAdvancedWidgetQueryParams>
-- (instancetype)initWithApiKey:(NSString *)apiKey currencyCode:(NSString * _Nullable)currencyCode defaultCurrencyCode:(NSString * _Nullable)defaultCurrencyCode walletAddress:(NSString * _Nullable)walletAddress walletAddressTag:(NSString * _Nullable)walletAddressTag walletAddresses:(NSString * _Nullable)walletAddresses walletAddressTags:(NSString * _Nullable)walletAddressTags colorCode:(NSString * _Nullable)colorCode theme:(NSString * _Nullable)theme themeId:(NSString * _Nullable)themeId language:(NSString * _Nullable)language signature:(NSString * _Nullable)signature baseCurrencyCode:(NSString * _Nullable)baseCurrencyCode baseCurrencyAmount:(NSString * _Nullable)baseCurrencyAmount quoteCurrencyAmount:(NSString * _Nullable)quoteCurrencyAmount lockAmount:(NSString * _Nullable)lockAmount email:(NSString * _Nullable)email externalTransactionId:(NSString * _Nullable)externalTransactionId externalCustomerId:(NSString * _Nullable)externalCustomerId paymentMethod:(NSString * _Nullable)paymentMethod redirectURL:(NSString * _Nullable)redirectURL showAllCurrencies:(NSString * _Nullable)showAllCurrencies showOnlyCurrencies:(NSString * _Nullable)showOnlyCurrencies showWalletAddressForm:(NSString * _Nullable)showWalletAddressForm unsupportedRegionRedirectUrl:(NSString * _Nullable)unsupportedRegionRedirectUrl skipUnsupportedRegionScreen:(NSString * _Nullable)skipUnsupportedRegionScreen __attribute__((swift_name("init(apiKey:currencyCode:defaultCurrencyCode:walletAddress:walletAddressTag:walletAddresses:walletAddressTags:colorCode:theme:themeId:language:signature:baseCurrencyCode:baseCurrencyAmount:quoteCurrencyAmount:lockAmount:email:externalTransactionId:externalCustomerId:paymentMethod:redirectURL:showAllCurrencies:showOnlyCurrencies:showWalletAddressForm:unsupportedRegionRedirectUrl:skipUnsupportedRegionScreen:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) MSDKOfframpWidgetQueryParamsCompanion *companion __attribute__((swift_name("companion")));
-- (MSDKOfframpWidgetQueryParams *)doCopyApiKey:(NSString *)apiKey currencyCode:(NSString * _Nullable)currencyCode defaultCurrencyCode:(NSString * _Nullable)defaultCurrencyCode walletAddress:(NSString * _Nullable)walletAddress walletAddressTag:(NSString * _Nullable)walletAddressTag walletAddresses:(NSString * _Nullable)walletAddresses walletAddressTags:(NSString * _Nullable)walletAddressTags colorCode:(NSString * _Nullable)colorCode theme:(NSString * _Nullable)theme themeId:(NSString * _Nullable)themeId language:(NSString * _Nullable)language signature:(NSString * _Nullable)signature baseCurrencyCode:(NSString * _Nullable)baseCurrencyCode baseCurrencyAmount:(NSString * _Nullable)baseCurrencyAmount quoteCurrencyAmount:(NSString * _Nullable)quoteCurrencyAmount lockAmount:(NSString * _Nullable)lockAmount email:(NSString * _Nullable)email externalTransactionId:(NSString * _Nullable)externalTransactionId externalCustomerId:(NSString * _Nullable)externalCustomerId paymentMethod:(NSString * _Nullable)paymentMethod redirectURL:(NSString * _Nullable)redirectURL showAllCurrencies:(NSString * _Nullable)showAllCurrencies showOnlyCurrencies:(NSString * _Nullable)showOnlyCurrencies showWalletAddressForm:(NSString * _Nullable)showWalletAddressForm unsupportedRegionRedirectUrl:(NSString * _Nullable)unsupportedRegionRedirectUrl skipUnsupportedRegionScreen:(NSString * _Nullable)skipUnsupportedRegionScreen __attribute__((swift_name("doCopy(apiKey:currencyCode:defaultCurrencyCode:walletAddress:walletAddressTag:walletAddresses:walletAddressTags:colorCode:theme:themeId:language:signature:baseCurrencyCode:baseCurrencyAmount:quoteCurrencyAmount:lockAmount:email:externalTransactionId:externalCustomerId:paymentMethod:redirectURL:showAllCurrencies:showOnlyCurrencies:showWalletAddressForm:unsupportedRegionRedirectUrl:skipUnsupportedRegionScreen:)")));
+__attribute__((swift_name("MoonPaySdkLegacyConfig")))
+@interface MPSMoonPaySdkLegacyConfig : MPSMoonPaySdkConfig
+- (instancetype)initWithDebug:(MPSBoolean * _Nullable)debug environment:(MPSMoonPayWidgetEnvironment *)environment params:(MPSMoonPayLegacyQueryParams *)params handlers:(MPSMoonPayHandlers * _Nullable)handlers __attribute__((swift_name("init(debug:environment:params:handlers:)"))) __attribute__((objc_designated_initializer));
+- (MPSMoonPaySdkLegacyConfig *)doCopyDebug:(MPSBoolean * _Nullable)debug environment:(MPSMoonPayWidgetEnvironment *)environment params:(MPSMoonPayLegacyQueryParams *)params handlers:(MPSMoonPayHandlers * _Nullable)handlers __attribute__((swift_name("doCopy(debug:environment:params:handlers:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property NSString *apiKey __attribute__((swift_name("apiKey")));
-@property NSString * _Nullable baseCurrencyAmount __attribute__((swift_name("baseCurrencyAmount")));
-@property NSString * _Nullable baseCurrencyCode __attribute__((swift_name("baseCurrencyCode")));
-@property NSString * _Nullable colorCode __attribute__((swift_name("colorCode")));
-@property NSString * _Nullable currencyCode __attribute__((swift_name("currencyCode")));
-@property NSString * _Nullable defaultCurrencyCode __attribute__((swift_name("defaultCurrencyCode")));
-@property NSString * _Nullable email __attribute__((swift_name("email")));
-@property NSString * _Nullable externalCustomerId __attribute__((swift_name("externalCustomerId")));
-@property NSString * _Nullable externalTransactionId __attribute__((swift_name("externalTransactionId")));
-@property NSString * _Nullable language __attribute__((swift_name("language")));
-@property NSString * _Nullable lockAmount __attribute__((swift_name("lockAmount")));
-@property NSString * _Nullable paymentMethod __attribute__((swift_name("paymentMethod")));
-@property NSString * _Nullable quoteCurrencyAmount __attribute__((swift_name("quoteCurrencyAmount")));
-@property NSString * _Nullable redirectURL __attribute__((swift_name("redirectURL")));
-@property NSString * _Nullable showAllCurrencies __attribute__((swift_name("showAllCurrencies")));
-@property NSString * _Nullable showOnlyCurrencies __attribute__((swift_name("showOnlyCurrencies")));
-@property NSString * _Nullable showWalletAddressForm __attribute__((swift_name("showWalletAddressForm")));
-@property NSString * _Nullable signature __attribute__((swift_name("signature")));
-@property NSString * _Nullable skipUnsupportedRegionScreen __attribute__((swift_name("skipUnsupportedRegionScreen")));
-@property NSString * _Nullable theme __attribute__((swift_name("theme")));
-@property NSString * _Nullable themeId __attribute__((swift_name("themeId")));
-@property NSString * _Nullable unsupportedRegionRedirectUrl __attribute__((swift_name("unsupportedRegionRedirectUrl")));
-@property NSString * _Nullable walletAddress __attribute__((swift_name("walletAddress")));
-@property NSString * _Nullable walletAddressTag __attribute__((swift_name("walletAddressTag")));
-@property NSString * _Nullable walletAddressTags __attribute__((swift_name("walletAddressTags")));
-@property NSString * _Nullable walletAddresses __attribute__((swift_name("walletAddresses")));
+@property MPSBoolean * _Nullable debug __attribute__((swift_name("debug")));
+@property MPSMoonPayWidgetEnvironment *environment __attribute__((swift_name("environment")));
+@property MPSMoonPayHandlers * _Nullable handlers __attribute__((swift_name("handlers")));
+@property MPSMoonPayLegacyQueryParams *params __attribute__((swift_name("params")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("OfframpWidgetQueryParams.Companion")))
-@interface MSDKOfframpWidgetQueryParamsCompanion : MSDKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKOfframpWidgetQueryParamsCompanion *shared __attribute__((swift_name("shared")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("OnAuthTokenProps")))
-@interface MSDKOnAuthTokenProps : MSDKBase
-- (instancetype)initWithToken:(NSString *)token csrfToken:(NSString *)csrfToken __attribute__((swift_name("init(token:csrfToken:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) MSDKOnAuthTokenPropsCompanion *companion __attribute__((swift_name("companion")));
-- (MSDKOnAuthTokenProps *)doCopyToken:(NSString *)token csrfToken:(NSString *)csrfToken __attribute__((swift_name("doCopy(token:csrfToken:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *csrfToken __attribute__((swift_name("csrfToken")));
-@property (readonly) NSString *token __attribute__((swift_name("token")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("OnAuthTokenProps.Companion")))
-@interface MSDKOnAuthTokenPropsCompanion : MSDKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKOnAuthTokenPropsCompanion *shared __attribute__((swift_name("shared")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("OnInitiateDepositProps")))
-@interface MSDKOnInitiateDepositProps : MSDKBase
-- (instancetype)initWithTransactionId:(NSString *)transactionId cryptoCurrency:(MSDKCryptoCurrency *)cryptoCurrency fiatCurrency:(MSDKFiatCurrency *)fiatCurrency cryptoCurrencyAmount:(NSString *)cryptoCurrencyAmount cryptoCurrencyAmountSmalledDenomincation:(NSString *)cryptoCurrencyAmountSmalledDenomincation fiatCurrencyAmount:(NSString * _Nullable)fiatCurrencyAmount depositWalletAddress:(NSString *)depositWalletAddress __attribute__((swift_name("init(transactionId:cryptoCurrency:fiatCurrency:cryptoCurrencyAmount:cryptoCurrencyAmountSmalledDenomincation:fiatCurrencyAmount:depositWalletAddress:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) MSDKOnInitiateDepositPropsCompanion *companion __attribute__((swift_name("companion")));
-- (MSDKOnInitiateDepositProps *)doCopyTransactionId:(NSString *)transactionId cryptoCurrency:(MSDKCryptoCurrency *)cryptoCurrency fiatCurrency:(MSDKFiatCurrency *)fiatCurrency cryptoCurrencyAmount:(NSString *)cryptoCurrencyAmount cryptoCurrencyAmountSmalledDenomincation:(NSString *)cryptoCurrencyAmountSmalledDenomincation fiatCurrencyAmount:(NSString * _Nullable)fiatCurrencyAmount depositWalletAddress:(NSString *)depositWalletAddress __attribute__((swift_name("doCopy(transactionId:cryptoCurrency:fiatCurrency:cryptoCurrencyAmount:cryptoCurrencyAmountSmalledDenomincation:fiatCurrencyAmount:depositWalletAddress:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) MSDKCryptoCurrency *cryptoCurrency __attribute__((swift_name("cryptoCurrency")));
-@property (readonly) NSString *cryptoCurrencyAmount __attribute__((swift_name("cryptoCurrencyAmount")));
-@property (readonly) NSString *cryptoCurrencyAmountSmalledDenomincation __attribute__((swift_name("cryptoCurrencyAmountSmalledDenomincation")));
-@property (readonly) NSString *depositWalletAddress __attribute__((swift_name("depositWalletAddress")));
-@property (readonly) MSDKFiatCurrency *fiatCurrency __attribute__((swift_name("fiatCurrency")));
-@property (readonly) NSString * _Nullable fiatCurrencyAmount __attribute__((swift_name("fiatCurrencyAmount")));
-@property (readonly) NSString *transactionId __attribute__((swift_name("transactionId")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("OnInitiateDepositProps.Companion")))
-@interface MSDKOnInitiateDepositPropsCompanion : MSDKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKOnInitiateDepositPropsCompanion *shared __attribute__((swift_name("shared")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("OnInitiateDepositReplyProps")))
-@interface MSDKOnInitiateDepositReplyProps : MSDKBase
-- (instancetype)initWithDepositId:(NSString *)depositId __attribute__((swift_name("init(depositId:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) MSDKOnInitiateDepositReplyPropsCompanion *companion __attribute__((swift_name("companion")));
-- (MSDKOnInitiateDepositReplyProps *)doCopyDepositId:(NSString *)depositId __attribute__((swift_name("doCopy(depositId:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (void)doInitDepositId:(NSString *)depositId __attribute__((swift_name("doInit(depositId:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property NSString *depositId __attribute__((swift_name("depositId")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("OnInitiateDepositReplyProps.Companion")))
-@interface MSDKOnInitiateDepositReplyPropsCompanion : MSDKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKOnInitiateDepositReplyPropsCompanion *shared __attribute__((swift_name("shared")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("OnLoginProps")))
-@interface MSDKOnLoginProps : MSDKBase
-- (instancetype)initWithIsRefresh:(BOOL)isRefresh __attribute__((swift_name("init(isRefresh:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) MSDKOnLoginPropsCompanion *companion __attribute__((swift_name("companion")));
-- (MSDKOnLoginProps *)doCopyIsRefresh:(BOOL)isRefresh __attribute__((swift_name("doCopy(isRefresh:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) BOOL isRefresh __attribute__((swift_name("isRefresh")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("OnLoginProps.Companion")))
-@interface MSDKOnLoginPropsCompanion : MSDKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKOnLoginPropsCompanion *shared __attribute__((swift_name("shared")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("OnrampWidgetQueryParams")))
-@interface MSDKOnrampWidgetQueryParams : MSDKBase <MSDKAdvancedWidgetQueryParams>
-- (instancetype)initWithApiKey:(NSString *)apiKey currencyCode:(NSString * _Nullable)currencyCode defaultCurrencyCode:(NSString * _Nullable)defaultCurrencyCode walletAddress:(NSString * _Nullable)walletAddress walletAddressTag:(NSString * _Nullable)walletAddressTag walletAddresses:(NSString * _Nullable)walletAddresses walletAddressTags:(NSString * _Nullable)walletAddressTags colorCode:(NSString * _Nullable)colorCode theme:(NSString * _Nullable)theme themeId:(NSString * _Nullable)themeId language:(NSString * _Nullable)language signature:(NSString * _Nullable)signature baseCurrencyCode:(NSString * _Nullable)baseCurrencyCode baseCurrencyAmount:(NSString * _Nullable)baseCurrencyAmount quoteCurrencyAmount:(NSString * _Nullable)quoteCurrencyAmount lockAmount:(NSString * _Nullable)lockAmount email:(NSString * _Nullable)email externalTransactionId:(NSString * _Nullable)externalTransactionId externalCustomerId:(NSString * _Nullable)externalCustomerId paymentMethod:(NSString * _Nullable)paymentMethod redirectURL:(NSString * _Nullable)redirectURL showAllCurrencies:(NSString * _Nullable)showAllCurrencies showOnlyCurrencies:(NSString * _Nullable)showOnlyCurrencies showWalletAddressForm:(NSString * _Nullable)showWalletAddressForm unsupportedRegionRedirectUrl:(NSString * _Nullable)unsupportedRegionRedirectUrl skipUnsupportedRegionScreen:(NSString * _Nullable)skipUnsupportedRegionScreen __attribute__((swift_name("init(apiKey:currencyCode:defaultCurrencyCode:walletAddress:walletAddressTag:walletAddresses:walletAddressTags:colorCode:theme:themeId:language:signature:baseCurrencyCode:baseCurrencyAmount:quoteCurrencyAmount:lockAmount:email:externalTransactionId:externalCustomerId:paymentMethod:redirectURL:showAllCurrencies:showOnlyCurrencies:showWalletAddressForm:unsupportedRegionRedirectUrl:skipUnsupportedRegionScreen:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) MSDKOnrampWidgetQueryParamsCompanion *companion __attribute__((swift_name("companion")));
-- (MSDKOnrampWidgetQueryParams *)doCopyApiKey:(NSString *)apiKey currencyCode:(NSString * _Nullable)currencyCode defaultCurrencyCode:(NSString * _Nullable)defaultCurrencyCode walletAddress:(NSString * _Nullable)walletAddress walletAddressTag:(NSString * _Nullable)walletAddressTag walletAddresses:(NSString * _Nullable)walletAddresses walletAddressTags:(NSString * _Nullable)walletAddressTags colorCode:(NSString * _Nullable)colorCode theme:(NSString * _Nullable)theme themeId:(NSString * _Nullable)themeId language:(NSString * _Nullable)language signature:(NSString * _Nullable)signature baseCurrencyCode:(NSString * _Nullable)baseCurrencyCode baseCurrencyAmount:(NSString * _Nullable)baseCurrencyAmount quoteCurrencyAmount:(NSString * _Nullable)quoteCurrencyAmount lockAmount:(NSString * _Nullable)lockAmount email:(NSString * _Nullable)email externalTransactionId:(NSString * _Nullable)externalTransactionId externalCustomerId:(NSString * _Nullable)externalCustomerId paymentMethod:(NSString * _Nullable)paymentMethod redirectURL:(NSString * _Nullable)redirectURL showAllCurrencies:(NSString * _Nullable)showAllCurrencies showOnlyCurrencies:(NSString * _Nullable)showOnlyCurrencies showWalletAddressForm:(NSString * _Nullable)showWalletAddressForm unsupportedRegionRedirectUrl:(NSString * _Nullable)unsupportedRegionRedirectUrl skipUnsupportedRegionScreen:(NSString * _Nullable)skipUnsupportedRegionScreen __attribute__((swift_name("doCopy(apiKey:currencyCode:defaultCurrencyCode:walletAddress:walletAddressTag:walletAddresses:walletAddressTags:colorCode:theme:themeId:language:signature:baseCurrencyCode:baseCurrencyAmount:quoteCurrencyAmount:lockAmount:email:externalTransactionId:externalCustomerId:paymentMethod:redirectURL:showAllCurrencies:showOnlyCurrencies:showWalletAddressForm:unsupportedRegionRedirectUrl:skipUnsupportedRegionScreen:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property NSString *apiKey __attribute__((swift_name("apiKey")));
-@property NSString * _Nullable baseCurrencyAmount __attribute__((swift_name("baseCurrencyAmount")));
-@property NSString * _Nullable baseCurrencyCode __attribute__((swift_name("baseCurrencyCode")));
-@property NSString * _Nullable colorCode __attribute__((swift_name("colorCode")));
-@property NSString * _Nullable currencyCode __attribute__((swift_name("currencyCode")));
-@property NSString * _Nullable defaultCurrencyCode __attribute__((swift_name("defaultCurrencyCode")));
-@property NSString * _Nullable email __attribute__((swift_name("email")));
-@property NSString * _Nullable externalCustomerId __attribute__((swift_name("externalCustomerId")));
-@property NSString * _Nullable externalTransactionId __attribute__((swift_name("externalTransactionId")));
-@property NSString * _Nullable language __attribute__((swift_name("language")));
-@property NSString * _Nullable lockAmount __attribute__((swift_name("lockAmount")));
-@property NSString * _Nullable paymentMethod __attribute__((swift_name("paymentMethod")));
-@property NSString * _Nullable quoteCurrencyAmount __attribute__((swift_name("quoteCurrencyAmount")));
-@property NSString * _Nullable redirectURL __attribute__((swift_name("redirectURL")));
-@property NSString * _Nullable showAllCurrencies __attribute__((swift_name("showAllCurrencies")));
-@property NSString * _Nullable showOnlyCurrencies __attribute__((swift_name("showOnlyCurrencies")));
-@property NSString * _Nullable showWalletAddressForm __attribute__((swift_name("showWalletAddressForm")));
-@property NSString * _Nullable signature __attribute__((swift_name("signature")));
-@property NSString * _Nullable skipUnsupportedRegionScreen __attribute__((swift_name("skipUnsupportedRegionScreen")));
-@property NSString * _Nullable theme __attribute__((swift_name("theme")));
-@property NSString * _Nullable themeId __attribute__((swift_name("themeId")));
-@property NSString * _Nullable unsupportedRegionRedirectUrl __attribute__((swift_name("unsupportedRegionRedirectUrl")));
-@property NSString * _Nullable walletAddress __attribute__((swift_name("walletAddress")));
-@property NSString * _Nullable walletAddressTag __attribute__((swift_name("walletAddressTag")));
-@property NSString * _Nullable walletAddressTags __attribute__((swift_name("walletAddressTags")));
-@property NSString * _Nullable walletAddresses __attribute__((swift_name("walletAddresses")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("OnrampWidgetQueryParams.Companion")))
-@interface MSDKOnrampWidgetQueryParamsCompanion : MSDKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKOnrampWidgetQueryParamsCompanion *shared __attribute__((swift_name("shared")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PostMessenger")))
-@interface MSDKPostMessenger : MSDKBase
-- (instancetype)initWithAppProtocol:(MSDKAppProtocol *)appProtocol mode:(MSDKPostMessengerMode *)mode requestActionHandlers:(NSDictionary<MSDKFloat *, NSDictionary<NSString *, MSDKMoonPayHandler *> *> * _Nullable)requestActionHandlers verbose:(BOOL)verbose postMessageClient:(NSObject *)postMessageClient __attribute__((swift_name("init(appProtocol:mode:requestActionHandlers:verbose:postMessageClient:)"))) __attribute__((objc_designated_initializer));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)initializeCommunicationWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("initializeCommunication(completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)sendMessageParams:(MSDKSendMessageParams *)params completionHandler:(void (^)(id<MSDKKotlinx_coroutines_coreCompletableDeferred> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("sendMessage(params:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)sendMessageParams:(MSDKSendMessageParams *)params completionHandler:(void (^)(id<MSDKKotlinx_coroutines_coreCompletableDeferred> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("sendMessage(params:completionHandler:)")));
-- (void)shutdown __attribute__((swift_name("shutdown()")));
-@property void (^ _Nullable onReady)(MSDKAppProtocolProps *) __attribute__((swift_name("onReady")));
-@property (readonly) NSObject *postMessageClient __attribute__((swift_name("postMessageClient")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PostMessengerConsts")))
-@interface MSDKPostMessengerConsts : MSDKBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@property NSString *PostMessengerMode __attribute__((swift_name("PostMessengerMode")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PostMessengerMode")))
-@interface MSDKPostMessengerMode : MSDKKotlinEnum<MSDKPostMessengerMode *>
+__attribute__((swift_name("MoonPaySdkPlatform")))
+@interface MPSMoonPaySdkPlatform : MPSKotlinEnum<MPSMoonPaySdkPlatform *>
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 - (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) MSDKPostMessengerMode *parent __attribute__((swift_name("parent")));
-@property (class, readonly) MSDKPostMessengerMode *child __attribute__((swift_name("child")));
-+ (MSDKKotlinArray<MSDKPostMessengerMode *> *)values __attribute__((swift_name("values()")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((swift_name("RampsSwapHandlers")))
-@interface MSDKRampsSwapHandlers : MSDKBase
-- (instancetype)initWithOnAuthToken:(void (^ _Nullable)(MSDKOnAuthTokenProps *))onAuthToken onSwapsCustomerSetupComplete:(void (^ _Nullable)(void))onSwapsCustomerSetupComplete __attribute__((swift_name("init(onAuthToken:onSwapsCustomerSetupComplete:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) MSDKRampsSwapHandlersCompanion *companion __attribute__((swift_name("companion")));
-@property void (^ _Nullable onAuthToken)(MSDKOnAuthTokenProps *) __attribute__((swift_name("onAuthToken")));
-@property void (^ _Nullable onSwapsCustomerSetupComplete)(void) __attribute__((swift_name("onSwapsCustomerSetupComplete")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("RampsHandlers")))
-@interface MSDKRampsHandlers : MSDKRampsSwapHandlers
-- (instancetype)initWithOnAuthToken:(void (^ _Nullable)(MSDKOnAuthTokenProps *))onAuthToken onSwapsCustomerSetupComplete:(void (^ _Nullable)(void))onSwapsCustomerSetupComplete onUnsupportedRegion:(void (^ _Nullable)(void))onUnsupportedRegion onKmsWalletCreated:(void (^ _Nullable)(void))onKmsWalletCreated onLogin:(void (^ _Nullable)(MSDKOnLoginProps *))onLogin onInitiateDeposit:(MSDKOnInitiateDepositReplyProps *(^ _Nullable)(MSDKOnInitiateDepositProps *))onInitiateDeposit __attribute__((swift_name("init(onAuthToken:onSwapsCustomerSetupComplete:onUnsupportedRegion:onKmsWalletCreated:onLogin:onInitiateDeposit:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithOnAuthToken:(void (^ _Nullable)(MSDKOnAuthTokenProps *))onAuthToken onSwapsCustomerSetupComplete:(void (^ _Nullable)(void))onSwapsCustomerSetupComplete __attribute__((swift_name("init(onAuthToken:onSwapsCustomerSetupComplete:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly, getter=companion) MSDKRampsHandlersCompanion *companion __attribute__((swift_name("companion")));
-@property MSDKOnInitiateDepositReplyProps *(^ _Nullable onInitiateDeposit)(MSDKOnInitiateDepositProps *) __attribute__((swift_name("onInitiateDeposit")));
-@property void (^ _Nullable onKmsWalletCreated)(void) __attribute__((swift_name("onKmsWalletCreated")));
-@property void (^ _Nullable onLogin)(MSDKOnLoginProps *) __attribute__((swift_name("onLogin")));
-@property void (^ _Nullable onUnsupportedRegion)(void) __attribute__((swift_name("onUnsupportedRegion")));
+@property (class, readonly) MPSMoonPaySdkPlatform *android __attribute__((swift_name("android")));
+@property (class, readonly) MPSMoonPaySdkPlatform *ios __attribute__((swift_name("ios")));
++ (MPSKotlinArray<MPSMoonPaySdkPlatform *> *)values __attribute__((swift_name("values()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("RampsHandlers.Companion")))
-@interface MSDKRampsHandlersCompanion : MSDKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKRampsHandlersCompanion *shared __attribute__((swift_name("shared")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("RampsSwapHandlers.Companion")))
-@interface MSDKRampsSwapHandlersCompanion : MSDKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKRampsSwapHandlersCompanion *shared __attribute__((swift_name("shared")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("SellFlow")))
-@interface MSDKSellFlow : MSDKWidgetFlow
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@property (class, readonly, getter=companion) MSDKSellFlowCompanion *companion __attribute__((swift_name("companion")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("SellFlow.Companion")))
-@interface MSDKSellFlowCompanion : MSDKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKSellFlowCompanion *shared __attribute__((swift_name("shared")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("SendMessageParams")))
-@interface MSDKSendMessageParams : MSDKBase
-- (instancetype)initWithAction:(NSString *)action payload:(MSDKMoonpayRequestPayloadType *)payload timeout:(MSDKLong * _Nullable)timeout __attribute__((swift_name("init(action:payload:timeout:)"))) __attribute__((objc_designated_initializer));
-- (MSDKSendMessageParams *)doCopyAction:(NSString *)action payload:(MSDKMoonpayRequestPayloadType *)payload timeout:(MSDKLong * _Nullable)timeout __attribute__((swift_name("doCopy(action:payload:timeout:)")));
+__attribute__((swift_name("MoonPaySdkSellConfig")))
+@interface MPSMoonPaySdkSellConfig : MPSMoonPaySdkConfig
+- (instancetype)initWithDebug:(MPSBoolean * _Nullable)debug environment:(MPSMoonPayWidgetEnvironment *)environment params:(MPSMoonPaySellQueryParams *)params handlers:(MPSMoonPayHandlers * _Nullable)handlers __attribute__((swift_name("init(debug:environment:params:handlers:)"))) __attribute__((objc_designated_initializer));
+- (MPSMoonPaySdkSellConfig *)doCopyDebug:(MPSBoolean * _Nullable)debug environment:(MPSMoonPayWidgetEnvironment *)environment params:(MPSMoonPaySellQueryParams *)params handlers:(MPSMoonPayHandlers * _Nullable)handlers __attribute__((swift_name("doCopy(debug:environment:params:handlers:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *action __attribute__((swift_name("action")));
-@property (readonly) MSDKMoonpayRequestPayloadType *payload __attribute__((swift_name("payload")));
-@property (readonly) MSDKLong * _Nullable timeout __attribute__((swift_name("timeout")));
+@property MPSBoolean * _Nullable debug __attribute__((swift_name("debug")));
+@property MPSMoonPayWidgetEnvironment *environment __attribute__((swift_name("environment")));
+@property MPSMoonPayHandlers * _Nullable handlers __attribute__((swift_name("handlers")));
+@property MPSMoonPaySellQueryParams *params __attribute__((swift_name("params")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPaySdkSwapsCustomerSetupConfig")))
+@interface MPSMoonPaySdkSwapsCustomerSetupConfig : MPSMoonPaySdkConfig
+- (instancetype)initWithDebug:(MPSBoolean * _Nullable)debug environment:(MPSMoonPayWidgetEnvironment *)environment params:(MPSMoonPaySwapsCustomerSetupQueryParams *)params handlers:(MPSMoonPayHandlers * _Nullable)handlers __attribute__((swift_name("init(debug:environment:params:handlers:)"))) __attribute__((objc_designated_initializer));
+- (MPSMoonPaySdkSwapsCustomerSetupConfig *)doCopyDebug:(MPSBoolean * _Nullable)debug environment:(MPSMoonPayWidgetEnvironment *)environment params:(MPSMoonPaySwapsCustomerSetupQueryParams *)params handlers:(MPSMoonPayHandlers * _Nullable)handlers __attribute__((swift_name("doCopy(debug:environment:params:handlers:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property MPSBoolean * _Nullable debug __attribute__((swift_name("debug")));
+@property MPSMoonPayWidgetEnvironment *environment __attribute__((swift_name("environment")));
+@property MPSMoonPayHandlers * _Nullable handlers __attribute__((swift_name("handlers")));
+@property MPSMoonPaySwapsCustomerSetupQueryParams *params __attribute__((swift_name("params")));
 @end
 
 
@@ -1458,21 +1581,76 @@ __attribute__((swift_name("SendMessageParams")))
  *   kotlinx.serialization.Serializable
 */
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("SwapFlow")))
-@interface MSDKSwapFlow : MSDKWidgetFlow
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@property (class, readonly, getter=companion) MSDKSwapFlowCompanion *companion __attribute__((swift_name("companion")));
+__attribute__((swift_name("MoonPaySellQueryParams")))
+@interface MPSMoonPaySellQueryParams : MPSBase <MPSMoonPayAdvancedQueryParams>
+- (instancetype)initWithApiKey:(NSString *)apiKey __attribute__((swift_name("init(apiKey:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) MPSMoonPaySellQueryParamsCompanion *companion __attribute__((swift_name("companion")));
+- (MPSMoonPaySellQueryParams *)doCopyApiKey:(NSString *)apiKey __attribute__((swift_name("doCopy(apiKey:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (void)setApiKeyValue:(NSString *)value __attribute__((swift_name("setApiKey(value:)")));
+- (void)setBaseCurrencyAmountValue:(MPSDouble * _Nullable)value __attribute__((swift_name("setBaseCurrencyAmount(value:)")));
+- (void)setBaseCurrencyCodeValue:(NSString * _Nullable)value __attribute__((swift_name("setBaseCurrencyCode(value:)")));
+- (void)setColorCodeValue:(NSString * _Nullable)value __attribute__((swift_name("setColorCode(value:)")));
+- (void)setCurrencyCodeValue:(NSString * _Nullable)value __attribute__((swift_name("setCurrencyCode(value:)")));
+- (void)setDefaultCurrencyCodeValue:(NSString * _Nullable)value __attribute__((swift_name("setDefaultCurrencyCode(value:)")));
+- (void)setEmailValue:(NSString * _Nullable)value __attribute__((swift_name("setEmail(value:)")));
+- (void)setExternalCustomerIdValue:(NSString * _Nullable)value __attribute__((swift_name("setExternalCustomerId(value:)")));
+- (void)setExternalTransactionIdValue:(NSString * _Nullable)value __attribute__((swift_name("setExternalTransactionId(value:)")));
+- (void)setLanguageValue:(NSString * _Nullable)value __attribute__((swift_name("setLanguage(value:)")));
+- (void)setLockAmountValue:(NSString * _Nullable)value __attribute__((swift_name("setLockAmount(value:)")));
+- (void)setPaymentMethodValue:(NSString * _Nullable)value __attribute__((swift_name("setPaymentMethod(value:)")));
+- (void)setQuoteCurrencyAmountValue:(MPSDouble * _Nullable)value __attribute__((swift_name("setQuoteCurrencyAmount(value:)")));
+- (void)setRedirectURLValue:(NSString * _Nullable)value __attribute__((swift_name("setRedirectURL(value:)")));
+- (void)setShowAllCurrenciesValue:(NSString * _Nullable)value __attribute__((swift_name("setShowAllCurrencies(value:)")));
+- (void)setShowOnlyCurrenciesValue:(NSString * _Nullable)value __attribute__((swift_name("setShowOnlyCurrencies(value:)")));
+- (void)setShowWalletAddressFormValue:(NSString * _Nullable)value __attribute__((swift_name("setShowWalletAddressForm(value:)")));
+- (void)setSignatureValue:(NSString * _Nullable)value __attribute__((swift_name("setSignature(value:)")));
+- (void)setSkipUnsupportedRegionScreenValue:(NSString * _Nullable)value __attribute__((swift_name("setSkipUnsupportedRegionScreen(value:)")));
+- (void)setThemeValue:(NSString * _Nullable)value __attribute__((swift_name("setTheme(value:)")));
+- (void)setThemeIdValue:(NSString * _Nullable)value __attribute__((swift_name("setThemeId(value:)")));
+- (void)setUnsupportedRegionRedirectUrlValue:(NSString * _Nullable)value __attribute__((swift_name("setUnsupportedRegionRedirectUrl(value:)")));
+- (void)setWalletAddressValue:(NSString * _Nullable)value __attribute__((swift_name("setWalletAddress(value:)")));
+- (void)setWalletAddressTagValue:(NSString * _Nullable)value __attribute__((swift_name("setWalletAddressTag(value:)")));
+- (void)setWalletAddressTagsValue:(NSString * _Nullable)value __attribute__((swift_name("setWalletAddressTags(value:)")));
+- (void)setWalletAddressesValue:(NSDictionary<NSString *, NSString *> * _Nullable)value __attribute__((swift_name("setWalletAddresses(value:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property NSString *apiKey __attribute__((swift_name("apiKey")));
+@property MPSDouble * _Nullable baseCurrencyAmount __attribute__((swift_name("baseCurrencyAmount")));
+@property NSString * _Nullable baseCurrencyCode __attribute__((swift_name("baseCurrencyCode")));
+@property NSString * _Nullable colorCode __attribute__((swift_name("colorCode")));
+@property NSString * _Nullable currencyCode __attribute__((swift_name("currencyCode")));
+@property NSString * _Nullable defaultCurrencyCode __attribute__((swift_name("defaultCurrencyCode")));
+@property NSString * _Nullable email __attribute__((swift_name("email")));
+@property NSString * _Nullable externalCustomerId __attribute__((swift_name("externalCustomerId")));
+@property NSString * _Nullable externalTransactionId __attribute__((swift_name("externalTransactionId")));
+@property NSString * _Nullable language __attribute__((swift_name("language")));
+@property NSString * _Nullable lockAmount __attribute__((swift_name("lockAmount")));
+@property NSString * _Nullable paymentMethod __attribute__((swift_name("paymentMethod")));
+@property MPSDouble * _Nullable quoteCurrencyAmount __attribute__((swift_name("quoteCurrencyAmount")));
+@property NSString * _Nullable redirectURL __attribute__((swift_name("redirectURL")));
+@property NSString * _Nullable showAllCurrencies __attribute__((swift_name("showAllCurrencies")));
+@property NSString * _Nullable showOnlyCurrencies __attribute__((swift_name("showOnlyCurrencies")));
+@property NSString * _Nullable showWalletAddressForm __attribute__((swift_name("showWalletAddressForm")));
+@property NSString * _Nullable signature __attribute__((swift_name("signature")));
+@property NSString * _Nullable skipUnsupportedRegionScreen __attribute__((swift_name("skipUnsupportedRegionScreen")));
+@property NSString * _Nullable theme __attribute__((swift_name("theme")));
+@property NSString * _Nullable themeId __attribute__((swift_name("themeId")));
+@property NSString * _Nullable unsupportedRegionRedirectUrl __attribute__((swift_name("unsupportedRegionRedirectUrl")));
+@property NSString * _Nullable walletAddress __attribute__((swift_name("walletAddress")));
+@property NSString * _Nullable walletAddressTag __attribute__((swift_name("walletAddressTag")));
+@property NSString * _Nullable walletAddressTags __attribute__((swift_name("walletAddressTags")));
+@property NSDictionary<NSString *, NSString *> * _Nullable walletAddresses __attribute__((swift_name("walletAddresses")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("SwapFlow.Companion")))
-@interface MSDKSwapFlowCompanion : MSDKBase
+__attribute__((swift_name("MoonPaySellQueryParams.Companion")))
+@interface MPSMoonPaySellQueryParamsCompanion : MPSBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKSwapFlowCompanion *shared __attribute__((swift_name("shared")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@property (class, readonly, getter=shared) MPSMoonPaySellQueryParamsCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 
@@ -1481,11 +1659,20 @@ __attribute__((swift_name("SwapFlow.Companion")))
  *   kotlinx.serialization.Serializable
 */
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("SwapWidgetQueryParams")))
-@interface MSDKSwapWidgetQueryParams : MSDKBase <MSDKWidgetQueryParams>
-- (instancetype)initWithApiKey:(NSString *)apiKey amount:(NSString *)amount amountCurrencyCode:(NSString *)amountCurrencyCode theme:(NSString * _Nullable)theme themeId:(NSString *)themeId __attribute__((swift_name("init(apiKey:amount:amountCurrencyCode:theme:themeId:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) MSDKSwapWidgetQueryParamsCompanion *companion __attribute__((swift_name("companion")));
+__attribute__((swift_name("MoonPaySwapsCustomerSetupQueryParams")))
+@interface MPSMoonPaySwapsCustomerSetupQueryParams : MPSBase <MPSMoonPayQueryParams>
+- (instancetype)initWithApiKey:(NSString *)apiKey __attribute__((swift_name("init(apiKey:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) MPSMoonPaySwapsCustomerSetupQueryParamsCompanion *companion __attribute__((swift_name("companion")));
+- (MPSMoonPaySwapsCustomerSetupQueryParams *)doCopyApiKey:(NSString *)apiKey __attribute__((swift_name("doCopy(apiKey:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (void)setAmountValue:(NSString *)value __attribute__((swift_name("setAmount(value:)")));
+- (void)setAmountCurrencyCodeValue:(NSString *)value __attribute__((swift_name("setAmountCurrencyCode(value:)")));
+- (void)setApiKeyValue:(NSString *)value __attribute__((swift_name("setApiKey(value:)")));
+- (void)setThemeValue:(NSString * _Nullable)value __attribute__((swift_name("setTheme(value:)")));
+- (void)setThemeIdValue:(NSString *)value __attribute__((swift_name("setThemeId(value:)")));
 - (NSDictionary<NSString *, NSString *> *)toMap __attribute__((swift_name("toMap()")));
+- (NSString *)description __attribute__((swift_name("description()")));
 @property NSString *amount __attribute__((swift_name("amount")));
 @property NSString *amountCurrencyCode __attribute__((swift_name("amountCurrencyCode")));
 @property NSString *apiKey __attribute__((swift_name("apiKey")));
@@ -1494,42 +1681,50 @@ __attribute__((swift_name("SwapWidgetQueryParams")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("SwapWidgetQueryParams.Companion")))
-@interface MSDKSwapWidgetQueryParamsCompanion : MSDKBase
+__attribute__((swift_name("MoonPaySwapsCustomerSetupQueryParams.Companion")))
+@interface MPSMoonPaySwapsCustomerSetupQueryParamsCompanion : MPSBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKSwapWidgetQueryParamsCompanion *shared __attribute__((swift_name("shared")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@property (class, readonly, getter=shared) MPSMoonPaySwapsCustomerSetupQueryParamsCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Validator")))
-@interface MSDKValidator : MSDKBase
-- (instancetype)initWithLogger:(MSDKLogger *)logger __attribute__((swift_name("init(logger:)"))) __attribute__((objc_designated_initializer));
-- (void)validateBuyConfigConfig:(MSDKMoonPayCoreSdkBuyConfig *)config __attribute__((swift_name("validateBuyConfig(config:)")));
-- (void)validateLegacyConfigConfig:(MSDKMoonPayCoreSdkLegacyConfig *)config __attribute__((swift_name("validateLegacyConfig(config:)")));
-- (void)validateMoonPayCoreSdkConfigConfig:(MSDKMoonPayCoreSdkConfig * _Nullable)config __attribute__((swift_name("validateMoonPayCoreSdkConfig(config:)")));
-- (void)validateSellConfigConfig:(MSDKMoonPayCoreSdkSellConfig *)config __attribute__((swift_name("validateSellConfig(config:)")));
-- (void)validateSwapConfigConfig:(MSDKMoonPayCoreSdkSwapConfig *)config __attribute__((swift_name("validateSwapConfig(config:)")));
-- (void)warnMissingParamParamName:(NSString *)paramName condition:(BOOL)condition __attribute__((swift_name("warnMissingParam(paramName:condition:)")));
-@property (readonly) MSDKLogger *logger __attribute__((swift_name("logger")));
+__attribute__((swift_name("MoonPayWidgetEnvironment")))
+@interface MPSMoonPayWidgetEnvironment : MPSKotlinEnum<MPSMoonPayWidgetEnvironment *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) MPSMoonPayWidgetEnvironment *production __attribute__((swift_name("production")));
+@property (class, readonly) MPSMoonPayWidgetEnvironment *sandbox __attribute__((swift_name("sandbox")));
++ (MPSKotlinArray<MPSMoonPayWidgetEnvironment *> *)values __attribute__((swift_name("values()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("WalletAddress")))
-@interface MSDKWalletAddress : MSDKBase
-- (instancetype)initWithWalletAddress:(NSString *)walletAddress __attribute__((swift_name("init(walletAddress:)"))) __attribute__((objc_designated_initializer));
-- (MSDKWalletAddress *)doCopyWalletAddress:(NSString *)walletAddress __attribute__((swift_name("doCopy(walletAddress:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *walletAddress __attribute__((swift_name("walletAddress")));
-@end
+__attribute__((swift_name("MoonPayiOSSdk")))
+@interface MPSMoonPayiOSSdk : MPSMoonPayCoreSdk
+- (instancetype)initWithConfig:(MPSMoonPaySdkConfig *)config __attribute__((swift_name("init(config:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (void)close __attribute__((swift_name("close()")));
 
-__attribute__((unavailable("Kotlin subclass of Objective-C class can't be imported")))
-__attribute__((swift_name("WebView")))
-@interface MSDKWebView : NSObject
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (MPSMoonPayConfigWithOptions<id> *)getConfigOptions:(id _Nullable)options __attribute__((swift_name("getConfig(options:)")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (MPSMoonPayEnvironmentWithOptions<id> *)getSdkEnvironmentConfig:(MPSMoonPaySdkConfig *)config options:(id _Nullable)options __attribute__((swift_name("getSdkEnvironment(config:options:)")));
+- (void)doInitConfig:(MPSMoonPaySdkConfig *)config __attribute__((swift_name("doInit(config:)")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (void)registerPostMessageHandlersConfig:(MPSMoonPaySdkConfig *)config __attribute__((swift_name("registerPostMessageHandlers(config:)")));
+- (void)showMode:(MPSMoonPayRenderingOptioniOS *)mode __attribute__((swift_name("show(mode:)")));
 @end
 
 
@@ -1538,116 +1733,335 @@ __attribute__((swift_name("WebView")))
  *   kotlinx.serialization.Serializable
 */
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("WidgetEnvironment")))
-@interface MSDKWidgetEnvironment : MSDKKotlinEnum<MSDKWidgetEnvironment *>
+__attribute__((swift_name("OnAuthTokenRequestPayload")))
+@interface MPSOnAuthTokenRequestPayload : MPSMoonPayRequestPayload
+- (instancetype)initWithToken:(NSString *)token csrfToken:(NSString *)csrfToken __attribute__((swift_name("init(token:csrfToken:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) MPSOnAuthTokenRequestPayloadCompanion *companion __attribute__((swift_name("companion")));
+- (MPSOnAuthTokenRequestPayload *)doCopyToken:(NSString *)token csrfToken:(NSString *)csrfToken __attribute__((swift_name("doCopy(token:csrfToken:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *csrfToken __attribute__((swift_name("csrfToken")));
+@property (readonly) NSString *token __attribute__((swift_name("token")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OnAuthTokenRequestPayload.Companion")))
+@interface MPSOnAuthTokenRequestPayloadCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSOnAuthTokenRequestPayloadCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OnInitiateDepositRequestPayload")))
+@interface MPSOnInitiateDepositRequestPayload : MPSMoonPayRequestPayload
+- (instancetype)initWithTransactionId:(NSString *)transactionId cryptoCurrency:(MPSCryptoCurrency *)cryptoCurrency fiatCurrency:(MPSFiatCurrency *)fiatCurrency cryptoCurrencyAmount:(NSString *)cryptoCurrencyAmount cryptoCurrencyAmountSmallestDenomination:(NSString *)cryptoCurrencyAmountSmallestDenomination fiatCurrencyAmount:(NSString * _Nullable)fiatCurrencyAmount depositWalletAddress:(NSString *)depositWalletAddress __attribute__((swift_name("init(transactionId:cryptoCurrency:fiatCurrency:cryptoCurrencyAmount:cryptoCurrencyAmountSmallestDenomination:fiatCurrencyAmount:depositWalletAddress:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) MPSOnInitiateDepositRequestPayloadCompanion *companion __attribute__((swift_name("companion")));
+- (MPSOnInitiateDepositRequestPayload *)doCopyTransactionId:(NSString *)transactionId cryptoCurrency:(MPSCryptoCurrency *)cryptoCurrency fiatCurrency:(MPSFiatCurrency *)fiatCurrency cryptoCurrencyAmount:(NSString *)cryptoCurrencyAmount cryptoCurrencyAmountSmallestDenomination:(NSString *)cryptoCurrencyAmountSmallestDenomination fiatCurrencyAmount:(NSString * _Nullable)fiatCurrencyAmount depositWalletAddress:(NSString *)depositWalletAddress __attribute__((swift_name("doCopy(transactionId:cryptoCurrency:fiatCurrency:cryptoCurrencyAmount:cryptoCurrencyAmountSmallestDenomination:fiatCurrencyAmount:depositWalletAddress:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) MPSCryptoCurrency *cryptoCurrency __attribute__((swift_name("cryptoCurrency")));
+@property (readonly) NSString *cryptoCurrencyAmount __attribute__((swift_name("cryptoCurrencyAmount")));
+@property (readonly) NSString *cryptoCurrencyAmountSmallestDenomination __attribute__((swift_name("cryptoCurrencyAmountSmallestDenomination")));
+@property (readonly) NSString *depositWalletAddress __attribute__((swift_name("depositWalletAddress")));
+@property (readonly) MPSFiatCurrency *fiatCurrency __attribute__((swift_name("fiatCurrency")));
+@property (readonly) NSString * _Nullable fiatCurrencyAmount __attribute__((swift_name("fiatCurrencyAmount")));
+@property (readonly) NSString *transactionId __attribute__((swift_name("transactionId")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OnInitiateDepositRequestPayload.Companion")))
+@interface MPSOnInitiateDepositRequestPayloadCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSOnInitiateDepositRequestPayloadCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OnInitiateDepositResponsePayload")))
+@interface MPSOnInitiateDepositResponsePayload : MPSMoonPayResolvePayload
+- (instancetype)initWithDepositId:(NSString *)depositId __attribute__((swift_name("init(depositId:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) MPSOnInitiateDepositResponsePayloadCompanion *companion __attribute__((swift_name("companion")));
+- (MPSOnInitiateDepositResponsePayload *)doCopyDepositId:(NSString *)depositId __attribute__((swift_name("doCopy(depositId:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property NSString *depositId __attribute__((swift_name("depositId")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OnInitiateDepositResponsePayload.Companion")))
+@interface MPSOnInitiateDepositResponsePayloadCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSOnInitiateDepositResponsePayloadCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OnLoginRequestPayload")))
+@interface MPSOnLoginRequestPayload : MPSMoonPayRequestPayload
+- (instancetype)initWithIsRefresh:(BOOL)isRefresh __attribute__((swift_name("init(isRefresh:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) MPSOnLoginRequestPayloadCompanion *companion __attribute__((swift_name("companion")));
+- (MPSOnLoginRequestPayload *)doCopyIsRefresh:(BOOL)isRefresh __attribute__((swift_name("doCopy(isRefresh:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) BOOL isRefresh __attribute__((swift_name("isRefresh")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OnLoginRequestPayload.Companion")))
+@interface MPSOnLoginRequestPayloadCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSOnLoginRequestPayloadCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PostMessenger")))
+@interface MPSPostMessenger : MPSBase
+- (instancetype)initWithAppProtocol:(MPSAppProtocol *)appProtocol mode:(MPSPostMessengerMode *)mode requestActionHandlers:(NSDictionary<MPSFloat *, MPSMoonPayHandlers *> * _Nullable)requestActionHandlers verbose:(BOOL)verbose onReady:(void (^ _Nullable)(MPSAppProtocolProps *))onReady postMessageClient:(NSObject *)postMessageClient __attribute__((swift_name("init(appProtocol:mode:requestActionHandlers:verbose:onReady:postMessageClient:)"))) __attribute__((objc_designated_initializer));
+- (void)shutdown __attribute__((swift_name("shutdown()")));
+@property (readonly) MPSKotlinx_serialization_jsonJson *moonPayJson __attribute__((swift_name("moonPayJson")));
+@property (readonly) NSObject *postMessageClient __attribute__((swift_name("postMessageClient")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PostMessengerMode")))
+@interface MPSPostMessengerMode : MPSKotlinEnum<MPSPostMessengerMode *>
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 - (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly, getter=companion) MSDKWidgetEnvironmentCompanion *companion __attribute__((swift_name("companion")));
-@property (class, readonly) MSDKWidgetEnvironment *production __attribute__((swift_name("production")));
-@property (class, readonly) MSDKWidgetEnvironment *sandbox __attribute__((swift_name("sandbox")));
-+ (MSDKKotlinArray<MSDKWidgetEnvironment *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) MPSPostMessengerMode *parent __attribute__((swift_name("parent")));
+@property (class, readonly) MPSPostMessengerMode *child __attribute__((swift_name("child")));
++ (MPSKotlinArray<MPSPostMessengerMode *> *)values __attribute__((swift_name("values()")));
+@end
+
+__attribute__((swift_name("SellFlow")))
+@interface MPSSellFlow : MPSWidgetFlow
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("WidgetEnvironment.Companion")))
-@interface MSDKWidgetEnvironmentCompanion : MSDKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKWidgetEnvironmentCompanion *shared __attribute__((swift_name("shared")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializerTypeParamsSerializers:(MSDKKotlinArray<id<MSDKKotlinx_serialization_coreKSerializer>> *)typeParamsSerializers __attribute__((swift_name("serializer(typeParamsSerializers:)")));
+__attribute__((swift_name("SendMessageParams")))
+@interface MPSSendMessageParams : MPSBase
+- (instancetype)initWithAction:(NSString *)action payload:(MPSMoonPayRequestPayload *)payload timeout:(MPSLong * _Nullable)timeout __attribute__((swift_name("init(action:payload:timeout:)"))) __attribute__((objc_designated_initializer));
+- (MPSSendMessageParams *)doCopyAction:(NSString *)action payload:(MPSMoonPayRequestPayload *)payload timeout:(MPSLong * _Nullable)timeout __attribute__((swift_name("doCopy(action:payload:timeout:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *action __attribute__((swift_name("action")));
+@property (readonly) MPSMoonPayRequestPayload *payload __attribute__((swift_name("payload")));
+@property (readonly) MPSLong * _Nullable timeout __attribute__((swift_name("timeout")));
+@end
+
+__attribute__((swift_name("SwapsCustomerSetupFlow")))
+@interface MPSSwapsCustomerSetupFlow : MPSWidgetFlow
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("WidgetFlow.Companion")))
-@interface MSDKWidgetFlowCompanion : MSDKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKWidgetFlowCompanion *shared __attribute__((swift_name("shared")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializerTypeParamsSerializers:(MSDKKotlinArray<id<MSDKKotlinx_serialization_coreKSerializer>> *)typeParamsSerializers __attribute__((swift_name("serializer(typeParamsSerializers:)")));
+__attribute__((swift_name("Validator")))
+@interface MPSValidator : MPSBase
+- (instancetype)initWithLogger:(MPSLogger *)logger __attribute__((swift_name("init(logger:)"))) __attribute__((objc_designated_initializer));
+- (void)validateBuyConfigConfig:(MPSMoonPaySdkBuyConfig *)config __attribute__((swift_name("validateBuyConfig(config:)")));
+- (void)validateLegacyConfigConfig:(MPSMoonPaySdkLegacyConfig *)config __attribute__((swift_name("validateLegacyConfig(config:)")));
+- (void)validateMoonPaySdkConfigConfig:(MPSMoonPaySdkConfig * _Nullable)config __attribute__((swift_name("validateMoonPaySdkConfig(config:)")));
+- (void)validateSellConfigConfig:(MPSMoonPaySdkSellConfig *)config __attribute__((swift_name("validateSellConfig(config:)")));
+- (void)validateSwapConfigConfig:(MPSMoonPaySdkSwapsCustomerSetupConfig *)config __attribute__((swift_name("validateSwapConfig(config:)")));
+- (void)warnMissingParamParamName:(NSString *)paramName condition:(BOOL)condition __attribute__((swift_name("warnMissingParam(paramName:condition:)")));
+@property (readonly) MPSLogger *logger __attribute__((swift_name("logger")));
+@end
+
+__attribute__((unavailable("Kotlin subclass of Objective-C class can't be imported")))
+__attribute__((swift_name("WebView")))
+@interface MPSWebView : NSObject
 @end
 
 __attribute__((swift_name("WidgetPostMessengerHandlers")))
-@protocol MSDKWidgetPostMessengerHandlers
+@protocol MPSWidgetPostMessengerHandlers
 @required
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("WidgetUrl")))
-@interface MSDKWidgetUrl : MSDKBase
+@interface MPSWidgetUrl : MPSBase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@property (class, readonly, getter=companion) MSDKWidgetUrlCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly, getter=companion) MPSWidgetUrlCompanion *companion __attribute__((swift_name("companion")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("WidgetUrl.Companion")))
-@interface MSDKWidgetUrlCompanion : MSDKBase
+@interface MPSWidgetUrlCompanion : MPSBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKWidgetUrlCompanion *shared __attribute__((swift_name("shared")));
-- (NSString *)generateWidgetUrlConfig:(MSDKMoonPayCoreSdkConfig *)config omitSignature:(BOOL)omitSignature sdkEnvironment:(MSDKMoonPayCoreSdkEnvironment *)sdkEnvironment __attribute__((swift_name("generateWidgetUrl(config:omitSignature:sdkEnvironment:)")));
+@property (class, readonly, getter=shared) MPSWidgetUrlCompanion *shared __attribute__((swift_name("shared")));
+- (NSString *)generateWidgetUrlConfig:(MPSMoonPaySdkConfig *)config omitSignature:(BOOL)omitSignature sdkEnvironment:(MPSMoonPaySdkEnvironment *)sdkEnvironment __attribute__((swift_name("generateWidgetUrl(config:omitSignature:sdkEnvironment:)")));
 @end
 
 __attribute__((swift_name("WithLoggerLikeInstance")))
-@protocol MSDKWithLoggerLikeInstance
+@protocol MPSWithLoggerLikeInstance
 @required
-@property MSDKLogger * _Nullable logger __attribute__((swift_name("logger")));
+@property MPSLogger * _Nullable logger __attribute__((swift_name("logger")));
+@end
+
+__attribute__((swift_name("MoonPayHandlerType")))
+@interface MPSMoonPayHandlerType : MPSBase
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayHandlerType.NoHandler")))
+@interface MPSMoonPayHandlerTypeNoHandler : MPSMoonPayHandlerType
+- (instancetype)initWithHandler:(void (^ _Nullable)(void))handler __attribute__((swift_name("init(handler:)"))) __attribute__((objc_designated_initializer));
+- (MPSMoonPayHandlerTypeNoHandler *)doCopyHandler:(void (^ _Nullable)(void))handler __attribute__((swift_name("doCopy(handler:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) void (^ _Nullable handler)(void) __attribute__((swift_name("handler")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayHandlerType.OnAuthToken")))
+@interface MPSMoonPayHandlerTypeOnAuthToken : MPSMoonPayHandlerType
+- (instancetype)initWithHandler:(void (^ _Nullable)(MPSOnAuthTokenRequestPayload *))handler __attribute__((swift_name("init(handler:)"))) __attribute__((objc_designated_initializer));
+- (MPSMoonPayHandlerTypeOnAuthToken *)doCopyHandler:(void (^ _Nullable)(MPSOnAuthTokenRequestPayload *))handler __attribute__((swift_name("doCopy(handler:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) void (^ _Nullable handler)(MPSOnAuthTokenRequestPayload *) __attribute__((swift_name("handler")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayHandlerType.OnInitiateDeposit")))
+@interface MPSMoonPayHandlerTypeOnInitiateDeposit : MPSMoonPayHandlerType
+- (instancetype)initWithHandler:(MPSOnInitiateDepositResponsePayload *(^ _Nullable)(MPSOnInitiateDepositRequestPayload *))handler __attribute__((swift_name("init(handler:)"))) __attribute__((objc_designated_initializer));
+- (MPSMoonPayHandlerTypeOnInitiateDeposit *)doCopyHandler:(MPSOnInitiateDepositResponsePayload *(^ _Nullable)(MPSOnInitiateDepositRequestPayload *))handler __attribute__((swift_name("doCopy(handler:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) MPSOnInitiateDepositResponsePayload *(^ _Nullable handler)(MPSOnInitiateDepositRequestPayload *) __attribute__((swift_name("handler")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayHandlerType.OnKmsWalletCreated")))
+@interface MPSMoonPayHandlerTypeOnKmsWalletCreated : MPSMoonPayHandlerType
+- (instancetype)initWithHandler:(void (^ _Nullable)(void))handler __attribute__((swift_name("init(handler:)"))) __attribute__((objc_designated_initializer));
+- (MPSMoonPayHandlerTypeOnKmsWalletCreated *)doCopyHandler:(void (^ _Nullable)(void))handler __attribute__((swift_name("doCopy(handler:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) void (^ _Nullable handler)(void) __attribute__((swift_name("handler")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayHandlerType.OnLogin")))
+@interface MPSMoonPayHandlerTypeOnLogin : MPSMoonPayHandlerType
+- (instancetype)initWithHandler:(void (^ _Nullable)(MPSOnLoginRequestPayload *))handler __attribute__((swift_name("init(handler:)"))) __attribute__((objc_designated_initializer));
+- (MPSMoonPayHandlerTypeOnLogin *)doCopyHandler:(void (^ _Nullable)(MPSOnLoginRequestPayload *))handler __attribute__((swift_name("doCopy(handler:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) void (^ _Nullable handler)(MPSOnLoginRequestPayload *) __attribute__((swift_name("handler")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayHandlerType.OnSwapsCustomerSetupComplete")))
+@interface MPSMoonPayHandlerTypeOnSwapsCustomerSetupComplete : MPSMoonPayHandlerType
+- (instancetype)initWithHandler:(void (^ _Nullable)(void))handler __attribute__((swift_name("init(handler:)"))) __attribute__((objc_designated_initializer));
+- (MPSMoonPayHandlerTypeOnSwapsCustomerSetupComplete *)doCopyHandler:(void (^ _Nullable)(void))handler __attribute__((swift_name("doCopy(handler:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) void (^ _Nullable handler)(void) __attribute__((swift_name("handler")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MoonPayHandlerType.OnUnsupportedRegion")))
+@interface MPSMoonPayHandlerTypeOnUnsupportedRegion : MPSMoonPayHandlerType
+- (instancetype)initWithHandler:(void (^ _Nullable)(void))handler __attribute__((swift_name("init(handler:)"))) __attribute__((objc_designated_initializer));
+- (MPSMoonPayHandlerTypeOnUnsupportedRegion *)doCopyHandler:(void (^ _Nullable)(void))handler __attribute__((swift_name("doCopy(handler:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) void (^ _Nullable handler)(void) __attribute__((swift_name("handler")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MessageTypesKt")))
-@interface MSDKMessageTypesKt : MSDKBase
-+ (BOOL)isMoonpayHandshakeRequestMessageMessage:(MSDKMoonpayMessage *)message __attribute__((swift_name("isMoonpayHandshakeRequestMessage(message:)")));
+@interface MPSMessageTypesKt : MPSBase
 @property (class, readonly) NSString *HandshakeAction __attribute__((swift_name("HandshakeAction")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("LoggerKt")))
-@interface MSDKLoggerKt : MSDKBase
+@interface MPSLoggerKt : MPSBase
 @property (class, readonly) void (^NOOP)(void) __attribute__((swift_name("NOOP")));
-@property (class, readonly) id<MSDKLoggerLikeInstance> noopLogger __attribute__((swift_name("noopLogger")));
+@property (class, readonly) id<MPSLoggerLikeInstance> noopLogger __attribute__((swift_name("noopLogger")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("RampsKt")))
-@interface MSDKRampsKt : MSDKBase
-@property (class, readonly) MSDKAppProtocol *RampsAppProtocol __attribute__((swift_name("RampsAppProtocol")));
+@interface MPSRampsKt : MPSBase
+@property (class, readonly) MPSAppProtocol *RampsAppProtocol __attribute__((swift_name("RampsAppProtocol")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PostMessengerConstsKt")))
-@interface MSDKPostMessengerConstsKt : MSDKBase
-@property (class, readonly) NSArray<MSDKFloat *> *SUPPORTED_PROTOCOL_VERSIONS __attribute__((swift_name("SUPPORTED_PROTOCOL_VERSIONS")));
+@interface MPSPostMessengerConstsKt : MPSBase
+@property (class, readonly) NSArray<MPSFloat *> *SUPPORTED_PROTOCOL_VERSIONS __attribute__((swift_name("SUPPORTED_PROTOCOL_VERSIONS")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("WidgetUrlKt")))
-@interface MSDKWidgetUrlKt : MSDKBase
-@property (class, readonly) NSDictionary<MSDKWidgetEnvironment *, NSDictionary<NSString *, NSString *> *> *moonPayHostnames __attribute__((swift_name("moonPayHostnames")));
+@interface MPSWidgetUrlKt : MPSBase
+@property (class, readonly) NSDictionary<MPSMoonPayWidgetEnvironment *, NSDictionary<NSString *, NSString *> *> *moonPayHostnames __attribute__((swift_name("moonPayHostnames")));
 @end
 
 __attribute__((swift_name("Kotlinx_serialization_coreSerializationStrategy")))
-@protocol MSDKKotlinx_serialization_coreSerializationStrategy
+@protocol MPSKotlinx_serialization_coreSerializationStrategy
 @required
-- (void)serializeEncoder:(id<MSDKKotlinx_serialization_coreEncoder>)encoder value:(id _Nullable)value __attribute__((swift_name("serialize(encoder:value:)")));
-@property (readonly) id<MSDKKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
+- (void)serializeEncoder:(id<MPSKotlinx_serialization_coreEncoder>)encoder value:(id _Nullable)value __attribute__((swift_name("serialize(encoder:value:)")));
+@property (readonly) id<MPSKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
 @end
 
 __attribute__((swift_name("Kotlinx_serialization_coreDeserializationStrategy")))
-@protocol MSDKKotlinx_serialization_coreDeserializationStrategy
+@protocol MPSKotlinx_serialization_coreDeserializationStrategy
 @required
-- (id _Nullable)deserializeDecoder:(id<MSDKKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
-@property (readonly) id<MSDKKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
+- (id _Nullable)deserializeDecoder:(id<MPSKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
+@property (readonly) id<MPSKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
 @end
 
 __attribute__((swift_name("Kotlinx_serialization_coreKSerializer")))
-@protocol MSDKKotlinx_serialization_coreKSerializer <MSDKKotlinx_serialization_coreSerializationStrategy, MSDKKotlinx_serialization_coreDeserializationStrategy>
+@protocol MPSKotlinx_serialization_coreKSerializer <MPSKotlinx_serialization_coreSerializationStrategy, MPSKotlinx_serialization_coreDeserializationStrategy>
 @required
 @end
 
@@ -1657,51 +2071,51 @@ __attribute__((swift_name("Kotlinx_serialization_coreKSerializer")))
  *   kotlin.SinceKotlin(version="1.3")
 */
 __attribute__((swift_name("KotlinCoroutineContext")))
-@protocol MSDKKotlinCoroutineContext
+@protocol MPSKotlinCoroutineContext
 @required
-- (id _Nullable)foldInitial:(id _Nullable)initial operation:(id _Nullable (^)(id _Nullable, id<MSDKKotlinCoroutineContextElement>))operation __attribute__((swift_name("fold(initial:operation:)")));
-- (id<MSDKKotlinCoroutineContextElement> _Nullable)getKey:(id<MSDKKotlinCoroutineContextKey>)key __attribute__((swift_name("get(key:)")));
-- (id<MSDKKotlinCoroutineContext>)minusKeyKey:(id<MSDKKotlinCoroutineContextKey>)key __attribute__((swift_name("minusKey(key:)")));
-- (id<MSDKKotlinCoroutineContext>)plusContext:(id<MSDKKotlinCoroutineContext>)context __attribute__((swift_name("plus(context:)")));
+- (id _Nullable)foldInitial:(id _Nullable)initial operation:(id _Nullable (^)(id _Nullable, id<MPSKotlinCoroutineContextElement>))operation __attribute__((swift_name("fold(initial:operation:)")));
+- (id<MPSKotlinCoroutineContextElement> _Nullable)getKey:(id<MPSKotlinCoroutineContextKey>)key __attribute__((swift_name("get(key:)")));
+- (id<MPSKotlinCoroutineContext>)minusKeyKey:(id<MPSKotlinCoroutineContextKey>)key __attribute__((swift_name("minusKey(key:)")));
+- (id<MPSKotlinCoroutineContext>)plusContext:(id<MPSKotlinCoroutineContext>)context __attribute__((swift_name("plus(context:)")));
 @end
 
 __attribute__((swift_name("KotlinCoroutineContextElement")))
-@protocol MSDKKotlinCoroutineContextElement <MSDKKotlinCoroutineContext>
+@protocol MPSKotlinCoroutineContextElement <MPSKotlinCoroutineContext>
 @required
-@property (readonly) id<MSDKKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
+@property (readonly) id<MPSKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
 @end
 
 __attribute__((swift_name("Kotlinx_coroutines_coreJob")))
-@protocol MSDKKotlinx_coroutines_coreJob <MSDKKotlinCoroutineContextElement>
+@protocol MPSKotlinx_coroutines_coreJob <MPSKotlinCoroutineContextElement>
 @required
-- (id<MSDKKotlinx_coroutines_coreChildHandle>)attachChildChild:(id<MSDKKotlinx_coroutines_coreChildJob>)child __attribute__((swift_name("attachChild(child:)")));
-- (void)cancelCause:(MSDKKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
-- (MSDKKotlinCancellationException *)getCancellationException __attribute__((swift_name("getCancellationException()")));
-- (id<MSDKKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionOnCancelling:(BOOL)onCancelling invokeImmediately:(BOOL)invokeImmediately handler:(void (^)(MSDKKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(onCancelling:invokeImmediately:handler:)")));
-- (id<MSDKKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionHandler:(void (^)(MSDKKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(handler:)")));
+- (id<MPSKotlinx_coroutines_coreChildHandle>)attachChildChild:(id<MPSKotlinx_coroutines_coreChildJob>)child __attribute__((swift_name("attachChild(child:)")));
+- (void)cancelCause:(MPSKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
+- (MPSKotlinCancellationException *)getCancellationException __attribute__((swift_name("getCancellationException()")));
+- (id<MPSKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionOnCancelling:(BOOL)onCancelling invokeImmediately:(BOOL)invokeImmediately handler:(void (^)(MPSKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(onCancelling:invokeImmediately:handler:)")));
+- (id<MPSKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionHandler:(void (^)(MPSKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(handler:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)joinWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("join(completionHandler:)")));
-- (id<MSDKKotlinx_coroutines_coreJob>)plusOther:(id<MSDKKotlinx_coroutines_coreJob>)other __attribute__((swift_name("plus(other:)"))) __attribute__((unavailable("Operator '+' on two Job objects is meaningless. Job is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The job to the right of `+` just replaces the job the left of `+`.")));
+- (id<MPSKotlinx_coroutines_coreJob>)plusOther:(id<MPSKotlinx_coroutines_coreJob>)other __attribute__((swift_name("plus(other:)"))) __attribute__((unavailable("Operator '+' on two Job objects is meaningless. Job is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The job to the right of `+` just replaces the job the left of `+`.")));
 - (BOOL)start __attribute__((swift_name("start()")));
-@property (readonly) id<MSDKKotlinSequence> children __attribute__((swift_name("children")));
+@property (readonly) id<MPSKotlinSequence> children __attribute__((swift_name("children")));
 @property (readonly) BOOL isActive __attribute__((swift_name("isActive")));
 @property (readonly) BOOL isCancelled __attribute__((swift_name("isCancelled")));
 @property (readonly) BOOL isCompleted __attribute__((swift_name("isCompleted")));
-@property (readonly) id<MSDKKotlinx_coroutines_coreSelectClause0> onJoin __attribute__((swift_name("onJoin")));
+@property (readonly) id<MPSKotlinx_coroutines_coreSelectClause0> onJoin __attribute__((swift_name("onJoin")));
 
 /**
  * @note annotations
  *   kotlinx.coroutines.ExperimentalCoroutinesApi
 */
-@property (readonly) id<MSDKKotlinx_coroutines_coreJob> _Nullable parent __attribute__((swift_name("parent")));
+@property (readonly) id<MPSKotlinx_coroutines_coreJob> _Nullable parent __attribute__((swift_name("parent")));
 @end
 
 __attribute__((swift_name("Kotlinx_coroutines_coreDeferred")))
-@protocol MSDKKotlinx_coroutines_coreDeferred <MSDKKotlinx_coroutines_coreJob>
+@protocol MPSKotlinx_coroutines_coreDeferred <MPSKotlinx_coroutines_coreJob>
 @required
 
 /**
@@ -1720,82 +2134,76 @@ __attribute__((swift_name("Kotlinx_coroutines_coreDeferred")))
  * @note annotations
  *   kotlinx.coroutines.ExperimentalCoroutinesApi
 */
-- (MSDKKotlinThrowable * _Nullable)getCompletionExceptionOrNull __attribute__((swift_name("getCompletionExceptionOrNull()")));
-@property (readonly) id<MSDKKotlinx_coroutines_coreSelectClause1> onAwait __attribute__((swift_name("onAwait")));
+- (MPSKotlinThrowable * _Nullable)getCompletionExceptionOrNull __attribute__((swift_name("getCompletionExceptionOrNull()")));
+@property (readonly) id<MPSKotlinx_coroutines_coreSelectClause1> onAwait __attribute__((swift_name("onAwait")));
 @end
 
 __attribute__((swift_name("Kotlinx_coroutines_coreCompletableDeferred")))
-@protocol MSDKKotlinx_coroutines_coreCompletableDeferred <MSDKKotlinx_coroutines_coreDeferred>
+@protocol MPSKotlinx_coroutines_coreCompletableDeferred <MPSKotlinx_coroutines_coreDeferred>
 @required
 - (BOOL)completeValue:(id _Nullable)value __attribute__((swift_name("complete(value:)")));
-- (BOOL)completeExceptionallyException:(MSDKKotlinThrowable *)exception __attribute__((swift_name("completeExceptionally(exception:)")));
+- (BOOL)completeExceptionallyException:(MPSKotlinThrowable *)exception __attribute__((swift_name("completeExceptionally(exception:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KotlinArray")))
-@interface MSDKKotlinArray<T> : MSDKBase
-+ (instancetype)arrayWithSize:(int32_t)size init:(T _Nullable (^)(MSDKInt *))init __attribute__((swift_name("init(size:init:)")));
+@interface MPSKotlinArray<T> : MPSBase
++ (instancetype)arrayWithSize:(int32_t)size init:(T _Nullable (^)(MPSInt *))init __attribute__((swift_name("init(size:init:)")));
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 - (T _Nullable)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
-- (id<MSDKKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
+- (id<MPSKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
 - (void)setIndex:(int32_t)index value:(T _Nullable)value __attribute__((swift_name("set(index:value:)")));
 @property (readonly) int32_t size __attribute__((swift_name("size")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KotlinEnumCompanion")))
-@interface MSDKKotlinEnumCompanion : MSDKBase
+@interface MPSKotlinEnumCompanion : MPSBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKKotlinEnumCompanion *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) MPSKotlinEnumCompanion *shared __attribute__((swift_name("shared")));
 @end
 
-__attribute__((swift_name("KotlinRuntimeException")))
-@interface MSDKKotlinRuntimeException : MSDKKotlinException
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(MSDKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(MSDKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+__attribute__((swift_name("Kotlinx_serialization_coreSerialFormat")))
+@protocol MPSKotlinx_serialization_coreSerialFormat
+@required
+@property (readonly) MPSKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
 @end
 
-__attribute__((swift_name("KotlinIllegalStateException")))
-@interface MSDKKotlinIllegalStateException : MSDKKotlinRuntimeException
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(MSDKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(MSDKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+__attribute__((swift_name("Kotlinx_serialization_coreStringFormat")))
+@protocol MPSKotlinx_serialization_coreStringFormat <MPSKotlinx_serialization_coreSerialFormat>
+@required
+- (id _Nullable)decodeFromStringDeserializer:(id<MPSKotlinx_serialization_coreDeserializationStrategy>)deserializer string:(NSString *)string __attribute__((swift_name("decodeFromString(deserializer:string:)")));
+- (NSString *)encodeToStringSerializer:(id<MPSKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeToString(serializer:value:)")));
 @end
 
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.4")
-*/
-__attribute__((swift_name("KotlinCancellationException")))
-@interface MSDKKotlinCancellationException : MSDKKotlinIllegalStateException
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(MSDKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(MSDKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+__attribute__((swift_name("Kotlinx_serialization_jsonJson")))
+@interface MPSKotlinx_serialization_jsonJson : MPSBase <MPSKotlinx_serialization_coreStringFormat>
+@property (class, readonly, getter=companion) MPSKotlinx_serialization_jsonJsonDefault *companion __attribute__((swift_name("companion")));
+- (id _Nullable)decodeFromJsonElementDeserializer:(id<MPSKotlinx_serialization_coreDeserializationStrategy>)deserializer element:(MPSKotlinx_serialization_jsonJsonElement *)element __attribute__((swift_name("decodeFromJsonElement(deserializer:element:)")));
+- (id _Nullable)decodeFromStringString:(NSString *)string __attribute__((swift_name("decodeFromString(string:)")));
+- (id _Nullable)decodeFromStringDeserializer:(id<MPSKotlinx_serialization_coreDeserializationStrategy>)deserializer string:(NSString *)string __attribute__((swift_name("decodeFromString(deserializer:string:)")));
+- (MPSKotlinx_serialization_jsonJsonElement *)encodeToJsonElementSerializer:(id<MPSKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeToJsonElement(serializer:value:)")));
+- (NSString *)encodeToStringSerializer:(id<MPSKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeToString(serializer:value:)")));
+- (MPSKotlinx_serialization_jsonJsonElement *)parseToJsonElementString:(NSString *)string __attribute__((swift_name("parseToJsonElement(string:)")));
+@property (readonly) MPSKotlinx_serialization_jsonJsonConfiguration *configuration __attribute__((swift_name("configuration")));
+@property (readonly) MPSKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
 @end
 
 __attribute__((swift_name("Kotlinx_serialization_coreEncoder")))
-@protocol MSDKKotlinx_serialization_coreEncoder
+@protocol MPSKotlinx_serialization_coreEncoder
 @required
-- (id<MSDKKotlinx_serialization_coreCompositeEncoder>)beginCollectionDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor collectionSize:(int32_t)collectionSize __attribute__((swift_name("beginCollection(descriptor:collectionSize:)")));
-- (id<MSDKKotlinx_serialization_coreCompositeEncoder>)beginStructureDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("beginStructure(descriptor:)")));
+- (id<MPSKotlinx_serialization_coreCompositeEncoder>)beginCollectionDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor collectionSize:(int32_t)collectionSize __attribute__((swift_name("beginCollection(descriptor:collectionSize:)")));
+- (id<MPSKotlinx_serialization_coreCompositeEncoder>)beginStructureDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("beginStructure(descriptor:)")));
 - (void)encodeBooleanValue:(BOOL)value __attribute__((swift_name("encodeBoolean(value:)")));
 - (void)encodeByteValue:(int8_t)value __attribute__((swift_name("encodeByte(value:)")));
 - (void)encodeCharValue:(unichar)value __attribute__((swift_name("encodeChar(value:)")));
 - (void)encodeDoubleValue:(double)value __attribute__((swift_name("encodeDouble(value:)")));
-- (void)encodeEnumEnumDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)enumDescriptor index:(int32_t)index __attribute__((swift_name("encodeEnum(enumDescriptor:index:)")));
+- (void)encodeEnumEnumDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)enumDescriptor index:(int32_t)index __attribute__((swift_name("encodeEnum(enumDescriptor:index:)")));
 - (void)encodeFloatValue:(float)value __attribute__((swift_name("encodeFloat(value:)")));
-- (id<MSDKKotlinx_serialization_coreEncoder>)encodeInlineDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("encodeInline(descriptor:)")));
+- (id<MPSKotlinx_serialization_coreEncoder>)encodeInlineDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("encodeInline(descriptor:)")));
 - (void)encodeIntValue:(int32_t)value __attribute__((swift_name("encodeInt(value:)")));
 - (void)encodeLongValue:(int64_t)value __attribute__((swift_name("encodeLong(value:)")));
 
@@ -1815,28 +2223,28 @@ __attribute__((swift_name("Kotlinx_serialization_coreEncoder")))
  * @note annotations
  *   kotlinx.serialization.ExperimentalSerializationApi
 */
-- (void)encodeNullableSerializableValueSerializer:(id<MSDKKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeNullableSerializableValue(serializer:value:)")));
-- (void)encodeSerializableValueSerializer:(id<MSDKKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeSerializableValue(serializer:value:)")));
+- (void)encodeNullableSerializableValueSerializer:(id<MPSKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeNullableSerializableValue(serializer:value:)")));
+- (void)encodeSerializableValueSerializer:(id<MPSKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeSerializableValue(serializer:value:)")));
 - (void)encodeShortValue:(int16_t)value __attribute__((swift_name("encodeShort(value:)")));
 - (void)encodeStringValue:(NSString *)value __attribute__((swift_name("encodeString(value:)")));
-@property (readonly) MSDKKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+@property (readonly) MPSKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
 @end
 
 __attribute__((swift_name("Kotlinx_serialization_coreSerialDescriptor")))
-@protocol MSDKKotlinx_serialization_coreSerialDescriptor
+@protocol MPSKotlinx_serialization_coreSerialDescriptor
 @required
 
 /**
  * @note annotations
  *   kotlinx.serialization.ExperimentalSerializationApi
 */
-- (NSArray<id<MSDKKotlinAnnotation>> *)getElementAnnotationsIndex:(int32_t)index __attribute__((swift_name("getElementAnnotations(index:)")));
+- (NSArray<id<MPSKotlinAnnotation>> *)getElementAnnotationsIndex:(int32_t)index __attribute__((swift_name("getElementAnnotations(index:)")));
 
 /**
  * @note annotations
  *   kotlinx.serialization.ExperimentalSerializationApi
 */
-- (id<MSDKKotlinx_serialization_coreSerialDescriptor>)getElementDescriptorIndex:(int32_t)index __attribute__((swift_name("getElementDescriptor(index:)")));
+- (id<MPSKotlinx_serialization_coreSerialDescriptor>)getElementDescriptorIndex:(int32_t)index __attribute__((swift_name("getElementDescriptor(index:)")));
 
 /**
  * @note annotations
@@ -1860,7 +2268,7 @@ __attribute__((swift_name("Kotlinx_serialization_coreSerialDescriptor")))
  * @note annotations
  *   kotlinx.serialization.ExperimentalSerializationApi
 */
-@property (readonly) NSArray<id<MSDKKotlinAnnotation>> *annotations __attribute__((swift_name("annotations")));
+@property (readonly) NSArray<id<MPSKotlinAnnotation>> *annotations __attribute__((swift_name("annotations")));
 
 /**
  * @note annotations
@@ -1879,7 +2287,7 @@ __attribute__((swift_name("Kotlinx_serialization_coreSerialDescriptor")))
  * @note annotations
  *   kotlinx.serialization.ExperimentalSerializationApi
 */
-@property (readonly) MSDKKotlinx_serialization_coreSerialKind *kind __attribute__((swift_name("kind")));
+@property (readonly) MPSKotlinx_serialization_coreSerialKind *kind __attribute__((swift_name("kind")));
 
 /**
  * @note annotations
@@ -1889,16 +2297,16 @@ __attribute__((swift_name("Kotlinx_serialization_coreSerialDescriptor")))
 @end
 
 __attribute__((swift_name("Kotlinx_serialization_coreDecoder")))
-@protocol MSDKKotlinx_serialization_coreDecoder
+@protocol MPSKotlinx_serialization_coreDecoder
 @required
-- (id<MSDKKotlinx_serialization_coreCompositeDecoder>)beginStructureDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("beginStructure(descriptor:)")));
+- (id<MPSKotlinx_serialization_coreCompositeDecoder>)beginStructureDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("beginStructure(descriptor:)")));
 - (BOOL)decodeBoolean __attribute__((swift_name("decodeBoolean()")));
 - (int8_t)decodeByte __attribute__((swift_name("decodeByte()")));
 - (unichar)decodeChar __attribute__((swift_name("decodeChar()")));
 - (double)decodeDouble __attribute__((swift_name("decodeDouble()")));
-- (int32_t)decodeEnumEnumDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)enumDescriptor __attribute__((swift_name("decodeEnum(enumDescriptor:)")));
+- (int32_t)decodeEnumEnumDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)enumDescriptor __attribute__((swift_name("decodeEnum(enumDescriptor:)")));
 - (float)decodeFloat __attribute__((swift_name("decodeFloat()")));
-- (id<MSDKKotlinx_serialization_coreDecoder>)decodeInlineDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("decodeInline(descriptor:)")));
+- (id<MPSKotlinx_serialization_coreDecoder>)decodeInlineDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("decodeInline(descriptor:)")));
 - (int32_t)decodeInt __attribute__((swift_name("decodeInt()")));
 - (int64_t)decodeLong __attribute__((swift_name("decodeLong()")));
 
@@ -1912,135 +2320,220 @@ __attribute__((swift_name("Kotlinx_serialization_coreDecoder")))
  * @note annotations
  *   kotlinx.serialization.ExperimentalSerializationApi
 */
-- (MSDKKotlinNothing * _Nullable)decodeNull __attribute__((swift_name("decodeNull()")));
+- (MPSKotlinNothing * _Nullable)decodeNull __attribute__((swift_name("decodeNull()")));
 
 /**
  * @note annotations
  *   kotlinx.serialization.ExperimentalSerializationApi
 */
-- (id _Nullable)decodeNullableSerializableValueDeserializer:(id<MSDKKotlinx_serialization_coreDeserializationStrategy>)deserializer __attribute__((swift_name("decodeNullableSerializableValue(deserializer:)")));
-- (id _Nullable)decodeSerializableValueDeserializer:(id<MSDKKotlinx_serialization_coreDeserializationStrategy>)deserializer __attribute__((swift_name("decodeSerializableValue(deserializer:)")));
+- (id _Nullable)decodeNullableSerializableValueDeserializer:(id<MPSKotlinx_serialization_coreDeserializationStrategy>)deserializer __attribute__((swift_name("decodeNullableSerializableValue(deserializer:)")));
+- (id _Nullable)decodeSerializableValueDeserializer:(id<MPSKotlinx_serialization_coreDeserializationStrategy>)deserializer __attribute__((swift_name("decodeSerializableValue(deserializer:)")));
 - (int16_t)decodeShort __attribute__((swift_name("decodeShort()")));
 - (NSString *)decodeString __attribute__((swift_name("decodeString()")));
-@property (readonly) MSDKKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+@property (readonly) MPSKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
 @end
 
 __attribute__((swift_name("KotlinCoroutineContextKey")))
-@protocol MSDKKotlinCoroutineContextKey
+@protocol MPSKotlinCoroutineContextKey
 @required
+@end
+
+__attribute__((swift_name("KotlinRuntimeException")))
+@interface MPSKotlinRuntimeException : MPSKotlinException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(MPSKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(MPSKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+@end
+
+__attribute__((swift_name("KotlinIllegalStateException")))
+@interface MPSKotlinIllegalStateException : MPSKotlinRuntimeException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(MPSKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(MPSKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.4")
+*/
+__attribute__((swift_name("KotlinCancellationException")))
+@interface MPSKotlinCancellationException : MPSKotlinIllegalStateException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(MPSKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(MPSKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
 @end
 
 __attribute__((swift_name("Kotlinx_coroutines_coreSelectClause")))
-@protocol MSDKKotlinx_coroutines_coreSelectClause
+@protocol MPSKotlinx_coroutines_coreSelectClause
 @required
 @property (readonly) id clauseObject __attribute__((swift_name("clauseObject")));
-@property (readonly) MSDKKotlinUnit *(^(^ _Nullable onCancellationConstructor)(id<MSDKKotlinx_coroutines_coreSelectInstance>, id _Nullable, id _Nullable))(MSDKKotlinThrowable *) __attribute__((swift_name("onCancellationConstructor")));
+@property (readonly) MPSKotlinUnit *(^(^ _Nullable onCancellationConstructor)(id<MPSKotlinx_coroutines_coreSelectInstance>, id _Nullable, id _Nullable))(MPSKotlinThrowable *) __attribute__((swift_name("onCancellationConstructor")));
 @property (readonly) id _Nullable (^processResFunc)(id, id _Nullable, id _Nullable) __attribute__((swift_name("processResFunc")));
-@property (readonly) void (^regFunc)(id, id<MSDKKotlinx_coroutines_coreSelectInstance>, id _Nullable) __attribute__((swift_name("regFunc")));
+@property (readonly) void (^regFunc)(id, id<MPSKotlinx_coroutines_coreSelectInstance>, id _Nullable) __attribute__((swift_name("regFunc")));
 @end
 
 __attribute__((swift_name("Kotlinx_coroutines_coreSelectClause1")))
-@protocol MSDKKotlinx_coroutines_coreSelectClause1 <MSDKKotlinx_coroutines_coreSelectClause>
+@protocol MPSKotlinx_coroutines_coreSelectClause1 <MPSKotlinx_coroutines_coreSelectClause>
 @required
 @end
 
 __attribute__((swift_name("Kotlinx_coroutines_coreDisposableHandle")))
-@protocol MSDKKotlinx_coroutines_coreDisposableHandle
+@protocol MPSKotlinx_coroutines_coreDisposableHandle
 @required
 - (void)dispose __attribute__((swift_name("dispose()")));
 @end
 
 __attribute__((swift_name("Kotlinx_coroutines_coreChildHandle")))
-@protocol MSDKKotlinx_coroutines_coreChildHandle <MSDKKotlinx_coroutines_coreDisposableHandle>
+@protocol MPSKotlinx_coroutines_coreChildHandle <MPSKotlinx_coroutines_coreDisposableHandle>
 @required
-- (BOOL)childCancelledCause:(MSDKKotlinThrowable *)cause __attribute__((swift_name("childCancelled(cause:)")));
-@property (readonly) id<MSDKKotlinx_coroutines_coreJob> _Nullable parent __attribute__((swift_name("parent")));
+- (BOOL)childCancelledCause:(MPSKotlinThrowable *)cause __attribute__((swift_name("childCancelled(cause:)")));
+@property (readonly) id<MPSKotlinx_coroutines_coreJob> _Nullable parent __attribute__((swift_name("parent")));
 @end
 
 __attribute__((swift_name("Kotlinx_coroutines_coreChildJob")))
-@protocol MSDKKotlinx_coroutines_coreChildJob <MSDKKotlinx_coroutines_coreJob>
+@protocol MPSKotlinx_coroutines_coreChildJob <MPSKotlinx_coroutines_coreJob>
 @required
-- (void)parentCancelledParentJob:(id<MSDKKotlinx_coroutines_coreParentJob>)parentJob __attribute__((swift_name("parentCancelled(parentJob:)")));
+- (void)parentCancelledParentJob:(id<MPSKotlinx_coroutines_coreParentJob>)parentJob __attribute__((swift_name("parentCancelled(parentJob:)")));
 @end
 
 __attribute__((swift_name("KotlinSequence")))
-@protocol MSDKKotlinSequence
+@protocol MPSKotlinSequence
 @required
-- (id<MSDKKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
+- (id<MPSKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
 @end
 
 __attribute__((swift_name("Kotlinx_coroutines_coreSelectClause0")))
-@protocol MSDKKotlinx_coroutines_coreSelectClause0 <MSDKKotlinx_coroutines_coreSelectClause>
+@protocol MPSKotlinx_coroutines_coreSelectClause0 <MPSKotlinx_coroutines_coreSelectClause>
 @required
 @end
 
 __attribute__((swift_name("KotlinIterator")))
-@protocol MSDKKotlinIterator
+@protocol MPSKotlinIterator
 @required
 - (BOOL)hasNext __attribute__((swift_name("hasNext()")));
 - (id _Nullable)next __attribute__((swift_name("next()")));
 @end
 
-__attribute__((swift_name("Kotlinx_serialization_coreCompositeEncoder")))
-@protocol MSDKKotlinx_serialization_coreCompositeEncoder
-@required
-- (void)encodeBooleanElementDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(BOOL)value __attribute__((swift_name("encodeBooleanElement(descriptor:index:value:)")));
-- (void)encodeByteElementDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int8_t)value __attribute__((swift_name("encodeByteElement(descriptor:index:value:)")));
-- (void)encodeCharElementDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(unichar)value __attribute__((swift_name("encodeCharElement(descriptor:index:value:)")));
-- (void)encodeDoubleElementDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(double)value __attribute__((swift_name("encodeDoubleElement(descriptor:index:value:)")));
-- (void)encodeFloatElementDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(float)value __attribute__((swift_name("encodeFloatElement(descriptor:index:value:)")));
-- (id<MSDKKotlinx_serialization_coreEncoder>)encodeInlineElementDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("encodeInlineElement(descriptor:index:)")));
-- (void)encodeIntElementDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int32_t)value __attribute__((swift_name("encodeIntElement(descriptor:index:value:)")));
-- (void)encodeLongElementDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int64_t)value __attribute__((swift_name("encodeLongElement(descriptor:index:value:)")));
+__attribute__((swift_name("Kotlinx_serialization_coreSerializersModule")))
+@interface MPSKotlinx_serialization_coreSerializersModule : MPSBase
 
 /**
  * @note annotations
  *   kotlinx.serialization.ExperimentalSerializationApi
 */
-- (void)encodeNullableSerializableElementDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index serializer:(id<MSDKKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeNullableSerializableElement(descriptor:index:serializer:value:)")));
-- (void)encodeSerializableElementDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index serializer:(id<MSDKKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeSerializableElement(descriptor:index:serializer:value:)")));
-- (void)encodeShortElementDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int16_t)value __attribute__((swift_name("encodeShortElement(descriptor:index:value:)")));
-- (void)encodeStringElementDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(NSString *)value __attribute__((swift_name("encodeStringElement(descriptor:index:value:)")));
-- (void)endStructureDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("endStructure(descriptor:)")));
+- (void)dumpToCollector:(id<MPSKotlinx_serialization_coreSerializersModuleCollector>)collector __attribute__((swift_name("dumpTo(collector:)")));
 
 /**
  * @note annotations
  *   kotlinx.serialization.ExperimentalSerializationApi
 */
-- (BOOL)shouldEncodeElementDefaultDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("shouldEncodeElementDefault(descriptor:index:)")));
-@property (readonly) MSDKKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+- (id<MPSKotlinx_serialization_coreKSerializer> _Nullable)getContextualKClass:(id<MPSKotlinKClass>)kClass typeArgumentsSerializers:(NSArray<id<MPSKotlinx_serialization_coreKSerializer>> *)typeArgumentsSerializers __attribute__((swift_name("getContextual(kClass:typeArgumentsSerializers:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (id<MPSKotlinx_serialization_coreSerializationStrategy> _Nullable)getPolymorphicBaseClass:(id<MPSKotlinKClass>)baseClass value:(id)value __attribute__((swift_name("getPolymorphic(baseClass:value:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (id<MPSKotlinx_serialization_coreDeserializationStrategy> _Nullable)getPolymorphicBaseClass:(id<MPSKotlinKClass>)baseClass serializedClassName:(NSString * _Nullable)serializedClassName __attribute__((swift_name("getPolymorphic(baseClass:serializedClassName:)")));
 @end
 
-__attribute__((swift_name("Kotlinx_serialization_coreSerializersModule")))
-@interface MSDKKotlinx_serialization_coreSerializersModule : MSDKBase
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_serialization_jsonJson.Default")))
+@interface MPSKotlinx_serialization_jsonJsonDefault : MPSKotlinx_serialization_jsonJson
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)default_ __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSKotlinx_serialization_jsonJsonDefault *shared __attribute__((swift_name("shared")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable(with=NormalClass(value=kotlinx/serialization/json/JsonElementSerializer))
+*/
+__attribute__((swift_name("Kotlinx_serialization_jsonJsonElement")))
+@interface MPSKotlinx_serialization_jsonJsonElement : MPSBase
+@property (class, readonly, getter=companion) MPSKotlinx_serialization_jsonJsonElementCompanion *companion __attribute__((swift_name("companion")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_serialization_jsonJsonConfiguration")))
+@interface MPSKotlinx_serialization_jsonJsonConfiguration : MPSBase
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) BOOL allowSpecialFloatingPointValues __attribute__((swift_name("allowSpecialFloatingPointValues")));
+@property (readonly) BOOL allowStructuredMapKeys __attribute__((swift_name("allowStructuredMapKeys")));
+@property (readonly) NSString *classDiscriminator __attribute__((swift_name("classDiscriminator")));
+@property (readonly) BOOL coerceInputValues __attribute__((swift_name("coerceInputValues")));
+@property (readonly) BOOL encodeDefaults __attribute__((swift_name("encodeDefaults")));
 
 /**
  * @note annotations
  *   kotlinx.serialization.ExperimentalSerializationApi
 */
-- (void)dumpToCollector:(id<MSDKKotlinx_serialization_coreSerializersModuleCollector>)collector __attribute__((swift_name("dumpTo(collector:)")));
+@property (readonly) BOOL explicitNulls __attribute__((swift_name("explicitNulls")));
+@property (readonly) BOOL ignoreUnknownKeys __attribute__((swift_name("ignoreUnknownKeys")));
+@property (readonly) BOOL isLenient __attribute__((swift_name("isLenient")));
 
 /**
  * @note annotations
  *   kotlinx.serialization.ExperimentalSerializationApi
 */
-- (id<MSDKKotlinx_serialization_coreKSerializer> _Nullable)getContextualKClass:(id<MSDKKotlinKClass>)kClass typeArgumentsSerializers:(NSArray<id<MSDKKotlinx_serialization_coreKSerializer>> *)typeArgumentsSerializers __attribute__((swift_name("getContextual(kClass:typeArgumentsSerializers:)")));
+@property (readonly) id<MPSKotlinx_serialization_jsonJsonNamingStrategy> _Nullable namingStrategy __attribute__((swift_name("namingStrategy")));
+@property (readonly) BOOL prettyPrint __attribute__((swift_name("prettyPrint")));
 
 /**
  * @note annotations
  *   kotlinx.serialization.ExperimentalSerializationApi
 */
-- (id<MSDKKotlinx_serialization_coreSerializationStrategy> _Nullable)getPolymorphicBaseClass:(id<MSDKKotlinKClass>)baseClass value:(id)value __attribute__((swift_name("getPolymorphic(baseClass:value:)")));
+@property (readonly) NSString *prettyPrintIndent __attribute__((swift_name("prettyPrintIndent")));
+@property (readonly) BOOL useAlternativeNames __attribute__((swift_name("useAlternativeNames")));
+@property (readonly) BOOL useArrayPolymorphism __attribute__((swift_name("useArrayPolymorphism")));
+@end
+
+__attribute__((swift_name("Kotlinx_serialization_coreCompositeEncoder")))
+@protocol MPSKotlinx_serialization_coreCompositeEncoder
+@required
+- (void)encodeBooleanElementDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(BOOL)value __attribute__((swift_name("encodeBooleanElement(descriptor:index:value:)")));
+- (void)encodeByteElementDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int8_t)value __attribute__((swift_name("encodeByteElement(descriptor:index:value:)")));
+- (void)encodeCharElementDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(unichar)value __attribute__((swift_name("encodeCharElement(descriptor:index:value:)")));
+- (void)encodeDoubleElementDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(double)value __attribute__((swift_name("encodeDoubleElement(descriptor:index:value:)")));
+- (void)encodeFloatElementDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(float)value __attribute__((swift_name("encodeFloatElement(descriptor:index:value:)")));
+- (id<MPSKotlinx_serialization_coreEncoder>)encodeInlineElementDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("encodeInlineElement(descriptor:index:)")));
+- (void)encodeIntElementDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int32_t)value __attribute__((swift_name("encodeIntElement(descriptor:index:value:)")));
+- (void)encodeLongElementDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int64_t)value __attribute__((swift_name("encodeLongElement(descriptor:index:value:)")));
 
 /**
  * @note annotations
  *   kotlinx.serialization.ExperimentalSerializationApi
 */
-- (id<MSDKKotlinx_serialization_coreDeserializationStrategy> _Nullable)getPolymorphicBaseClass:(id<MSDKKotlinKClass>)baseClass serializedClassName:(NSString * _Nullable)serializedClassName __attribute__((swift_name("getPolymorphic(baseClass:serializedClassName:)")));
+- (void)encodeNullableSerializableElementDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index serializer:(id<MPSKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeNullableSerializableElement(descriptor:index:serializer:value:)")));
+- (void)encodeSerializableElementDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index serializer:(id<MPSKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeSerializableElement(descriptor:index:serializer:value:)")));
+- (void)encodeShortElementDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int16_t)value __attribute__((swift_name("encodeShortElement(descriptor:index:value:)")));
+- (void)encodeStringElementDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(NSString *)value __attribute__((swift_name("encodeStringElement(descriptor:index:value:)")));
+- (void)endStructureDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("endStructure(descriptor:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (BOOL)shouldEncodeElementDefaultDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("shouldEncodeElementDefault(descriptor:index:)")));
+@property (readonly) MPSKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
 @end
 
 __attribute__((swift_name("KotlinAnnotation")))
-@protocol MSDKKotlinAnnotation
+@protocol MPSKotlinAnnotation
 @required
 @end
 
@@ -2050,71 +2543,71 @@ __attribute__((swift_name("KotlinAnnotation")))
  *   kotlinx.serialization.ExperimentalSerializationApi
 */
 __attribute__((swift_name("Kotlinx_serialization_coreSerialKind")))
-@interface MSDKKotlinx_serialization_coreSerialKind : MSDKBase
+@interface MPSKotlinx_serialization_coreSerialKind : MPSBase
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @end
 
 __attribute__((swift_name("Kotlinx_serialization_coreCompositeDecoder")))
-@protocol MSDKKotlinx_serialization_coreCompositeDecoder
+@protocol MPSKotlinx_serialization_coreCompositeDecoder
 @required
-- (BOOL)decodeBooleanElementDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeBooleanElement(descriptor:index:)")));
-- (int8_t)decodeByteElementDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeByteElement(descriptor:index:)")));
-- (unichar)decodeCharElementDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeCharElement(descriptor:index:)")));
-- (int32_t)decodeCollectionSizeDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("decodeCollectionSize(descriptor:)")));
-- (double)decodeDoubleElementDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeDoubleElement(descriptor:index:)")));
-- (int32_t)decodeElementIndexDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("decodeElementIndex(descriptor:)")));
-- (float)decodeFloatElementDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeFloatElement(descriptor:index:)")));
-- (id<MSDKKotlinx_serialization_coreDecoder>)decodeInlineElementDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeInlineElement(descriptor:index:)")));
-- (int32_t)decodeIntElementDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeIntElement(descriptor:index:)")));
-- (int64_t)decodeLongElementDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeLongElement(descriptor:index:)")));
+- (BOOL)decodeBooleanElementDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeBooleanElement(descriptor:index:)")));
+- (int8_t)decodeByteElementDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeByteElement(descriptor:index:)")));
+- (unichar)decodeCharElementDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeCharElement(descriptor:index:)")));
+- (int32_t)decodeCollectionSizeDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("decodeCollectionSize(descriptor:)")));
+- (double)decodeDoubleElementDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeDoubleElement(descriptor:index:)")));
+- (int32_t)decodeElementIndexDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("decodeElementIndex(descriptor:)")));
+- (float)decodeFloatElementDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeFloatElement(descriptor:index:)")));
+- (id<MPSKotlinx_serialization_coreDecoder>)decodeInlineElementDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeInlineElement(descriptor:index:)")));
+- (int32_t)decodeIntElementDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeIntElement(descriptor:index:)")));
+- (int64_t)decodeLongElementDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeLongElement(descriptor:index:)")));
 
 /**
  * @note annotations
  *   kotlinx.serialization.ExperimentalSerializationApi
 */
-- (id _Nullable)decodeNullableSerializableElementDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index deserializer:(id<MSDKKotlinx_serialization_coreDeserializationStrategy>)deserializer previousValue:(id _Nullable)previousValue __attribute__((swift_name("decodeNullableSerializableElement(descriptor:index:deserializer:previousValue:)")));
+- (id _Nullable)decodeNullableSerializableElementDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index deserializer:(id<MPSKotlinx_serialization_coreDeserializationStrategy>)deserializer previousValue:(id _Nullable)previousValue __attribute__((swift_name("decodeNullableSerializableElement(descriptor:index:deserializer:previousValue:)")));
 
 /**
  * @note annotations
  *   kotlinx.serialization.ExperimentalSerializationApi
 */
 - (BOOL)decodeSequentially __attribute__((swift_name("decodeSequentially()")));
-- (id _Nullable)decodeSerializableElementDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index deserializer:(id<MSDKKotlinx_serialization_coreDeserializationStrategy>)deserializer previousValue:(id _Nullable)previousValue __attribute__((swift_name("decodeSerializableElement(descriptor:index:deserializer:previousValue:)")));
-- (int16_t)decodeShortElementDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeShortElement(descriptor:index:)")));
-- (NSString *)decodeStringElementDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeStringElement(descriptor:index:)")));
-- (void)endStructureDescriptor:(id<MSDKKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("endStructure(descriptor:)")));
-@property (readonly) MSDKKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+- (id _Nullable)decodeSerializableElementDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index deserializer:(id<MPSKotlinx_serialization_coreDeserializationStrategy>)deserializer previousValue:(id _Nullable)previousValue __attribute__((swift_name("decodeSerializableElement(descriptor:index:deserializer:previousValue:)")));
+- (int16_t)decodeShortElementDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeShortElement(descriptor:index:)")));
+- (NSString *)decodeStringElementDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeStringElement(descriptor:index:)")));
+- (void)endStructureDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("endStructure(descriptor:)")));
+@property (readonly) MPSKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KotlinNothing")))
-@interface MSDKKotlinNothing : MSDKBase
+@interface MPSKotlinNothing : MPSBase
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KotlinUnit")))
-@interface MSDKKotlinUnit : MSDKBase
+@interface MPSKotlinUnit : MPSBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)unit __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MSDKKotlinUnit *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) MPSKotlinUnit *shared __attribute__((swift_name("shared")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @end
 
 __attribute__((swift_name("Kotlinx_coroutines_coreSelectInstance")))
-@protocol MSDKKotlinx_coroutines_coreSelectInstance
+@protocol MPSKotlinx_coroutines_coreSelectInstance
 @required
-- (void)disposeOnCompletionDisposableHandle:(id<MSDKKotlinx_coroutines_coreDisposableHandle>)disposableHandle __attribute__((swift_name("disposeOnCompletion(disposableHandle:)")));
+- (void)disposeOnCompletionDisposableHandle:(id<MPSKotlinx_coroutines_coreDisposableHandle>)disposableHandle __attribute__((swift_name("disposeOnCompletion(disposableHandle:)")));
 - (void)selectInRegistrationPhaseInternalResult:(id _Nullable)internalResult __attribute__((swift_name("selectInRegistrationPhase(internalResult:)")));
 - (BOOL)trySelectClauseObject:(id)clauseObject result:(id _Nullable)result __attribute__((swift_name("trySelect(clauseObject:result:)")));
-@property (readonly) id<MSDKKotlinCoroutineContext> context __attribute__((swift_name("context")));
+@property (readonly) id<MPSKotlinCoroutineContext> context __attribute__((swift_name("context")));
 @end
 
 __attribute__((swift_name("Kotlinx_coroutines_coreParentJob")))
-@protocol MSDKKotlinx_coroutines_coreParentJob <MSDKKotlinx_coroutines_coreJob>
+@protocol MPSKotlinx_coroutines_coreParentJob <MPSKotlinx_coroutines_coreJob>
 @required
-- (MSDKKotlinCancellationException *)getChildJobCancellationCause __attribute__((swift_name("getChildJobCancellationCause()")));
+- (MPSKotlinCancellationException *)getChildJobCancellationCause __attribute__((swift_name("getChildJobCancellationCause()")));
 @end
 
 
@@ -2123,23 +2616,23 @@ __attribute__((swift_name("Kotlinx_coroutines_coreParentJob")))
  *   kotlinx.serialization.ExperimentalSerializationApi
 */
 __attribute__((swift_name("Kotlinx_serialization_coreSerializersModuleCollector")))
-@protocol MSDKKotlinx_serialization_coreSerializersModuleCollector
+@protocol MPSKotlinx_serialization_coreSerializersModuleCollector
 @required
-- (void)contextualKClass:(id<MSDKKotlinKClass>)kClass provider:(id<MSDKKotlinx_serialization_coreKSerializer> (^)(NSArray<id<MSDKKotlinx_serialization_coreKSerializer>> *))provider __attribute__((swift_name("contextual(kClass:provider:)")));
-- (void)contextualKClass:(id<MSDKKotlinKClass>)kClass serializer:(id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("contextual(kClass:serializer:)")));
-- (void)polymorphicBaseClass:(id<MSDKKotlinKClass>)baseClass actualClass:(id<MSDKKotlinKClass>)actualClass actualSerializer:(id<MSDKKotlinx_serialization_coreKSerializer>)actualSerializer __attribute__((swift_name("polymorphic(baseClass:actualClass:actualSerializer:)")));
-- (void)polymorphicDefaultBaseClass:(id<MSDKKotlinKClass>)baseClass defaultDeserializerProvider:(id<MSDKKotlinx_serialization_coreDeserializationStrategy> _Nullable (^)(NSString * _Nullable))defaultDeserializerProvider __attribute__((swift_name("polymorphicDefault(baseClass:defaultDeserializerProvider:)"))) __attribute__((deprecated("Deprecated in favor of function with more precise name: polymorphicDefaultDeserializer")));
-- (void)polymorphicDefaultDeserializerBaseClass:(id<MSDKKotlinKClass>)baseClass defaultDeserializerProvider:(id<MSDKKotlinx_serialization_coreDeserializationStrategy> _Nullable (^)(NSString * _Nullable))defaultDeserializerProvider __attribute__((swift_name("polymorphicDefaultDeserializer(baseClass:defaultDeserializerProvider:)")));
-- (void)polymorphicDefaultSerializerBaseClass:(id<MSDKKotlinKClass>)baseClass defaultSerializerProvider:(id<MSDKKotlinx_serialization_coreSerializationStrategy> _Nullable (^)(id))defaultSerializerProvider __attribute__((swift_name("polymorphicDefaultSerializer(baseClass:defaultSerializerProvider:)")));
+- (void)contextualKClass:(id<MPSKotlinKClass>)kClass provider:(id<MPSKotlinx_serialization_coreKSerializer> (^)(NSArray<id<MPSKotlinx_serialization_coreKSerializer>> *))provider __attribute__((swift_name("contextual(kClass:provider:)")));
+- (void)contextualKClass:(id<MPSKotlinKClass>)kClass serializer:(id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("contextual(kClass:serializer:)")));
+- (void)polymorphicBaseClass:(id<MPSKotlinKClass>)baseClass actualClass:(id<MPSKotlinKClass>)actualClass actualSerializer:(id<MPSKotlinx_serialization_coreKSerializer>)actualSerializer __attribute__((swift_name("polymorphic(baseClass:actualClass:actualSerializer:)")));
+- (void)polymorphicDefaultBaseClass:(id<MPSKotlinKClass>)baseClass defaultDeserializerProvider:(id<MPSKotlinx_serialization_coreDeserializationStrategy> _Nullable (^)(NSString * _Nullable))defaultDeserializerProvider __attribute__((swift_name("polymorphicDefault(baseClass:defaultDeserializerProvider:)"))) __attribute__((deprecated("Deprecated in favor of function with more precise name: polymorphicDefaultDeserializer")));
+- (void)polymorphicDefaultDeserializerBaseClass:(id<MPSKotlinKClass>)baseClass defaultDeserializerProvider:(id<MPSKotlinx_serialization_coreDeserializationStrategy> _Nullable (^)(NSString * _Nullable))defaultDeserializerProvider __attribute__((swift_name("polymorphicDefaultDeserializer(baseClass:defaultDeserializerProvider:)")));
+- (void)polymorphicDefaultSerializerBaseClass:(id<MPSKotlinKClass>)baseClass defaultSerializerProvider:(id<MPSKotlinx_serialization_coreSerializationStrategy> _Nullable (^)(id))defaultSerializerProvider __attribute__((swift_name("polymorphicDefaultSerializer(baseClass:defaultSerializerProvider:)")));
 @end
 
 __attribute__((swift_name("KotlinKDeclarationContainer")))
-@protocol MSDKKotlinKDeclarationContainer
+@protocol MPSKotlinKDeclarationContainer
 @required
 @end
 
 __attribute__((swift_name("KotlinKAnnotatedElement")))
-@protocol MSDKKotlinKAnnotatedElement
+@protocol MPSKotlinKAnnotatedElement
 @required
 @end
 
@@ -2149,12 +2642,12 @@ __attribute__((swift_name("KotlinKAnnotatedElement")))
  *   kotlin.SinceKotlin(version="1.1")
 */
 __attribute__((swift_name("KotlinKClassifier")))
-@protocol MSDKKotlinKClassifier
+@protocol MPSKotlinKClassifier
 @required
 @end
 
 __attribute__((swift_name("KotlinKClass")))
-@protocol MSDKKotlinKClass <MSDKKotlinKDeclarationContainer, MSDKKotlinKAnnotatedElement, MSDKKotlinKClassifier>
+@protocol MPSKotlinKClass <MPSKotlinKDeclarationContainer, MPSKotlinKAnnotatedElement, MPSKotlinKClassifier>
 @required
 
 /**
@@ -2164,6 +2657,27 @@ __attribute__((swift_name("KotlinKClass")))
 - (BOOL)isInstanceValue:(id _Nullable)value __attribute__((swift_name("isInstance(value:)")));
 @property (readonly) NSString * _Nullable qualifiedName __attribute__((swift_name("qualifiedName")));
 @property (readonly) NSString * _Nullable simpleName __attribute__((swift_name("simpleName")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_serialization_jsonJsonElement.Companion")))
+@interface MPSKotlinx_serialization_jsonJsonElementCompanion : MPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSKotlinx_serialization_jsonJsonElementCompanion *shared __attribute__((swift_name("shared")));
+- (id<MPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+__attribute__((swift_name("Kotlinx_serialization_jsonJsonNamingStrategy")))
+@protocol MPSKotlinx_serialization_jsonJsonNamingStrategy
+@required
+- (NSString *)serialNameForJsonDescriptor:(id<MPSKotlinx_serialization_coreSerialDescriptor>)descriptor elementIndex:(int32_t)elementIndex serialName:(NSString *)serialName __attribute__((swift_name("serialNameForJson(descriptor:elementIndex:serialName:)")));
 @end
 
 #pragma pop_macro("_Nullable_result")
