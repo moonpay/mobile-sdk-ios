@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class MPSAppProtocol, MPSAppProtocolProps, MPSWidgetFlow, MPSCorrelationIdCompanion, MPSCorrelationId, MPSCryptoCurrencyCompanion, MPSCryptoCurrency, MPSKotlinThrowable, MPSFiatCurrencyCompanion, MPSFiatCurrency, MPSKotlinArray<T>, MPSLogger, MPSKotlinException, MPSMessagingErrorCode, MPSKotlinEnumCompanion, MPSKotlinEnum<E>, MPSMoonPayBuyQueryParamsCompanion, MPSMoonPayBuyQueryParams, MPSMoonPaySdkConfig, MPSMoonPayConfigWithOptions<T>, MPSMoonPayEnvironmentWithOptions<T>, MPSMoonPaySdkEnvironment, MPSOnAuthTokenRequestPayload, MPSMoonPayHandlerTypeOnAuthToken, MPSMoonPayHandlerTypeOnSwapsCustomerSetupComplete, MPSMoonPaySwapsCustomerSetupHandlers, MPSOnLoginRequestPayload, MPSOnInitiateDepositResponsePayload, MPSOnInitiateDepositRequestPayload, MPSMoonPayHandlerTypeOnInitiateDeposit, MPSMoonPayHandlerTypeOnKmsWalletCreated, MPSMoonPayHandlerTypeOnLogin, MPSMoonPayHandlerTypeOnUnsupportedRegion, MPSMoonPayMessageCompanion, MPSMoonPayMessageType, MPSMoonPayMessage, MPSMoonPayRequestMessageTypeCompanion, MPSMoonPayRequestMessageType, MPSMoonPayHandshakeRequestPayload, MPSMoonPayHandshakeRequestMessageCompanion, MPSMoonPayHandshakeRequestMessage, MPSMoonPayPayloadCompanion, MPSMoonPayPayload, MPSMoonPayRequestPayloadCompanion, MPSMoonPayRequestPayload, MPSMoonPayHandshakeRequestPayloadCompanion, MPSMoonPayResponseMessageCompanion, MPSMoonPayResponseMessage, MPSMoonPayResolveMessageTypeCompanion, MPSMoonPayResolveMessageType, MPSMoonPayHandshakeResolvePayload, MPSMoonPayHandshakeResolveMessageCompanion, MPSMoonPayHandshakeResolveMessage, MPSMoonPayResolvePayloadCompanion, MPSMoonPayResolvePayload, MPSMoonPayHandshakeResolvePayloadCompanion, MPSMoonPayLegacyQueryParamsCompanion, MPSMoonPayLegacyQueryParams, MPSMoonPayMessageTypeCompanion, MPSMoonPayOnAuthResolveMessageCompanion, MPSMoonPayOnAuthResolveMessage, MPSMoonPayOnAuthTokenRequestMessageCompanion, MPSMoonPayOnAuthTokenRequestMessage, MPSMoonPayOnInitiateDepositRequestMessageCompanion, MPSMoonPayOnInitiateDepositRequestMessage, MPSMoonPayOnInitiateDepositResolveMessageCompanion, MPSMoonPayOnInitiateDepositResolveMessage, MPSMoonPayOnKmsWalletCreatedRequestMessageCompanion, MPSMoonPayOnKmsWalletCreatedRequestMessage, MPSMoonPayOnKmsWalletCreatedResolveMessageCompanion, MPSMoonPayOnKmsWalletCreatedResolveMessage, MPSMoonPayOnLoginRequestMessageCompanion, MPSMoonPayOnLoginRequestMessage, MPSMoonPayOnLoginResolveMessageCompanion, MPSMoonPayOnLoginResolveMessage, MPSMoonPayOnSwapsCustomerSetupCompleteRequestMessageCompanion, MPSMoonPayOnSwapsCustomerSetupCompleteRequestMessage, MPSMoonPayOnSwapsCustomerSetupCompleteResolveMessageCompanion, MPSMoonPayOnSwapsCustomerSetupCompleteResolveMessage, MPSMoonPayOnUnsupportedRegionRequestMessageCompanion, MPSMoonPayOnUnsupportedRegionRequestMessage, MPSMoonPayOnUnsupportedRegionResolveMessageCompanion, MPSMoonPayOnUnsupportedRegionResolveMessage, MPSMoonPayRejectMessageTypeCompanion, MPSMoonPayRejectMessageType, MPSMoonPayRejectPayload, MPSMoonPayRejectMessageCompanion, MPSMoonPayRejectMessage, MPSMoonPayRejectPayloadCompanion, MPSMoonPayRenderingOption, MPSMoonPayRenderingOptionAndroid, MPSMoonPayRenderingOptionAndroidChromeCustomTabs, MPSMoonPayRenderingOptionAndroidFullBrowser, MPSMoonPayRenderingOptionAndroidTrustedActivity, MPSMoonPayRenderingOptionAndroidWebViewBottomSheet, MPSMoonPayRenderingOptionAndroidWebViewDrawer, MPSMoonPayRenderingOptionAndroidWebViewOverlay, MPSMoonPayRenderingOptioniOS, MPSMoonPayRenderingOptioniOSInAppBrowser, MPSMoonPayRenderingOptioniOSWebViewOverlay, MPSMoonPayResolveMessageCompanion, MPSMoonPayResolveMessage, MPSMoonPayWidgetEnvironment, MPSMoonPayHandlers, MPSMoonPaySdkBuyConfig, MPSMoonPaySdkPlatform, MPSMoonPaySdkLegacyConfig, MPSMoonPaySellQueryParams, MPSMoonPaySdkSellConfig, MPSMoonPaySwapsCustomerSetupQueryParams, MPSMoonPaySdkSwapsCustomerSetupConfig, MPSMoonPaySellQueryParamsCompanion, MPSMoonPaySwapsCustomerSetupQueryParamsCompanion, MPSMoonPayCoreSdk, MPSOnAuthTokenRequestPayloadCompanion, MPSOnInitiateDepositRequestPayloadCompanion, MPSOnInitiateDepositResponsePayloadCompanion, MPSOnLoginRequestPayloadCompanion, MPSPostMessengerMode, NSObject, MPSKotlinx_serialization_jsonJson, MPSSendMessageParams, MPSWidgetUrlCompanion, MPSMoonPayHandlerType, MPSMoonPayHandlerTypeNoHandler, MPSKotlinCancellationException, MPSKotlinx_serialization_coreSerializersModule, MPSKotlinx_serialization_jsonJsonDefault, MPSKotlinx_serialization_jsonJsonElement, MPSKotlinx_serialization_jsonJsonConfiguration, MPSKotlinx_serialization_coreSerialKind, MPSKotlinNothing, MPSKotlinRuntimeException, MPSKotlinIllegalStateException, MPSKotlinUnit, MPSKotlinx_serialization_jsonJsonElementCompanion;
+@class MPSAppProtocol, MPSAppProtocolProps, MPSWidgetFlow, MPSCorrelationIdCompanion, MPSCorrelationId, MPSCryptoCurrencyCompanion, MPSCryptoCurrency, MPSKotlinThrowable, MPSFiatCurrencyCompanion, MPSFiatCurrency, MPSKotlinArray<T>, MPSLogger, MPSKotlinException, MPSMessagingErrorCode, MPSKotlinEnumCompanion, MPSKotlinEnum<E>, MPSMoonPayBuyQueryParamsCompanion, MPSMoonPayBuyQueryParams, MPSMoonPaySdkConfig, MPSMoonPayConfigWithOptions<T>, MPSMoonPayHandlers, MPSMoonPayEnvironmentWithOptions<T>, MPSMoonPaySdkPlatform, MPSMoonPaySdkEnvironment, MPSOnAuthTokenRequestPayload, MPSMoonPayHandlerTypeOnAuthToken, MPSMoonPayHandlerTypeOnSwapsCustomerSetupComplete, MPSMoonPaySwapsCustomerSetupHandlers, MPSOnLoginRequestPayload, MPSOnInitiateDepositResponsePayload, MPSOnInitiateDepositRequestPayload, MPSMoonPayHandlerTypeOnInitiateDeposit, MPSMoonPayHandlerTypeOnKmsWalletCreated, MPSMoonPayHandlerTypeOnLogin, MPSMoonPayHandlerTypeOnUnsupportedRegion, MPSMoonPayMessageCompanion, MPSMoonPayMessageType, MPSMoonPayMessage, MPSMoonPayRequestMessageTypeCompanion, MPSMoonPayRequestMessageType, MPSMoonPayHandshakeRequestPayload, MPSMoonPayHandshakeRequestMessageCompanion, MPSMoonPayHandshakeRequestMessage, MPSMoonPayPayloadCompanion, MPSMoonPayPayload, MPSMoonPayRequestPayloadCompanion, MPSMoonPayRequestPayload, MPSMoonPayHandshakeRequestPayloadCompanion, MPSMoonPayResponseMessageCompanion, MPSMoonPayResponseMessage, MPSMoonPayResolveMessageTypeCompanion, MPSMoonPayResolveMessageType, MPSMoonPayHandshakeResolvePayload, MPSMoonPayHandshakeResolveMessageCompanion, MPSMoonPayHandshakeResolveMessage, MPSMoonPayResolvePayloadCompanion, MPSMoonPayResolvePayload, MPSMoonPayHandshakeResolvePayloadCompanion, MPSMoonPayLegacyQueryParamsCompanion, MPSMoonPayLegacyQueryParams, MPSMoonPayMessageTypeCompanion, MPSMoonPayOnAuthResolveMessageCompanion, MPSMoonPayOnAuthResolveMessage, MPSMoonPayOnAuthTokenRequestMessageCompanion, MPSMoonPayOnAuthTokenRequestMessage, MPSMoonPayOnInitiateDepositRequestMessageCompanion, MPSMoonPayOnInitiateDepositRequestMessage, MPSMoonPayOnInitiateDepositResolveMessageCompanion, MPSMoonPayOnInitiateDepositResolveMessage, MPSMoonPayOnKmsWalletCreatedRequestMessageCompanion, MPSMoonPayOnKmsWalletCreatedRequestMessage, MPSMoonPayOnKmsWalletCreatedResolveMessageCompanion, MPSMoonPayOnKmsWalletCreatedResolveMessage, MPSMoonPayOnLoginRequestMessageCompanion, MPSMoonPayOnLoginRequestMessage, MPSMoonPayOnLoginResolveMessageCompanion, MPSMoonPayOnLoginResolveMessage, MPSMoonPayOnSwapsCustomerSetupCompleteRequestMessageCompanion, MPSMoonPayOnSwapsCustomerSetupCompleteRequestMessage, MPSMoonPayOnSwapsCustomerSetupCompleteResolveMessageCompanion, MPSMoonPayOnSwapsCustomerSetupCompleteResolveMessage, MPSMoonPayOnUnsupportedRegionRequestMessageCompanion, MPSMoonPayOnUnsupportedRegionRequestMessage, MPSMoonPayOnUnsupportedRegionResolveMessageCompanion, MPSMoonPayOnUnsupportedRegionResolveMessage, MPSMoonPayRejectMessageTypeCompanion, MPSMoonPayRejectMessageType, MPSMoonPayRejectPayload, MPSMoonPayRejectMessageCompanion, MPSMoonPayRejectMessage, MPSMoonPayRejectPayloadCompanion, MPSMoonPayRenderingOption, MPSMoonPayRenderingOptionAndroid, MPSMoonPayRenderingOptionAndroidInAppBrowser, MPSMoonPayRenderingOptionAndroidWebViewOverlay, MPSMoonPayRenderingOptioniOS, MPSMoonPayRenderingOptioniOSInAppBrowser, MPSMoonPayRenderingOptioniOSWebViewOverlay, MPSMoonPayResolveMessageCompanion, MPSMoonPayResolveMessage, MPSMoonPayWidgetEnvironment, MPSMoonPaySdkBuyConfig, MPSMoonPaySdkLegacyConfig, MPSMoonPaySellQueryParams, MPSMoonPaySdkSellConfig, MPSMoonPaySwapsCustomerSetupQueryParams, MPSMoonPaySdkSwapsCustomerSetupConfig, MPSMoonPaySellQueryParamsCompanion, MPSMoonPaySwapsCustomerSetupQueryParamsCompanion, MPSMoonPayCoreSdk, MPSOnAuthTokenRequestPayloadCompanion, MPSOnInitiateDepositRequestPayloadCompanion, MPSOnInitiateDepositResponsePayloadCompanion, MPSOnLoginRequestPayloadCompanion, MPSPostMessengerMode, NSObject, MPSKotlinx_serialization_jsonJson, MPSSendMessageParams, MPSWidgetUrlCompanion, MPSMoonPayHandlerType, MPSMoonPayHandlerTypeNoHandler, MPSKotlinCancellationException, MPSKotlinx_serialization_coreSerializersModule, MPSKotlinx_serialization_jsonJsonDefault, MPSKotlinx_serialization_jsonJsonElement, MPSKotlinx_serialization_jsonJsonConfiguration, MPSKotlinx_serialization_coreSerialKind, MPSKotlinNothing, MPSKotlinRuntimeException, MPSKotlinIllegalStateException, MPSKotlinUnit, MPSKotlinx_serialization_jsonJsonElementCompanion;
 
-@protocol MPSKotlinx_serialization_coreKSerializer, MPSKotlinCoroutineContext, MPSKotlinx_coroutines_coreCoroutineScope, MPSKotlinx_coroutines_coreCompletableDeferred, MPSLoggerLikeInstance, MPSKotlinComparable, MPSMoonPayQueryParams, MPSMoonPayAdvancedQueryParams, MPSKotlinx_serialization_coreEncoder, MPSKotlinx_serialization_coreSerialDescriptor, MPSKotlinx_serialization_coreSerializationStrategy, MPSKotlinx_serialization_coreDecoder, MPSKotlinx_serialization_coreDeserializationStrategy, MPSKotlinCoroutineContextElement, MPSKotlinCoroutineContextKey, MPSKotlinx_coroutines_coreSelectClause1, MPSKotlinx_coroutines_coreChildHandle, MPSKotlinx_coroutines_coreChildJob, MPSKotlinx_coroutines_coreDisposableHandle, MPSKotlinx_coroutines_coreJob, MPSKotlinSequence, MPSKotlinx_coroutines_coreSelectClause0, MPSKotlinx_coroutines_coreDeferred, MPSKotlinIterator, MPSKotlinx_serialization_coreSerialFormat, MPSKotlinx_serialization_coreStringFormat, MPSKotlinx_serialization_coreCompositeEncoder, MPSKotlinAnnotation, MPSKotlinx_serialization_coreCompositeDecoder, MPSKotlinx_coroutines_coreSelectInstance, MPSKotlinx_coroutines_coreSelectClause, MPSKotlinx_coroutines_coreParentJob, MPSKotlinx_serialization_coreSerializersModuleCollector, MPSKotlinKClass, MPSKotlinx_serialization_jsonJsonNamingStrategy, MPSKotlinKDeclarationContainer, MPSKotlinKAnnotatedElement, MPSKotlinKClassifier;
+@protocol MPSKotlinx_serialization_coreKSerializer, MPSKotlinCoroutineContext, MPSKotlinx_coroutines_coreCoroutineScope, MPSKotlinx_coroutines_coreCompletableDeferred, MPSLoggerLikeInstance, MPSKotlinComparable, MPSMoonPayQueryParams, MPSKotlinx_serialization_coreEncoder, MPSKotlinx_serialization_coreSerialDescriptor, MPSKotlinx_serialization_coreSerializationStrategy, MPSKotlinx_serialization_coreDecoder, MPSKotlinx_serialization_coreDeserializationStrategy, MPSKotlinCoroutineContextElement, MPSKotlinCoroutineContextKey, MPSKotlinx_coroutines_coreSelectClause1, MPSKotlinx_coroutines_coreChildHandle, MPSKotlinx_coroutines_coreChildJob, MPSKotlinx_coroutines_coreDisposableHandle, MPSKotlinx_coroutines_coreJob, MPSKotlinSequence, MPSKotlinx_coroutines_coreSelectClause0, MPSKotlinx_coroutines_coreDeferred, MPSKotlinIterator, MPSKotlinx_serialization_coreSerialFormat, MPSKotlinx_serialization_coreStringFormat, MPSKotlinx_serialization_coreCompositeEncoder, MPSKotlinAnnotation, MPSKotlinx_serialization_coreCompositeDecoder, MPSKotlinx_coroutines_coreSelectInstance, MPSKotlinx_coroutines_coreSelectClause, MPSKotlinx_coroutines_coreParentJob, MPSKotlinx_serialization_coreSerializersModuleCollector, MPSKotlinKClass, MPSKotlinx_serialization_jsonJsonNamingStrategy, MPSKotlinKDeclarationContainer, MPSKotlinKAnnotatedElement, MPSKotlinKClassifier;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -254,9 +254,7 @@ __attribute__((swift_name("DeferredMap")))
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (id<MPSKotlinx_coroutines_coreCompletableDeferred>)addCorrelationId:(NSString *)correlationId timeout:(MPSLong * _Nullable)timeout __attribute__((swift_name("add(correlationId:timeout:)")));
-- (id<MPSKotlinx_coroutines_coreCompletableDeferred>)addCorrelationId:(NSString *)correlationId timeout:(MPSLong * _Nullable)timeout __attribute__((swift_name("add(correlationId:timeout:)")));
 - (void)cancelAll __attribute__((swift_name("cancelAll()")));
-- (id<MPSKotlinx_coroutines_coreCompletableDeferred> _Nullable)getCorrelationId:(NSString *)correlationId __attribute__((swift_name("get(correlationId:)")));
 - (id<MPSKotlinx_coroutines_coreCompletableDeferred> _Nullable)getCorrelationId:(NSString *)correlationId __attribute__((swift_name("get(correlationId:)")));
 - (BOOL)hasCorrelationId:(NSString *)correlationId __attribute__((swift_name("has(correlationId:)")));
 - (void)rejectCorrelationId:(NSString *)correlationId exception:(MPSKotlinThrowable *)exception __attribute__((swift_name("reject(correlationId:exception:)")));
@@ -397,37 +395,6 @@ __attribute__((swift_name("MoonPayQueryParams")))
 - (NSDictionary<NSString *, NSString *> *)toMap __attribute__((swift_name("toMap()")));
 @end
 
-__attribute__((swift_name("MoonPayAdvancedQueryParams")))
-@protocol MPSMoonPayAdvancedQueryParams <MPSMoonPayQueryParams>
-@required
-@property NSString *apiKey __attribute__((swift_name("apiKey")));
-@property MPSDouble * _Nullable baseCurrencyAmount __attribute__((swift_name("baseCurrencyAmount")));
-@property NSString * _Nullable baseCurrencyCode __attribute__((swift_name("baseCurrencyCode")));
-@property NSString * _Nullable colorCode __attribute__((swift_name("colorCode")));
-@property NSString * _Nullable currencyCode __attribute__((swift_name("currencyCode")));
-@property NSString * _Nullable defaultCurrencyCode __attribute__((swift_name("defaultCurrencyCode")));
-@property NSString * _Nullable email __attribute__((swift_name("email")));
-@property NSString * _Nullable externalCustomerId __attribute__((swift_name("externalCustomerId")));
-@property NSString * _Nullable externalTransactionId __attribute__((swift_name("externalTransactionId")));
-@property NSString * _Nullable language __attribute__((swift_name("language")));
-@property NSString * _Nullable lockAmount __attribute__((swift_name("lockAmount")));
-@property NSString * _Nullable paymentMethod __attribute__((swift_name("paymentMethod")));
-@property MPSDouble * _Nullable quoteCurrencyAmount __attribute__((swift_name("quoteCurrencyAmount")));
-@property NSString * _Nullable redirectURL __attribute__((swift_name("redirectURL")));
-@property NSString * _Nullable showAllCurrencies __attribute__((swift_name("showAllCurrencies")));
-@property NSString * _Nullable showOnlyCurrencies __attribute__((swift_name("showOnlyCurrencies")));
-@property NSString * _Nullable showWalletAddressForm __attribute__((swift_name("showWalletAddressForm")));
-@property NSString * _Nullable signature __attribute__((swift_name("signature")));
-@property NSString * _Nullable skipUnsupportedRegionScreen __attribute__((swift_name("skipUnsupportedRegionScreen")));
-@property NSString * _Nullable theme __attribute__((swift_name("theme")));
-@property NSString * _Nullable themeId __attribute__((swift_name("themeId")));
-@property NSString * _Nullable unsupportedRegionRedirectUrl __attribute__((swift_name("unsupportedRegionRedirectUrl")));
-@property NSString * _Nullable walletAddress __attribute__((swift_name("walletAddress")));
-@property NSString * _Nullable walletAddressTag __attribute__((swift_name("walletAddressTag")));
-@property NSString * _Nullable walletAddressTags __attribute__((swift_name("walletAddressTags")));
-@property NSDictionary<NSString *, NSString *> * _Nullable walletAddresses __attribute__((swift_name("walletAddresses")));
-@end
-
 
 /**
  * @note annotations
@@ -435,7 +402,7 @@ __attribute__((swift_name("MoonPayAdvancedQueryParams")))
 */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MoonPayBuyQueryParams")))
-@interface MPSMoonPayBuyQueryParams : MPSBase <MPSMoonPayAdvancedQueryParams>
+@interface MPSMoonPayBuyQueryParams : MPSBase <MPSMoonPayQueryParams>
 - (instancetype)initWithApiKey:(NSString *)apiKey __attribute__((swift_name("init(apiKey:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) MPSMoonPayBuyQueryParamsCompanion *companion __attribute__((swift_name("companion")));
 - (MPSMoonPayBuyQueryParams *)doCopyApiKey:(NSString *)apiKey __attribute__((swift_name("doCopy(apiKey:)")));
@@ -467,6 +434,7 @@ __attribute__((swift_name("MoonPayBuyQueryParams")))
 - (void)setWalletAddressTagValue:(NSString * _Nullable)value __attribute__((swift_name("setWalletAddressTag(value:)")));
 - (void)setWalletAddressTagsValue:(NSString * _Nullable)value __attribute__((swift_name("setWalletAddressTags(value:)")));
 - (void)setWalletAddressesValue:(NSDictionary<NSString *, NSString *> * _Nullable)value __attribute__((swift_name("setWalletAddresses(value:)")));
+- (NSDictionary<NSString *, NSString *> *)toMap __attribute__((swift_name("toMap()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property NSString *apiKey __attribute__((swift_name("apiKey")));
 @property MPSDouble * _Nullable baseCurrencyAmount __attribute__((swift_name("baseCurrencyAmount")));
@@ -533,6 +501,11 @@ __attribute__((swift_name("MoonPayCoreSdk")))
 /**
  * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
 */
+- (MPSMoonPayHandlers * _Nullable)getHandlersConfig:(MPSMoonPaySdkConfig *)config __attribute__((swift_name("getHandlers(config:)")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 - (MPSMoonPayEnvironmentWithOptions<id> *)getSdkEnvironmentConfig:(MPSMoonPaySdkConfig *)config options:(id _Nullable)options __attribute__((swift_name("getSdkEnvironment(config:options:)")));
 
 /**
@@ -545,6 +518,7 @@ __attribute__((swift_name("MoonPayCoreSdk")))
 */
 - (void)registerPostMessageHandlersConfig:(MPSMoonPaySdkConfig *)config __attribute__((swift_name("registerPostMessageHandlers(config:)")));
 - (void)updateSignatureSignature:(NSString *)signature __attribute__((swift_name("updateSignature(signature:)")));
+@property (readonly) MPSMoonPaySdkPlatform *platform __attribute__((swift_name("platform")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1328,48 +1302,12 @@ __attribute__((swift_name("MoonPayRenderingOptionAndroid")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonPayRenderingOptionAndroid.ChromeCustomTabs")))
-@interface MPSMoonPayRenderingOptionAndroidChromeCustomTabs : MPSMoonPayRenderingOptionAndroid
+__attribute__((swift_name("MoonPayRenderingOptionAndroid.InAppBrowser")))
+@interface MPSMoonPayRenderingOptionAndroidInAppBrowser : MPSMoonPayRenderingOptionAndroid
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)chromeCustomTabs __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MPSMoonPayRenderingOptionAndroidChromeCustomTabs *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonPayRenderingOptionAndroid.FullBrowser")))
-@interface MPSMoonPayRenderingOptionAndroidFullBrowser : MPSMoonPayRenderingOptionAndroid
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)fullBrowser __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MPSMoonPayRenderingOptionAndroidFullBrowser *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonPayRenderingOptionAndroid.TrustedActivity")))
-@interface MPSMoonPayRenderingOptionAndroidTrustedActivity : MPSMoonPayRenderingOptionAndroid
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)trustedActivity __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MPSMoonPayRenderingOptionAndroidTrustedActivity *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonPayRenderingOptionAndroid.WebViewBottomSheet")))
-@interface MPSMoonPayRenderingOptionAndroidWebViewBottomSheet : MPSMoonPayRenderingOptionAndroid
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)webViewBottomSheet __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MPSMoonPayRenderingOptionAndroidWebViewBottomSheet *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MoonPayRenderingOptionAndroid.WebViewDrawer")))
-@interface MPSMoonPayRenderingOptionAndroidWebViewDrawer : MPSMoonPayRenderingOptionAndroid
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)webViewDrawer __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MPSMoonPayRenderingOptionAndroidWebViewDrawer *shared __attribute__((swift_name("shared")));
++ (instancetype)inAppBrowser __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MPSMoonPayRenderingOptionAndroidInAppBrowser *shared __attribute__((swift_name("shared")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1582,7 +1520,7 @@ __attribute__((swift_name("MoonPaySdkSwapsCustomerSetupConfig")))
 */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MoonPaySellQueryParams")))
-@interface MPSMoonPaySellQueryParams : MPSBase <MPSMoonPayAdvancedQueryParams>
+@interface MPSMoonPaySellQueryParams : MPSBase <MPSMoonPayQueryParams>
 - (instancetype)initWithApiKey:(NSString *)apiKey __attribute__((swift_name("init(apiKey:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) MPSMoonPaySellQueryParamsCompanion *companion __attribute__((swift_name("companion")));
 - (MPSMoonPaySellQueryParams *)doCopyApiKey:(NSString *)apiKey __attribute__((swift_name("doCopy(apiKey:)")));
@@ -1614,6 +1552,7 @@ __attribute__((swift_name("MoonPaySellQueryParams")))
 - (void)setWalletAddressTagValue:(NSString * _Nullable)value __attribute__((swift_name("setWalletAddressTag(value:)")));
 - (void)setWalletAddressTagsValue:(NSString * _Nullable)value __attribute__((swift_name("setWalletAddressTags(value:)")));
 - (void)setWalletAddressesValue:(NSDictionary<NSString *, NSString *> * _Nullable)value __attribute__((swift_name("setWalletAddresses(value:)")));
+- (NSDictionary<NSString *, NSString *> *)toMap __attribute__((swift_name("toMap()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property NSString *apiKey __attribute__((swift_name("apiKey")));
 @property MPSDouble * _Nullable baseCurrencyAmount __attribute__((swift_name("baseCurrencyAmount")));
@@ -1661,19 +1600,19 @@ __attribute__((swift_name("MoonPaySellQueryParams.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MoonPaySwapsCustomerSetupQueryParams")))
 @interface MPSMoonPaySwapsCustomerSetupQueryParams : MPSBase <MPSMoonPayQueryParams>
-- (instancetype)initWithApiKey:(NSString *)apiKey __attribute__((swift_name("init(apiKey:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithApiKey:(NSString *)apiKey amount:(double)amount amountCurrencyCode:(NSString *)amountCurrencyCode __attribute__((swift_name("init(apiKey:amount:amountCurrencyCode:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) MPSMoonPaySwapsCustomerSetupQueryParamsCompanion *companion __attribute__((swift_name("companion")));
-- (MPSMoonPaySwapsCustomerSetupQueryParams *)doCopyApiKey:(NSString *)apiKey __attribute__((swift_name("doCopy(apiKey:)")));
+- (MPSMoonPaySwapsCustomerSetupQueryParams *)doCopyApiKey:(NSString *)apiKey amount:(double)amount amountCurrencyCode:(NSString *)amountCurrencyCode __attribute__((swift_name("doCopy(apiKey:amount:amountCurrencyCode:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (void)setAmountValue:(NSString *)value __attribute__((swift_name("setAmount(value:)")));
+- (void)setAmountValue:(double)value __attribute__((swift_name("setAmount(value:)")));
 - (void)setAmountCurrencyCodeValue:(NSString *)value __attribute__((swift_name("setAmountCurrencyCode(value:)")));
 - (void)setApiKeyValue:(NSString *)value __attribute__((swift_name("setApiKey(value:)")));
 - (void)setThemeValue:(NSString * _Nullable)value __attribute__((swift_name("setTheme(value:)")));
 - (void)setThemeIdValue:(NSString *)value __attribute__((swift_name("setThemeId(value:)")));
 - (NSDictionary<NSString *, NSString *> *)toMap __attribute__((swift_name("toMap()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property NSString *amount __attribute__((swift_name("amount")));
+@property double amount __attribute__((swift_name("amount")));
 @property NSString *amountCurrencyCode __attribute__((swift_name("amountCurrencyCode")));
 @property NSString *apiKey __attribute__((swift_name("apiKey")));
 @property NSString * _Nullable theme __attribute__((swift_name("theme")));
@@ -1708,16 +1647,6 @@ __attribute__((swift_name("MoonPayiOSSdk")))
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
 - (void)close __attribute__((swift_name("close()")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (MPSMoonPayConfigWithOptions<id> *)getConfigOptions:(id _Nullable)options __attribute__((swift_name("getConfig(options:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (MPSMoonPayEnvironmentWithOptions<id> *)getSdkEnvironmentConfig:(MPSMoonPaySdkConfig *)config options:(id _Nullable)options __attribute__((swift_name("getSdkEnvironment(config:options:)")));
 - (void)doInitConfig:(MPSMoonPaySdkConfig *)config __attribute__((swift_name("doInit(config:)")));
 
 /**
@@ -1725,6 +1654,12 @@ __attribute__((swift_name("MoonPayiOSSdk")))
 */
 - (void)registerPostMessageHandlersConfig:(MPSMoonPaySdkConfig *)config __attribute__((swift_name("registerPostMessageHandlers(config:)")));
 - (void)showMode:(MPSMoonPayRenderingOptioniOS *)mode __attribute__((swift_name("show(mode:)")));
+@property (readonly) MPSMoonPaySdkPlatform *platform __attribute__((swift_name("platform")));
+@end
+
+__attribute__((unavailable("Kotlin subclass of Objective-C class can't be imported")))
+__attribute__((swift_name("MoonPayiOSWebView")))
+@interface MPSMoonPayiOSWebView : NSObject
 @end
 
 
@@ -1898,11 +1833,6 @@ __attribute__((swift_name("Validator")))
 - (void)validateSwapConfigConfig:(MPSMoonPaySdkSwapsCustomerSetupConfig *)config __attribute__((swift_name("validateSwapConfig(config:)")));
 - (void)warnMissingParamParamName:(NSString *)paramName condition:(BOOL)condition __attribute__((swift_name("warnMissingParam(paramName:condition:)")));
 @property (readonly) MPSLogger *logger __attribute__((swift_name("logger")));
-@end
-
-__attribute__((unavailable("Kotlin subclass of Objective-C class can't be imported")))
-__attribute__((swift_name("WebView")))
-@interface MPSWebView : NSObject
 @end
 
 __attribute__((swift_name("WidgetPostMessengerHandlers")))
