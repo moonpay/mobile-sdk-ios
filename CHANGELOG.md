@@ -1,10 +1,15 @@
+# 1.1.1
+
+- Fix bug where `updateSignature` wasn't properly refreshing the URL in the web view.
+
 # 1.1.0
 
-* added `onTransactionCompleted` event handler.
+- added `onTransactionCompleted` event handler.
 
 # 1.0.1
 
-* bug fixes
+- bug fixes
 
 # 1.0.0
+
 Initial public relase
