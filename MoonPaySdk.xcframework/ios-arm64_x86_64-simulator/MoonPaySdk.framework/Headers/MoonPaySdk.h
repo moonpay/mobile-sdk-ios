@@ -516,6 +516,11 @@ __attribute__((swift_name("MoonPayCoreSdk")))
 /**
  * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
 */
+- (void)onConfigChangedConfig:(MPSMoonPaySdkConfig *)config __attribute__((swift_name("onConfigChanged(config:)")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 - (void)registerPostMessageHandlersConfig:(MPSMoonPaySdkConfig *)config __attribute__((swift_name("registerPostMessageHandlers(config:)")));
 - (void)updateSignatureSignature:(NSString *)signature __attribute__((swift_name("updateSignature(signature:)")));
 @property (readonly) MPSMoonPaySdkPlatform *platform __attribute__((swift_name("platform")));
@@ -1712,6 +1717,11 @@ __attribute__((swift_name("MoonPayiOSSdk")))
 + (instancetype)new __attribute__((unavailable));
 - (void)close __attribute__((swift_name("close()")));
 - (void)doInitConfig:(MPSMoonPaySdkConfig *)config __attribute__((swift_name("doInit(config:)")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (void)onConfigChangedConfig:(MPSMoonPaySdkConfig *)config __attribute__((swift_name("onConfigChanged(config:)")));
 
 /**
  * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
