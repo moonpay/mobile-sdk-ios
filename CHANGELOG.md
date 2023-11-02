@@ -1,3 +1,7 @@
+# 1.1.2
+
+- Fix bug where media permissions weren't working properly.
+
 # 1.1.1
 
 - Fix bug where `updateSignature` wasn't properly refreshing the URL in the web view.
