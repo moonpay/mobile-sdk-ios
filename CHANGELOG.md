@@ -1,3 +1,7 @@
+# 1.1.3
+
+- Fix bug where iOS SDK was crashing after `updateSignature` was called.
+
 # 1.1.2
 
 - Fix bug where media permissions weren't working properly.
