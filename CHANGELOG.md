@@ -1,5 +1,9 @@
 # 1.1.3
 
+- Add draggable header to web view overlay so that it is always dismissable.
+
+# 1.1.3
+
 - Fix bug where iOS SDK was crashing after `updateSignature` was called.
 
 # 1.1.2
