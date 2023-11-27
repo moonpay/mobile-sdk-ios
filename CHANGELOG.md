@@ -1,4 +1,4 @@
-# 1.1.3
+# 1.2.0
 
 - Add draggable header to web view overlay so that it is always dismissable.
 
