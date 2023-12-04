@@ -1,3 +1,7 @@
+# 1.2.1
+
+- Fix URL encoding for currencies with underscores.
+
 # 1.2.0
 
 - Add draggable header to web view overlay so that it is always dismissable.
