@@ -1,5 +1,9 @@
 # 1.2.1
 
+- Fix general message exchange process.
+
+# 1.2.1
+
 - Fix URL encoding for currencies with underscores.
 
 # 1.2.0
