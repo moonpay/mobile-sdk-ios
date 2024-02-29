@@ -1588,7 +1588,6 @@ __attribute__((swift_name("MoonPaySellQueryParams")))
 - (void)setBaseCurrencyAmountValue:(MPSDouble * _Nullable)value __attribute__((swift_name("setBaseCurrencyAmount(value:)")));
 - (void)setBaseCurrencyCodeValue:(NSString * _Nullable)value __attribute__((swift_name("setBaseCurrencyCode(value:)")));
 - (void)setColorCodeValue:(NSString * _Nullable)value __attribute__((swift_name("setColorCode(value:)")));
-- (void)setCurrencyCodeValue:(NSString * _Nullable)value __attribute__((swift_name("setCurrencyCode(value:)")));
 - (void)setDefaultCurrencyCodeValue:(NSString * _Nullable)value __attribute__((swift_name("setDefaultCurrencyCode(value:)")));
 - (void)setEmailValue:(NSString * _Nullable)value __attribute__((swift_name("setEmail(value:)")));
 - (void)setExternalCustomerIdValue:(NSString * _Nullable)value __attribute__((swift_name("setExternalCustomerId(value:)")));
@@ -1597,7 +1596,10 @@ __attribute__((swift_name("MoonPaySellQueryParams")))
 - (void)setLockAmountValue:(NSString * _Nullable)value __attribute__((swift_name("setLockAmount(value:)")));
 - (void)setPaymentMethodValue:(NSString * _Nullable)value __attribute__((swift_name("setPaymentMethod(value:)")));
 - (void)setQuoteCurrencyAmountValue:(MPSDouble * _Nullable)value __attribute__((swift_name("setQuoteCurrencyAmount(value:)")));
+- (void)setQuoteCurrencyCodeValue:(NSString * _Nullable)value __attribute__((swift_name("setQuoteCurrencyCode(value:)")));
 - (void)setRedirectURLValue:(NSString * _Nullable)value __attribute__((swift_name("setRedirectURL(value:)")));
+- (void)setRefundWalletAddressValue:(NSString * _Nullable)value __attribute__((swift_name("setRefundWalletAddress(value:)")));
+- (void)setRefundWalletAddressesValue:(NSDictionary<NSString *, NSString *> * _Nullable)value __attribute__((swift_name("setRefundWalletAddresses(value:)")));
 - (void)setShowAllCurrenciesValue:(NSString * _Nullable)value __attribute__((swift_name("setShowAllCurrencies(value:)")));
 - (void)setShowOnlyCurrenciesValue:(NSString * _Nullable)value __attribute__((swift_name("setShowOnlyCurrencies(value:)")));
 - (void)setShowWalletAddressFormValue:(NSString * _Nullable)value __attribute__((swift_name("setShowWalletAddressForm(value:)")));
@@ -1616,7 +1618,6 @@ __attribute__((swift_name("MoonPaySellQueryParams")))
 @property MPSDouble * _Nullable baseCurrencyAmount __attribute__((swift_name("baseCurrencyAmount")));
 @property NSString * _Nullable baseCurrencyCode __attribute__((swift_name("baseCurrencyCode")));
 @property NSString * _Nullable colorCode __attribute__((swift_name("colorCode")));
-@property NSString * _Nullable currencyCode __attribute__((swift_name("currencyCode")));
 @property NSString * _Nullable defaultCurrencyCode __attribute__((swift_name("defaultCurrencyCode")));
 @property NSString * _Nullable email __attribute__((swift_name("email")));
 @property NSString * _Nullable externalCustomerId __attribute__((swift_name("externalCustomerId")));
@@ -1625,7 +1626,10 @@ __attribute__((swift_name("MoonPaySellQueryParams")))
 @property NSString * _Nullable lockAmount __attribute__((swift_name("lockAmount")));
 @property NSString * _Nullable paymentMethod __attribute__((swift_name("paymentMethod")));
 @property MPSDouble * _Nullable quoteCurrencyAmount __attribute__((swift_name("quoteCurrencyAmount")));
+@property NSString * _Nullable quoteCurrencyCode __attribute__((swift_name("quoteCurrencyCode")));
 @property NSString * _Nullable redirectURL __attribute__((swift_name("redirectURL")));
+@property NSString * _Nullable refundWalletAddress __attribute__((swift_name("refundWalletAddress")));
+@property NSDictionary<NSString *, NSString *> * _Nullable refundWalletAddresses __attribute__((swift_name("refundWalletAddresses")));
 @property NSString * _Nullable showAllCurrencies __attribute__((swift_name("showAllCurrencies")));
 @property NSString * _Nullable showOnlyCurrencies __attribute__((swift_name("showOnlyCurrencies")));
 @property NSString * _Nullable showWalletAddressForm __attribute__((swift_name("showWalletAddressForm")));
