@@ -1,4 +1,8 @@
-# 1.2.1
+# 1.3.1
+
+- Fix event handling.
+
+# 1.3.0
 
 - Fix general message exchange process.
 
