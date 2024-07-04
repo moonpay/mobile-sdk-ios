@@ -1,3 +1,7 @@
+# 1.3.2
+
+Fix parsing error on event handling.
+
 # 1.3.1
 
 - Fix event handling.
