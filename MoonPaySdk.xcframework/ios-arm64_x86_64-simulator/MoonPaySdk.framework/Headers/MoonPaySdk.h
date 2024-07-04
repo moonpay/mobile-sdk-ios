@@ -1953,14 +1953,14 @@ __attribute__((swift_name("OnTransactionCompletedRequestPayload.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("OnTransactionCreatedRequestPayload")))
 @interface MPSOnTransactionCreatedRequestPayload : MPSMoonPayRequestPayload
-- (instancetype)initWithId:(NSString *)id baseCurrency:(NSString *)baseCurrency baseCurrencyAmount:(float)baseCurrencyAmount status:(NSString *)status __attribute__((swift_name("init(id:baseCurrency:baseCurrencyAmount:status:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithId:(NSString *)id baseCurrencyCode:(NSString *)baseCurrencyCode baseCurrencyAmount:(float)baseCurrencyAmount status:(NSString *)status __attribute__((swift_name("init(id:baseCurrencyCode:baseCurrencyAmount:status:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) MPSOnTransactionCreatedRequestPayloadCompanion *companion __attribute__((swift_name("companion")));
-- (MPSOnTransactionCreatedRequestPayload *)doCopyId:(NSString *)id baseCurrency:(NSString *)baseCurrency baseCurrencyAmount:(float)baseCurrencyAmount status:(NSString *)status __attribute__((swift_name("doCopy(id:baseCurrency:baseCurrencyAmount:status:)")));
+- (MPSOnTransactionCreatedRequestPayload *)doCopyId:(NSString *)id baseCurrencyCode:(NSString *)baseCurrencyCode baseCurrencyAmount:(float)baseCurrencyAmount status:(NSString *)status __attribute__((swift_name("doCopy(id:baseCurrencyCode:baseCurrencyAmount:status:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *baseCurrency __attribute__((swift_name("baseCurrency")));
 @property (readonly) float baseCurrencyAmount __attribute__((swift_name("baseCurrencyAmount")));
+@property (readonly) NSString *baseCurrencyCode __attribute__((swift_name("baseCurrencyCode")));
 @property (readonly) NSString *id __attribute__((swift_name("id")));
 @property (readonly) NSString *status __attribute__((swift_name("status")));
 @end
